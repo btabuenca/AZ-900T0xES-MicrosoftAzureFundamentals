@@ -1,18 +1,18 @@
 ---
 wts:
     title: '23: Acceso a las funciones de Vista previa de Azure'
-    module: 'Módulo 4: precios y soporte técnico de Azure'
+    module: 'MÃ³dulo 4: precios y soporte tÃ©cnico de Azure'
 ---
 
 # 23 - Acceda a las funciones de Vista previa de Azure
 
-En este tutorial accederemos e identificaremos los servicios y características de vista previa de Azure, y veremos información sobre las últimas actualizaciones de Azure.
+En este tutorial accederemos e identificaremos los servicios y caracterÃ­sticas de vista previa de Azure, y veremos informaciÃ³n sobre las Ãºltimas actualizaciones de Azure.
 
-# Tarea 1: Acceso a servicios y características de vista previa
+# TareaÂ 1: Acceso a servicios y caracterÃ­sticas de vista previa
 
 En esta tarea revisaremos las funciones de vista previa de Marketplace. 
 
-1. Inicie sesión en [Azure Portal](https://portal.azure.com).
+1. Inicie sesiÃ³n en [Azure Portal](https://portal.azure.com).
 
 2. Desde la hoja **Todos los servicios**, busque y seleccione **Marketplace**. 
 
@@ -20,32 +20,32 @@ En esta tarea revisaremos las funciones de vista previa de Marketplace.
 
 4. Busque en el Marketplace para ver el **Kubernetes Service**. Seleccione el Kubernetes Service, y haga clic en **Crear**.
 
-5. En el aviso desplegable de la **Versión Kubernetes** hay una versión de **Vista previa**. No todos los servicios tendrán una versión en vista previa. 
+5. En el aviso desplegable de la **VersiÃ³n Kubernetes** hay una versiÃ³n de **Vista previa**. No todos los servicios tendrÃ¡n una versiÃ³n en vista previa. 
 
-    ![Captura de pantalla del panel Servicios de Azure Kubernetes con el botón de servicio Crear servicio de Kubernetes resaltado.](../images/2301.png)
+    ![Captura de pantalla del panel Servicios de Azure Kubernetes con el botÃ³n de servicio Crear servicio de Kubernetes resaltado.](../images/2301.png)
 
-    **Nota**: En estos escenarios, donde se ponen a disposición nuevas funciones o características dentro de un servicio o producto de Azure generalmente disponible, aunque es posible que esté utilizando el servicio de Azure en producción, es posible que la característica o funcionalidad de vista previa aún no esté lista para implementaciones de producción. Debe asegurarse de conocer todas las limitaciones relacionadas con el uso de versiones de versión preliminar antes de implementarlas en producción.
+    **Nota**: En estos escenarios, donde se ponen a disposiciÃ³n nuevas funciones o caracterÃ­sticas dentro de un servicio o producto de Azure generalmente disponible, aunque es posible que estÃ© utilizando el servicio de Azure en producciÃ³n, es posible que la caracterÃ­stica o funcionalidad de vista previa aÃºn no estÃ© lista para implementaciones de producciÃ³n. Debe asegurarse de conocer todas las limitaciones relacionadas con el uso de versiones de versiÃ³n preliminar antes de implementarlas en producciÃ³n.
 
-# Tarea 2: Revisar la página de actualizaciones de Azure
+# TareaÂ 2: Revisar la pÃ¡gina de actualizaciones de Azure
 
-En esta tarea revisaremos la página de actualizaciones de Azure.
+En esta tarea revisaremos la pÃ¡gina de actualizaciones de Azure.
 
-1. En un explorador, navegue hasta la página [Actualizaciones de Azure](https://azure.microsoft.com/es-es/updates/). 
+1. En un explorador, navegue hasta la pÃ¡gina [Actualizaciones de Azure](https://azure.microsoft.com/es-es/updates/). 
 
 2. Tenga en cuenta la presencia de las opciones de filtro basadas en estado llamadas **Ya disponible**, **En vista previa** y **En desarrollo**
 
-3. Habilite la casilla **En vista previa**, escriba **Kubernetes** en el cuadro de texto de búsqueda de palabras clave y presione la tecla **Entrar**. 
+3. Habilite la casilla **En vista previa**, escriba **Kubernetes** en el cuadro de texto de bÃºsqueda de palabras clave y presione la tecla **Entrar**. 
 
-    **Nota**: La página devuelve una lista de elementos en la vista previa relacionada con Kubernetes. Su lista de resultados puede ser diferente. 
+    **Nota**: La pÃ¡gina devuelve una lista de elementos en la vista previa relacionada con Kubernetes. Su lista de resultados puede ser diferente. 
 
-    ![Captura de pantalla de la página de actualizaciones de Azure con detalles relacionados con Kubernetes y en la vista previa devuelta.](../images/2302.png)
+    ![Captura de pantalla de la pÃ¡gina de actualizaciones de Azure con detalles relacionados con Kubernetes y en la vista previa devuelta.](../images/2302.png)
 
-4. Haga clic en cualquier elemento de la lista de resultados para obtener información más detallada. 
+4. Haga clic en cualquier elemento de la lista de resultados para obtener informaciÃ³n mÃ¡s detallada. 
 
-5. Vuelva a la página **Actualizaciones de Azure**, vea los elementos que ahora tienen un estado de **Disponibilidad general** al habilitar la casilla de verificación **Ya disponible** y desactivar la casilla de verificación **En vista previa**. Revise cualquier artículo devuelto por la búsqueda que sea de su interés.
+5. Vuelva a la pÃ¡gina **Actualizaciones de Azure**, vea los elementos que ahora tienen un estado de **Disponibilidad general** al habilitar la casilla de verificaciÃ³n **Ya disponible** y desactivar la casilla de verificaciÃ³n **En vista previa**. Revise cualquier artÃ­culo devuelto por la bÃºsqueda que sea de su interÃ©s.
 
-6. Vuelva a la página **Actualizaciones de Azure**, habilite la casilla de verificación **En desarrollo** y borre la casilla de verificación **Ya disponible**. Revise cualquier artículo devuelto por la búsqueda que sea de su interés.
+6. Vuelva a la pÃ¡gina **Actualizaciones de Azure**, habilite la casilla de verificaciÃ³n **En desarrollo** y borre la casilla de verificaciÃ³n **Ya disponible**. Revise cualquier artÃ­culo devuelto por la bÃºsqueda que sea de su interÃ©s.
 
 
-¡Enhorabuena! Ha accedido e identificado los servicios y características de vista previa de Azure, y ha visto la información más reciente de las actualizaciones de Azure.
+Â¡Enhorabuena! Ha accedido e identificado los servicios y caracterÃ­sticas de vista previa de Azure, y ha visto la informaciÃ³n mÃ¡s reciente de las actualizaciones de Azure.
 

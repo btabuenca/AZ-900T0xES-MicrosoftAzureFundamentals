@@ -1,28 +1,28 @@
 ---
 wts:
-    title: '21: Abrir una solicitud de soporte técnico'
-    module: 'Módulo 4: precios y soporte técnico de Azure'
+    title: '21: Abrir una solicitud de soporte tÃ©cnico'
+    module: 'MÃ³dulo 4: precios y soporte tÃ©cnico de Azure'
 ---
-# 21 - Abrir una solicitud de soporte técnico
+# 21 - Abrir una solicitud de soporte tÃ©cnico
 
 
-En este tutorial veremos las opciones de planes de soporte disponibles y luego practicaremos la creación y el seguimiento de una nueva solicitud de soporte técnico.
+En este tutorial veremos las opciones de planes de soporte disponibles y luego practicaremos la creaciÃ³n y el seguimiento de una nueva solicitud de soporte tÃ©cnico.
 
-# Tarea 1: Vea las opciones de plan de soporte disponibles y una solicitud de soporte técnico
+# TareaÂ 1: Vea las opciones de plan de soporte disponibles y una solicitud de soporte tÃ©cnico
 
-1. Inicie sesión en el [**portal de Azure**](https://portal.azure.com).
+1. Inicie sesiÃ³n en el [**portal de Azure**](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Ayuda + soporte técnico**, luego seleccione **Planes de soporte**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Ayuda + soporte tÃ©cnico**, luego seleccione **Planes de soporte**.
 
-3. Tómese unos minutos para revisar los diferentes planes de soporte técnico. Tenga en cuenta lo que se incluye en el plan **Básico**. 
+3. TÃ³mese unos minutos para revisar los diferentes planes de soporte tÃ©cnico. Tenga en cuenta lo que se incluye en el plan **BÃ¡sico**. 
 
-4. Haga clic en **+ Nueva solicitud de soporte técnico**. El vale se crea en función de los valores que especifique. 
+4. Haga clic en **+ Nueva solicitud de soporte tÃ©cnico**. El vale se crea en funciÃ³n de los valores que especifique. 
 
-    | Configuración | Valor|
+    | ConfiguraciÃ³n | Valor|
     |----|--------|
-    | Tipo de problema| **Técnico** |
-    | Suscripción | **Elija su suscripción** |
-    | Servicio | **Todos los servicios**, **Máquina virtual con Linux** |
+    | Tipo de problema| **TÃ©cnico** |
+    | SuscripciÃ³n | **Elija su suscripciÃ³n** |
+    | Servicio | **Todos los servicios**, **MÃ¡quina virtual con Linux** |
     | Resumen | **El acceso al disco es muy lento para archivos grandes** |
     | Tipo de problema | **Rendimiento de la VM** |
     | Subtipo de problema | **El rendimiento del disco es inferior al esperado** |    
@@ -30,31 +30,31 @@ En este tutorial veremos las opciones de planes de soporte disponibles y luego p
 
 5. Haga clic en **Siguiente: Soluciones >>** y lea las soluciones recomendadas.
 
-6. Haga clic en **Siguiente: Detalles >>**. Al enviar una solicitud de soporte técnico real, debe proporcionar tanta información como sea posible para permitir una resolución rápida del problema. Sus opciones de contacto en esta página dependen de su plan de soporte. 
+6. Haga clic en **Siguiente: Detalles >>**. Al enviar una solicitud de soporte tÃ©cnico real, debe proporcionar tanta informaciÃ³n como sea posible para permitir una resoluciÃ³n rÃ¡pida del problema. Sus opciones de contacto en esta pÃ¡gina dependen de su plan de soporte. 
 
-    **Nota:** Nos detendremos en este punto. ¿Entiende cómo enviar una solicitud técnica?
+    **Nota:** Nos detendremos en este punto. Â¿Entiende cÃ³mo enviar una solicitud tÃ©cnica?
 
-# Tarea 2: Cree una solicitud de soporte técnico de facturación
+# TareaÂ 2: Cree una solicitud de soporte tÃ©cnico de facturaciÃ³n
 
-1. Vuelva a la sección **Nueva solicitud de soporte técnico** y a la pestaña **Básico**. 
+1. Vuelva a la secciÃ³n **Nueva solicitud de soporte tÃ©cnico** y a la pestaÃ±a **BÃ¡sico**. 
 
-    | Configuración | Valor|
+    | ConfiguraciÃ³n | Valor|
     |----|--------|
-    | Tipo de problema| **Facturación** |
-    | Suscripción | **Elija su suscripción** |
+    | Tipo de problema| **FacturaciÃ³n** |
+    | SuscripciÃ³n | **Elija su suscripciÃ³n** |
     | Resumen | **El cargo mensual no es correcto** |
     | Tipo de problema | **Precios** |
-    | Subtipo de problema | **Ayúdeme a descubrir los precios del servicio** |    
+    | Subtipo de problema | **AyÃºdeme a descubrir los precios del servicio** |    
     | | |
 
 2. Haga clic en **Siguiente: Soluciones** y lea las soluciones recomendadas.
 
-3. Haga clic en **Siguiente: Detalles**.  Al enviar una solicitud de soporte técnico real, debe proporcionar tanta información como sea posible para permitir una resolución rápida del problema. 
+3. Haga clic en **Siguiente: Detalles**.  Al enviar una solicitud de soporte tÃ©cnico real, debe proporcionar tanta informaciÃ³n como sea posible para permitir una resoluciÃ³n rÃ¡pida del problema. 
 
-    **Nota:** Nos detendremos en este punto. ¿Entiende cómo enviar una solicitud de soporte técnico?
+    **Nota:** Nos detendremos en este punto. Â¿Entiende cÃ³mo enviar una solicitud de soporte tÃ©cnico?
 
-4. Haga clic en **Todas las solicitudes de soporte técnico**. Aquí es donde se muestran sus solicitudes de soporte técnico. También se envía un correo electrónico a su dirección de correo electrónico con detalles de la solicitud de soporte técnico.
+4. Haga clic en **Todas las solicitudes de soporte tÃ©cnico**. AquÃ­ es donde se muestran sus solicitudes de soporte tÃ©cnico. TambiÃ©n se envÃ­a un correo electrÃ³nico a su direcciÃ³n de correo electrÃ³nico con detalles de la solicitud de soporte tÃ©cnico.
 
-¡Enhorabuena! Ha visto las opciones de plan de soporte disponibles y ha practicado la creación y el seguimiento de una nueva solicitud de soporte técnico.
+Â¡Enhorabuena! Ha visto las opciones de plan de soporte disponibles y ha practicado la creaciÃ³n y el seguimiento de una nueva solicitud de soporte tÃ©cnico.
 
-**Nota**: Haga clic para obtener más información sobre la [**creación de un vale de soporte de Azure**](https://azure.microsoft.com/es-es/support/create-ticket).
+**Nota**: Haga clic para obtener mÃ¡s informaciÃ³n sobre la [**creaciÃ³n de un vale de soporte de Azure**](https://azure.microsoft.com/es-es/support/create-ticket).

@@ -1,70 +1,70 @@
 ---
 wts:
     title: '15: Administrar el acceso con RBAC'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    module: 'MÃ³dulo 03: Seguridad, privacidad, cumplimiento y confianza'
 ---
 # 15: Administrar el acceso con RBAC
 
 En este tutorial asignaremos roles y veremos registros de actividad. 
 
-# Tarea 1: Vea y asigne roles
+# TareaÂ 1: Vea y asigne roles
 
-En esta tarea, asignaremos el rol de colaborador de la máquina virtual. 
+En esta tarea, asignaremos el rol de colaborador de la mÃ¡quina virtual. 
 
-1. Inicie sesión en [Azure Portal](https://portal.azure.com).
+1. Inicie sesiÃ³n en [Azure Portal](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos**, luego haga clic en **+ Añadir**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos**, luego haga clic en **+ AÃ±adir**.
 
 3. Cree un grupo de recursos nuevo. Haga clic en **Crear** cuando haya acabado. 
 
-    | Configuración | Valor |
+    | ConfiguraciÃ³n | Valor |
     | -- | -- |
-    | Suscripción | **Elija su suscripción** |
+    | SuscripciÃ³n | **Elija su suscripciÃ³n** |
     | Grupo de recursos | **miRGRBAC** |
-    | Región | **Este de EE. UU.** |
+    | RegiÃ³n | **Este de EE. UU.** |
     | | |
 
 4. Cree con **Revisar + crear** y luego haga clic en **Crear**.
 
-5. Use **Actualizar** en la página del grupo de recursos y haga clic en la entrada que representa el grupo de recursos recién creado.
+5. Use **Actualizar** en la pÃ¡gina del grupo de recursos y haga clic en la entrada que representa el grupo de recursos reciÃ©n creado.
 
-6. Haga clic en la hoja **Control de acceso (IAM)** y luego cambie a la pestaña **Roles**. Desplácese por la gran cantidad de definiciones de rol disponibles. Use los iconos informativos para tener una idea de los permisos de cada rol. También hay información sobre el número de usuarios y grupos asignados a cada rol.
+6. Haga clic en la hoja **Control de acceso (IAM)** y luego cambie a la pestaÃ±a **Roles**. DesplÃ¡cese por la gran cantidad de definiciones de rol disponibles. Use los iconos informativos para tener una idea de los permisos de cada rol. TambiÃ©n hay informaciÃ³n sobre el nÃºmero de usuarios y grupos asignados a cada rol.
 
     ![Captura de pantalla de la hoja de roles de IAM. Se muestran los roles de propietario, colaborador y lector.](../images/1501.png)
 
-7. Cambie a la pestaña **Asignaciones de roles** en la hoja **miRGRBAC - Control de acceso (IAM)**, haga clic en **+ Agregar** y, luego, haga clic en **Agregar asignación de roles**. Asigne el rol de colaborador de la máquina virtual a su cuenta de usuario y, luego, haga clic en **Guardar**. 
+7. Cambie a la pestaÃ±a **Asignaciones de roles** en la hoja **miRGRBAC - Control de acceso (IAM)**, haga clic en **+ Agregar** y, luego, haga clic en **Agregar asignaciÃ³n de roles**. Asigne el rol de colaborador de la mÃ¡quina virtual a su cuenta de usuario y, luego, haga clic en **Guardar**. 
 
     | Ajuste | Valor |
     | -- | -- |
-    | Rol | **Colaborador de la máquina virtual** |
+    | Rol | **Colaborador de la mÃ¡quina virtual** |
     | Asignar acceso a | **Usuario de Azure AD, grupo o entidad de servicio** |
     | Seleccionar | su cuenta de usuario |
     | | |
 
-    **Nota:** El rol de colaborador de la máquina virtual le permite administrar máquinas virtuales, pero no acceder a su sistema operativo ni administrar la red virtual ni la cuenta de almacenamiento a la que estén conectadas.
+    **Nota:** El rol de colaborador de la mÃ¡quina virtual le permite administrar mÃ¡quinas virtuales, pero no acceder a su sistema operativo ni administrar la red virtual ni la cuenta de almacenamiento a la que estÃ©n conectadas.
 
-    ![Captura de pantalla de la página Agregar asignación de roles completada con la información necesaria.](../images/1502.png)
+    ![Captura de pantalla de la pÃ¡gina Agregar asignaciÃ³n de roles completada con la informaciÃ³n necesaria.](../images/1502.png)
 
-8. Haga clic en **Actualizar** en la página de asignaciones de roles y asegúrese de que ahora esté incluido como colaborador de la máquina virtual. 
+8. Haga clic en **Actualizar** en la pÃ¡gina de asignaciones de roles y asegÃºrese de que ahora estÃ© incluido como colaborador de la mÃ¡quina virtual. 
 
-    **Nota**: Esta asignación en realidad no le concede ningún privilegio adicional, ya que su cuenta ya tiene el rol Propietario, que incluye todos los privilegios asociados al rol Colaborador.
+    **Nota**: Esta asignaciÃ³n en realidad no le concede ningÃºn privilegio adicional, ya que su cuenta ya tiene el rol Propietario, que incluye todos los privilegios asociados al rol Colaborador.
 
-# Tarea 2: Supervisar asignaciones de roles y quitar un rol
+# TareaÂ 2: Supervisar asignaciones de roles y quitar un rol
 
-En esta tarea, veremos el registro de actividad para comprobar la asignación de roles y luego quitaremos el rol. 
+En esta tarea, veremos el registro de actividad para comprobar la asignaciÃ³n de roles y luego quitaremos el rol. 
 
 1. En la hoja del grupo de recursos myRGRBAC, haga clic en **Registro de actividad**.
 
-2. Haga clic en **Agregar filtro**, seleccione **Operación** y luego haga clic en **Crear asignación de roles**.
+2. Haga clic en **Agregar filtro**, seleccione **OperaciÃ³n** y luego haga clic en **Crear asignaciÃ³n de roles**.
 
-    ![Captura de pantalla de la página Registro de actividad con el filtro configurado.](../images/1503.png)
+    ![Captura de pantalla de la pÃ¡gina Registro de actividad con el filtro configurado.](../images/1503.png)
 
-3. Compruebe que el registro de actividad muestre su asignación de roles. 
+3. Compruebe que el registro de actividad muestre su asignaciÃ³n de roles. 
 
-    **Nota**: ¿Sabe cómo quitar su asignación de roles?
+    **Nota**: Â¿Sabe cÃ³mo quitar su asignaciÃ³n de roles?
 
-¡Enhorabuena! Ha asignado roles y ha visto registros de actividad. 
+Â¡Enhorabuena! Ha asignado roles y ha visto registros de actividad. 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuaciÃ³n, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cÃ³mo se realiza la eliminaciÃ³n.
 
 

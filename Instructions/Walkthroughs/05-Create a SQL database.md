@@ -1,98 +1,98 @@
 ---
 wts:
-    title: '05: Creación de una base de datos SQL'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '05: CreaciÃ³n de una base de datos SQL'
+    module: 'MÃ³dulo 02: Servicios principales de Azure'
 ---
 
 # 05 - Crear una base de datos SQL
 
 En este tutorial, crearemos una base de datos SQL en Azure y luego consultaremos los datos en esa base de datos.
 
-# Tarea 1: Cree la base de datos
+# TareaÂ 1: Cree la base de datos
 
-En esta tarea, crearemos una base de datos SQL según la base de datos de muestra AdventureWorksLT. 
+En esta tarea, crearemos una base de datos SQL segÃºn la base de datos de muestra AdventureWorksLT. 
 
-1. Inicie sesión en Azure Portal a través de [**https://portal.azure.com**](https://portal.azure.com).
+1. Inicie sesiÃ³n en Azure Portal a travÃ©s de [**https://portal.azure.com**](https://portal.azure.com).
 
-2. En la hoja **Todos los servicios**, busque y seleccione **Bases de datos SQL** y, después, haga clic en **+ Agregar**. 
+2. En la hoja **Todos los servicios**, busque y seleccione **Bases de datos SQL** y, despuÃ©s, haga clic en **+ Agregar**. 
 
-3. En la pestaña **Datos básicos**, rellene esta información.  
+3. En la pestaÃ±a **Datos bÃ¡sicos**, rellene esta informaciÃ³n.  
 
     | Valor | Valor | 
     | --- | --- |
-    | Suscripción | **Elija su suscripción** |
+    | SuscripciÃ³n | **Elija su suscripciÃ³n** |
     | Grupo de recursos | **myRGDb** (crear nuevo) |
     | Nombre de la base de datos| **db1** | 
     | | |
 
-3. Junto a la lista desplegable **Servidor**, haga clic en **Crear nuevo** e introduzca esta información (sustituya **xxxx** en el nombre del servidor por letras y dígitos de modo que el nombre sea globalmente único). Haga clic en **Aceptar** cuando haya terminado.
+3. Junto a la lista desplegable **Servidor**, haga clic en **Crear nuevo** e introduzca esta informaciÃ³n (sustituya **xxxx** en el nombre del servidor por letras y dÃ­gitos de modo que el nombre sea globalmente Ãºnico). Haga clic en **Aceptar** cuando haya terminado.
 
     | Valor | Valor | 
     | --- | --- |
-    | Nombre del servidor | **sqlserverxxxx** (debe ser único) | 
-    | Inicio de sesión del administrador del servidor | **sqluser** |
-    | Contraseña | **Pa$$w0rd1234** |
-    | Ubicación | **Este de EE. UU.** |
+    | Nombre del servidor | **sqlserverxxxx** (debe ser Ãºnico) | 
+    | Inicio de sesiÃ³n del administrador del servidor | **sqluser** |
+    | ContraseÃ±a | **Pa$$w0rd1234** |
+    | UbicaciÃ³n | **Este de EE. UU.** |
     | Permitir que los servicios de Azure accedan al servidor| ***Seleccione la casilla*** |
     | | |
 
-   ![Captura de pantalla del panel Servidor y del panel Nuevo servidor con los campos rellenados según la tabla y los botones Revisar + crear y Aceptar resaltados.](../images/0501.png)
+   ![Captura de pantalla del panel Servidor y del panel Nuevo servidor con los campos rellenados segÃºn la tabla y los botones Revisar + crear y Aceptar resaltados.](../images/0501.png)
 
-4. Vaya a la pestaña **Redes** y configure los siguientes ajustes (deje los demás con sus valores predeterminados) 
+4. Vaya a la pestaÃ±a **Redes** y configure los siguientes ajustes (deje los demÃ¡s con sus valores predeterminados) 
 
     | Valor | Valor | 
     | --- | --- |
-    | Método de conectividad | **Extremo público** |    
-    | Permitir que los servicios y recursos de Azure accedan a este servidor | **Sí** |
-    | Agregar la dirección IP actual del cliente | **No** |
+    | MÃ©todo de conectividad | **Extremo pÃºblico** |    
+    | Permitir que los servicios y recursos de Azure accedan a este servidor | **SÃ­** |
+    | Agregar la direcciÃ³n IP actual del cliente | **No** |
     | | |
     
-   ![Captura de pantalla de la pestaña Redes de la hoja Crear base de datos SQL con la configuración seleccionada según la tabla y el botón Revisar + crear resaltado.](../images/0501b.png)
+   ![Captura de pantalla de la pestaÃ±a Redes de la hoja Crear base de datos SQL con la configuraciÃ³n seleccionada segÃºn la tabla y el botÃ³n Revisar + crear resaltado.](../images/0501b.png)
 
-5. Vaya a la pestaña **Configuración adicional**. Utilizaremos la base de datos de muestra AdventureWorksLT.
+5. Vaya a la pestaÃ±a **ConfiguraciÃ³n adicional**. Utilizaremos la base de datos de muestra AdventureWorksLT.
 
     | Valor | Valor | 
     | --- | --- |
     | Use datos existentes | **Muestra** |
-    | Intercalación | ***usar valor predeterminado*** |
+    | IntercalaciÃ³n | ***usar valor predeterminado*** |
     | Habilitar Advanced Data Security | **Ahora no** |
     | | |
 
-    ![Captura de pantalla de la pestaña Configuración adicional de la hoja Crear base de datos SQL con la configuración seleccionada según la tabla y el botón Revisar + crear resaltado.](../images/0501c.png)
+    ![Captura de pantalla de la pestaÃ±a ConfiguraciÃ³n adicional de la hoja Crear base de datos SQL con la configuraciÃ³n seleccionada segÃºn la tabla y el botÃ³n Revisar + crear resaltado.](../images/0501c.png)
 
-6. Haga clic en **Revisar + crear** y, a continuación, en **Crear** para implementar y aprovisionar el grupo de recursos, el servidor y la base de datos. La implementación puede tardar de 2 a 5 minutos.
+6. Haga clic en **Revisar + crear** y, a continuaciÃ³n, en **Crear** para implementar y aprovisionar el grupo de recursos, el servidor y la base de datos. La implementaciÃ³n puede tardar de 2 a 5 minutos.
 
-7. Supervise su implementación. 
+7. Supervise su implementaciÃ³n. 
 
-# Tarea 2: Pruebe la base de datos.
+# TareaÂ 2: Pruebe la base de datos.
 
 En esta tarea, configuraremos el servidor SQL y ejecutaremos una consulta SQL. 
 
-1. En la hoja **Todos los servicios**, busque y seleccione **Bases de datos SQL** y asegúrese de que se haya creado la nueva base de datos. Es posible que necesite **Actualizar** la página.
+1. En la hoja **Todos los servicios**, busque y seleccione **Bases de datos SQL** y asegÃºrese de que se haya creado la nueva base de datos. Es posible que necesite **Actualizar** la pÃ¡gina.
 
     ![Captura de pantalla de la base de datos SQL y el servidor que se acaban de implementar.](../images/0502.png)
 
 2. Haga clic en la entrada **db1**, que representa la base de datos SQL que ha creado, y en **Editor de consultas (vista previa)**.
 
-3. Inicie la sesión como **sqluser** con la contraseña **Pa$$w0rd1234**.
+3. Inicie la sesiÃ³n como **sqluser** con la contraseÃ±a **Pa$$w0rd1234**.
 
-4. No podrá iniciar la sesión. Lea el error con atención y tome nota de la dirección IP que debe permitirse a través del firewall. 
+4. No podrÃ¡ iniciar la sesiÃ³n. Lea el error con atenciÃ³n y tome nota de la direcciÃ³n IP que debe permitirse a travÃ©s del firewall. 
 
-    ![Captura de pantalla de la página de inicio de sesión del Editor de consultas con un error de dirección IP.](../images/0503.png)
+    ![Captura de pantalla de la pÃ¡gina de inicio de sesiÃ³n del Editor de consultas con un error de direcciÃ³n IP.](../images/0503.png)
 
-5. En la hoja **db1**, haga clic en **Información general**. 
+5. En la hoja **db1**, haga clic en **InformaciÃ³n general**. 
 
-    ![Captura de pantalla de la página del servidor SQL.](../images/0504.png)
+    ![Captura de pantalla de la pÃ¡gina del servidor SQL.](../images/0504.png)
 
-6. En la hoja **Información general** del servidor SQL, haga clic en **Establecer el firewall del servidor**.
+6. En la hoja **InformaciÃ³n general** del servidor SQL, haga clic en **Establecer el firewall del servidor**.
 
-7. Haga clic en **Agregar IP de cliente** (barra de menú superior) para añadir la dirección IP referenciada en el error. Asegúrese de **guardar** los cambios. 
+7. Haga clic en **Agregar IP de cliente** (barra de menÃº superior) para aÃ±adir la direcciÃ³n IP referenciada en el error. AsegÃºrese de **guardar** los cambios. 
 
-    ![Captura de pantalla de la página de configuración del firewall del servidor SQL con la nueva regla de IP resaltada.](../images/0506.png)
+    ![Captura de pantalla de la pÃ¡gina de configuraciÃ³n del firewall del servidor SQL con la nueva regla de IP resaltada.](../images/0506.png)
 
-8. Vuelva a su base de datos SQL y a la página de inicio de sesión del **Editor de consultas (vista previa)**. Intente iniciar sesión de nuevo como **sqluser** con la contraseña **Pa$$w0rd1234**. Esta vez debería poder hacerlo. Tenga en cuenta que la implementación de la nueva regla de firewall puede tardar un par de minutos. 
+8. Vuelva a su base de datos SQL y a la pÃ¡gina de inicio de sesiÃ³n del **Editor de consultas (vista previa)**. Intente iniciar sesiÃ³n de nuevo como **sqluser** con la contraseÃ±a **Pa$$w0rd1234**. Esta vez deberÃ­a poder hacerlo. Tenga en cuenta que la implementaciÃ³n de la nueva regla de firewall puede tardar un par de minutos. 
 
-9. Una vez que inicie sesión correctamente, aparecerá el panel de consultas. Introduzca la siguiente consulta en el panel de editor.
+9. Una vez que inicie sesiÃ³n correctamente, aparecerÃ¡ el panel de consultas. Introduzca la siguiente consulta en el panel de editor.
 
     ```SQL
     SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
@@ -101,12 +101,12 @@ En esta tarea, configuraremos el servidor SQL y ejecutaremos una consulta SQL.
     ON pc.productcategoryid = p.productcategoryid;
     ```
 
-    ![Captura de pantalla del Editor de consultas con el panel de consultas y los comandos ejecutándose correctamente.](../images/0507.png)
+    ![Captura de pantalla del Editor de consultas con el panel de consultas y los comandos ejecutÃ¡ndose correctamente.](../images/0507.png)
 
-10. Haga clic en **Ejecutar** y, luego, revise los resultados de la consulta en el panel **Resultados**. La consulta debería ejecutarse correctamente.
+10. Haga clic en **Ejecutar** y, luego, revise los resultados de la consulta en el panel **Resultados**. La consulta deberÃ­a ejecutarse correctamente.
 
-    ![Captura de pantalla del panel del Editor de consultas de la base de datos con el código SQL ejecutado con éxito y la salida visible en el panel de resultados.](../images/0508.png)
+    ![Captura de pantalla del panel del Editor de consultas de la base de datos con el cÃ³digo SQL ejecutado con Ã©xito y la salida visible en el panel de resultados.](../images/0508.png)
 
-¡Enhorabuena! Ha creado una base de datos SQL en Azure y ha consultado con éxito los datos en esa base de datos.
+Â¡Enhorabuena! Ha creado una base de datos SQL en Azure y ha consultado con Ã©xito los datos en esa base de datos.
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuaciÃ³n, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cÃ³mo se realiza la eliminaciÃ³n.

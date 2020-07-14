@@ -1,66 +1,66 @@
 ---
 wts:
-    title: '8: Crear una aplicación web'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '8: Crear una aplicaciÃ³n web'
+    module: 'MÃ³dulo 02: Servicios principales de Azure'
 ---
 # 08 - Crear una aplic. web
 
 En este tutorial, crearemos una nueva aplic. web que ejecute un contenedor Docker. El contenedor muestra un mensaje de bienvenida. 
 
-# Tarea 1: Cree una aplicación web
+# TareaÂ 1: Cree una aplicaciÃ³n web
 
-Azure App Service es en realidad una colección de cuatro servicios, los cuales están diseñados para hospedar y ejecutar aplicaciones web. Los cuatro servicios (Web Apps, Mobile Apps, API Apps y Logic Apps) se ven diferentes, pero, al final, todos funcionan de manera muy similar. De los cuatro servicios, las Web Apps son las que se usan con mayor frecuencia y es el servicio que utilizaremos en este laboratorio.
+Azure App Service es en realidad una colecciÃ³n de cuatroÂ servicios, los cuales estÃ¡n diseÃ±ados para hospedar y ejecutar aplicaciones web. Los cuatroÂ servicios (Web Apps, Mobile Apps, API Apps y Logic Apps) se ven diferentes, pero, al final, todos funcionan de manera muy similar. De los cuatro servicios, las WebÂ Apps son las que se usan con mayor frecuencia y es el servicio que utilizaremos en este laboratorio.
 
-En esta tarea, creará una aplicación web de Azure App Service. 
+En esta tarea, crearÃ¡ una aplicaciÃ³n web de Azure App Service. 
 
-1. Inicie sesión en [Azure Portal](http://portal.azure.com/). 
+1. Inicie sesiÃ³n en [Azure Portal](http://portal.azure.com/). 
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **App Services** y haga clic en **+ Agregar**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **App Services** y haga clic en **+Â Agregar**.
 
-3. En la pestaña **Datos básicos** de la hoja **Aplicación web**, especifique la siguiente configuración (reemplace **xxxx** en el nombre de la aplicación web con letras y dígitos para que el nombre sea único a nivel mundial). Deje los valores predeterminados para todo lo demás, incluido el plan de App Service. 
+3. En la pestaÃ±a **Datos bÃ¡sicos** de la hoja **AplicaciÃ³n web**, especifique la siguiente configuraciÃ³n (reemplace **xxxx** en el nombre de la aplicaciÃ³n web con letras y dÃ­gitos para que el nombre sea Ãºnico a nivel mundial). Deje los valores predeterminados para todo lo demÃ¡s, incluido el plan de App Service. 
 
-    | Configuración | Valor |
+    | ConfiguraciÃ³n | Valor |
     | -- | -- |
-    | Suscripción | **Elija su suscripción** |
+    | SuscripciÃ³n | **Elija su suscripciÃ³n** |
     | Grupo de recursos | **myRGWebApp1** (crear nuevo) |
     | Nombre | **myDockerWebAppxxxx** |
     | Publicar | **Contenedor de Docker** |
     | Sistema operativo | **Linux** |
-    | Región | **Este de EE. UU.** (ignore cualquier advertencia de disponibilidad del plan de servicio) |
+    | RegiÃ³n | **Este de EE.Â UU.** (ignore cualquier advertencia de disponibilidad del plan de servicio) |
     | | |	
 
-4. Haga clic en **Siguiente > Docker** y configure la información del contenedor. El comando de inicio es opcional y no es necesario en este ejercicio. 
+4. Haga clic en **SiguienteÂ >Â Docker** y configure la informaciÃ³n del contenedor. El comando de inicio es opcional y no es necesario en este ejercicio. 
 
-    **Nota:** Este es el mismo contenedor que se utilizó en el tutorial de Container Instances para mostrar un mensaje de Hola mundo. 
+    **Nota:** Este es el mismo contenedor que se utilizÃ³ en el tutorial de Container Instances para mostrar un mensaje de Hola mundo. 
 
-    | Configuración | Valor |
+    | ConfiguraciÃ³n | Valor |
     | -- | -- |
     | Opciones | **Contenedor individual** |
     | Fuente de la imagen | **Docker Hub** |
-    | Tipo de acceso | **Público** |
+    | Tipo de acceso | **PÃºblico** |
     | Imagen y etiqueta | **microsoft/aci-helloworld** |
     | | |	
 
 
 5. Haga clic en **Revisar + crear**, y luego haga clic en **Crear**. 
 
-# Tarea 2: Probar la aplicación web
+# TareaÂ 2: Probar la aplicaciÃ³n web
 
-En esta tarea probaremos la aplicación web.
+En esta tarea probaremos la aplicaciÃ³n web.
 
-1. Espere a que se implemente la aplicación web.
+1. Espere a que se implemente la aplicaciÃ³n web.
 
 2. Desde **Notificaciones**, haga clic en **Ir al recurso**. 
 
-3. En la hoja **Información general**, ubique la entrada **URL**. 
+3. En la hoja **InformaciÃ³n general**, ubique la entrada **URL**. 
 
-    ![Captura de pantalla de la hoja de propiedades de la aplicación web. La URL está resaltada.](../images/0801.png)
+    ![Captura de pantalla de la hoja de propiedades de la aplicaciÃ³n web. La URL estÃ¡ resaltada.](../images/0801.png)
 
-4. Haga clic en la **URL** para abrir la nueva pestaña del explorador y mostrar la página Le damos la bienvenida a Azure Container Instances.
+4. Haga clic en la **URL** para abrir la nueva pestaÃ±a del explorador y mostrar la pÃ¡gina Le damos la bienvenida a Azure Container Instances.
 
-    ![Captura de pantalla de la página Le damos la bienvenida a Azure Container Instance.](../images/0802.png)
+    ![Captura de pantalla de la pÃ¡gina Le damos la bienvenida a Azure Container Instance.](../images/0802.png)
 
-5. Vuelva a la hoja de **Información general** de su aplicación web y tenga en cuenta que incluye varios gráficos. Si repite el paso 4 varias veces, debería poder ver la telemetría correspondiente en los gráficos. Esto incluye el número de solicitudes y el tiempo de respuesta promedio. 
+5. Vuelva a la hoja de **InformaciÃ³n general** de su aplicaciÃ³n web y tenga en cuenta que incluye varios grÃ¡ficos. Si repite el pasoÂ 4 varias veces, deberÃ­a poder ver la telemetrÃ­a correspondiente en los grÃ¡ficos. Esto incluye el nÃºmero de solicitudes y el tiempo de respuesta promedio. 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuaciÃ³n, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cÃ³mo se realiza la eliminaciÃ³n.
 

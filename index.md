@@ -1,17 +1,17 @@
 ---
-title: Instrucciones hospedadas en línea
+title: Instrucciones hospedadas en lÃ­nea
 permalink: index.html
 layout: home
 ---
 
 # Directorio de contenido
 
-Hipervínculos a cada uno de los tutoriales. Los instructores pueden optar por usar el tutorial como una demostración o un laboratorio de alumnos. 
+HipervÃ­nculos a cada uno de los tutoriales. Los instructores pueden optar por usar el tutorial como una demostraciÃ³n o un laboratorio de alumnos. 
 
 ## Tutoriales
 
 {% asignar wts = site.pages | where_exp: "page", "page.url contiene '/Instrucciones/Tutoriales'" %}
-| Módulo | Tutorial |
+| MÃ³dulo | Tutorial |
 | --- | --- | 
 {% de actividad en wts %}| {{ activity.wts.module }} | [{{ activity.wts.title }}{% if activity.wts.type %} - {{ activity.wts.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
