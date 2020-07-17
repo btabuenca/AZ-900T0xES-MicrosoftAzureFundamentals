@@ -7,13 +7,13 @@ wts:
 
 En este tutorial, configuraremos Cloud Shell, utilizaremos el módulo Azure PowerShell para crear un grupo de recursos y una máquina virtual, y revisaremos las recomendaciones de Azure Advisor. 
 
-# Tarea 1: Configurar el Cloud Shell
+# Tarea 1: Configurar Cloud Shell
 
 En esta tarea, configuraremos Cloud Shell. 
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Desde Azure Portal, abra el **Azure Cloud Shell** haciendo clic en el icono de la esquina superior derecha de Azure Portal.
+2. Desde Azure Portal, abra **Azure Cloud Shell** haciendo clic en el icono de la esquina superior derecha de Azure Portal.
 
     ![Captura de pantalla del icono de Azure Portal Azure Cloud Shell.](../images/1002.png)
 
@@ -21,9 +21,9 @@ En esta tarea, configuraremos Cloud Shell.
 
 4. Cuando se le solicite seleccionar **Bash** o **PowerShell**, seleccione **PowerShell**. 
 
-5. Cuando se le solicite, haga clic en **Crear almacenamiento**y espere a que Azure Cloud Shell se inicialice. 
+5. Cuando se le solicite, haga clic en **Crear almacenamiento** y espere a que Azure Cloud Shell se inicialice. 
 
-# Tarea 2: Crear un grupo de recursos y una máquina virtual.
+# Tarea 2: Crear un grupo de recursos y una máquina virtual
 
 En esta tarea, utilizaremos PowerShell para crear un grupo de recursos y una máquina virtual.  
 
@@ -56,9 +56,9 @@ En esta tarea, utilizaremos PowerShell para crear un grupo de recursos y una má
 
 5. Cierre el panel de Cloud Shell de la sesión de PowerShell.
 
-6. En Azure Portal, busque **Virtual Machines** y verifique que **myVMPS** se esté ejecutando. Este proceso puede durar unos minutos.
+6. En Azure Portal, busque **Máquinas virtuales** y verifique que **myVMPS** se esté ejecutando. Este proceso puede durar unos minutos.
 
-    ![Captura de pantalla de la página de Virtual Machines con myVMPS en estado de ejecución.](../images/1001.png)
+    ![Captura de pantalla de la página de Máquinas virtuales con myVMPS en estado de ejecución.](../images/1001.png)
 
 7. Acceda a la nueva máquina virtual y revise las configuraciones de Descripción general y Redes para comprobar que su información se haya implementado correctamente. 
 
@@ -66,17 +66,17 @@ En esta tarea, utilizaremos PowerShell para crear un grupo de recursos y una má
 
 En esta tarea, practicaremos la ejecución de comandos de PowerShell desde Cloud Shell. 
 
-1. Desde Azure Portal, abra el **Azure Cloud Shell** haciendo clic en el icono de la esquina superior derecha de Azure Portal.
+1. Desde Azure Portal, abra **Azure Cloud Shell** haciendo clic en el icono de la esquina superior derecha de Azure Portal.
 
 2. Asegúrese de que **PowerShell** esté seleccionado en el menú desplegable superior izquierdo del panel Cloud Shell.
 
-3. Recupere información sobre su máquina virtual, incluido el nombre, el grupo de recursos, la ubicación y el estado. Observe que el PowerState se está **ejecutando**.
+3. Recupere información sobre su máquina virtual, incluido el nombre, el grupo de recursos, la ubicación y el estado. Observe que PowerState se está **ejecutando**.
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-4. Reinicie la máquina virtual. Cuando se le solicite, confirme (Sí) a la acción. 
+4. Reinicie la máquina virtual. Cuando se le solicite, confirme (Sí) la acción. 
 
     ```PowerShell
     Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
@@ -88,7 +88,7 @@ En esta tarea, practicaremos la ejecución de comandos de PowerShell desde Cloud
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-# Tarea 4 Revise las recomendaciones de Azure Advisor
+# Tarea 4: Revisar las recomendaciones de Azure Advisor
 
 **Nota:** Esta misma tarea se encuentra en el laboratorio Crear una VM con la CLI de Azure. 
 

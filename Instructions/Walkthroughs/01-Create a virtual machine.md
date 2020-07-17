@@ -3,9 +3,9 @@ wts:
     title: '1: Crear una máquina virtual en el portal'
     module: 'Módulo 02: Servicios principales de Azure'
 ---
-# 01 - Crear una máquina virtual en el portal
+# 01: Crear una máquina virtual en el portal
 
-En este tutorial crearemos una máquina virtual en el Azure Portal, nos conectaremos a dicha máquina virtual, instalaremos la función del servidor web y la probaremos. 
+En este tutorial crearemos una máquina virtual en Azure Portal, nos conectaremos a dicha máquina virtual, instalaremos la función del servidor web y la probaremos. 
 
 **Nota**: Tómese el tiempo durante este tutorial para hacer clic y leer los iconos informativos. 
 
@@ -32,7 +32,7 @@ En esta tarea, crearemos una máquina virtual de Windows Server 2019 Datacenter.
     | Reglas del puerto de entrada - Permitir puertos seleccionados | **RDP (3389)** y **HTTP (80)**|
     | | |
 
-4. Vaya a la pestaña Administración y, en la sección **Monitoreo**, seleccione la siguiente configuración:
+4. Vaya a la pestaña Administración y, en la sección **Supervisión**, seleccione la siguiente configuración:
 
     | Configuración | Valores |
     | -- | -- |
@@ -51,13 +51,13 @@ En esta tarea nos conectaremos a nuestra nueva máquina virtual usando el RDP.
 
 1. Busque **myVM** y seleccione su nueva máquina virtual.
 
-    **Nota**: También puede usar el vínculo **Ir al recurso** en la página de implementación o el enlace para acceder al recurso en el área de **Notificaciones**.
+    **Nota**: También puede usar el vínculo **Ir al recurso** en la página de implementación o el vínculo para acceder al recurso en el área de **Notificaciones**.
 
 2. En la hoja de **Información general** de la máquina virtual, haga clic en el botón **Conectar**.
 
     ![Captura de pantalla de las propiedades de la máquina virtual con el botón Conectar resaltado.](../images/0101.png)
 
-    **Nota**: Las siguientes instrucciones le indican cómo conectarse a su VM desde un equipo con Windows. En una Mac necesita un cliente RDP, como este Remote Desktop Client de Mac App Store, y en un PC Linux puede usar un cliente RDP de código abierto.
+    **Nota**: Las siguientes instrucciones le indican cómo conectarse a su VM desde un equipo con Windows. En un equipo Mac necesita un cliente RDP, como este Remote Desktop Client de Mac App Store, y en un equipo Linux puede usar un cliente RDP de código abierto.
 
 2. En la página **Conectarse a la máquina virtual**, mantenga las opciones predeterminadas para conectarse con la dirección IP pública a través del puerto 3389 y haga clic en **Descargar archivo RDP**.
 
@@ -67,7 +67,7 @@ En esta tarea nos conectaremos a nuestra nueva máquina virtual usando el RDP.
 
 4. En la ventana **Seguridad de Windows**, seleccione **Más opciones** y luego **Usar una cuenta diferente**. Proporcione el nombre de usuario (.\azureuser) y la contraseña (Pa$$w0rd1234). Haga clic en **Aceptar** para conectarse.
 
-    ![Captura de pantalla del diálogo de seguridad de Windows con la opción Usar una cuenta diferente seleccionada, y el nombre de usuario Azure y una contraseña ingresados.](../images/0103.png)
+    ![Captura de pantalla del cuadro de diálogo de seguridad de Windows con la opción Usar una cuenta diferente seleccionada, y el nombre de usuario Azure y una contraseña ingresados.](../images/0103.png)
 
 5. Es posible que reciba una advertencia de certificado durante el proceso de inicio de sesión. Haga clic en **Sí** o cree la conexión y conéctese a su VM implementada. Debería conectarse correctamente.
 
@@ -75,7 +75,7 @@ En esta tarea nos conectaremos a nuestra nueva máquina virtual usando el RDP.
 
 ¡Enhorabuena! Ha implementado una máquina virtual de Windows Server en Azure y se ha conectado a ella
 
-# Tarea 3: Instalar la función del servidor web y probarla
+# Tarea 3: Instalar el rol de servidor web y probarlo
 
 En esta tarea, instale el rol Servidor web en el servidor y asegúrese de que se pueda mostrar la página de bienvenida de IIS predeterminada.
 
@@ -104,4 +104,4 @@ En esta tarea, instale el rol Servidor web en el servidor y asegúrese de que se
 ¡Enhorabuena! Creó un servidor web al que se puede acceder a través de su dirección IP pública. Si tuviera una aplicación web para hospedar, podría implementar archivos de aplicación en la máquina virtual y hospedarlos para acceso público en la máquina virtual implementada.
 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Monitoree las **Notificaciones** para verificar que la eliminación se haya completado correctamente. 
+**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para verificar que la eliminación se haya completado correctamente. 

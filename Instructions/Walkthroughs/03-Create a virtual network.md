@@ -1,6 +1,6 @@
 ﻿---
 wts:
-    title: '3: Creación de una red virtual'
+    title: '3: Crear de una red virtual'
     module: 'Módulo 02: Servicios principales de Azure'
 ---
 # 03: Crear una red virtual
@@ -13,7 +13,7 @@ En esta tarea, crearemos una red virtual.
 
 1. Inicie sesión en Azure Portal en <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Redes virtuales** y, luego, haga clic en **Añadir**. 
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Redes virtuales** y, luego, haga clic en **Agregar**. 
 
 3. En la hoja **Crear red virtual** complete lo siguiente (deje los valores predeterminados para todo lo demás):
 
@@ -99,7 +99,7 @@ En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtua
 
 7. Abra un símbolo del sistema de PowerShell en la máquina virtual haciendo clic en el botón **Inicio**, escribiendo **PowerShell**, haciendo clic con el botón derecho en **Windows PowerShell** en el menú del botón derecho y seleccionando **Ejecutar como administrador**.
 
-8. Intente hacer ping a vm2 (asegúrese de que vm2 se esté ejecutando). Recibirá un error que indica que la solicitud ha excedido el tiempo de espera.  El `ping` falla porque usa el **Protocolo de mensajes de control de Internet (ICMP)**. De forma predeterminada, ICMP no está permitido a través del firewall de Windows.
+8. Intente hacer ping a vm2 (asegúrese de que vm2 se esté ejecutando). Recibirá un error que indica que la solicitud ha excedido el tiempo de espera.  El `ping` produce un error porque usa el **Protocolo de mensajes de control de Internet (ICMP)**. De forma predeterminada, ICMP no está permitido a través del firewall de Windows.
 
 
    ```PowerShell
@@ -110,9 +110,9 @@ En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtua
 
     **Nota**: Ahora abrirá una sesión RDP en vm2 y permitirá conexiones entrantes ICMP
 
-9. Conectar a **vm2** mediante RDP. Puede seguir los pasos **2 a 6**.
+9. Conéctese a **vm2** mediante RDP. Puede seguir los pasos **2 a 6**.
 
-10. Abra un aviso de **PowerShell** y habilite ICMP. Este comando permite conexiones entrantes ICMP a través del firewall de Windows.
+10. Abra un símbolo del sistema de **PowerShell** y habilite ICMP. Este comando permite conexiones entrantes ICMP a través del firewall de Windows.
 
    ```PowerShell
    New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
@@ -127,6 +127,6 @@ En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtua
    ping vm2
    ```
 
-¡Enhorabuena! Ha configurado dos máquinas virtuales y las ha implementado en una red virtual. También ha configurado el firewall de Windows para que una de las máquinas virtuales permita las solicitudes de ping entrantes. 
+¡Enhorabuena! Configuró dos máquinas virtuales y las implementó en una red virtual. También configuró el firewall de Windows para que una de las máquinas virtuales permita las solicitudes de ping entrantes. 
 
 **Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
