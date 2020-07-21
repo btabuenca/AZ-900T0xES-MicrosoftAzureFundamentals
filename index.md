@@ -13,6 +13,6 @@ Hipervínculos a cada uno de los tutoriales. Los instructores pueden optar por u
 {% assign wts = site.pages | where_exp: "page", "page.url contiene '/Instrucciones/Tutoriales'" %}
 | Módulo | Tutorial |
 | --- | --- | 
-{% de actividad en wts %}| {{ activity.wts.module }} | [{{ activity.wts.title }}{% if activity.wts.type %} - {{ activity.wts.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in wts %}| {{ activity.wts.module }} | [{{ activity.wts.title }}{% if activity.wts.type %} - {{ activity.wts.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
