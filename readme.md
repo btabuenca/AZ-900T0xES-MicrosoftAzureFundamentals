@@ -5,7 +5,7 @@
 > **Hay un repositorio [Grabaciones de laboratorio y demostraciones](https://github.com/MicrosoftLearning/Lab-Demo-Recordings) con vínculos a vídeo de laboratorios utilizados en el plan de estudios oficial de Microsoft. La intención es proporcionar a los Microsoft Certified Trainers una forma fácil de acceder a una grabación en versión sin audio de los laboratorios prácticos utilizados en la cartera.**
 
 - **[Vínculo a tutoriales (formato HTML)](https://microsoftlearning.github.io/AZ-900T0x-MicrosoftAzureFundamentals/)**
-- **¿Es un MCT?** - Vea nuestra [Guía de usuario de GitHub para MCT](https://microsoftlearning.github.io/MCT-User-Guide-ES/)
+- **¿Es un MCT?** - Vea nuestra [Guía de usuario de GitHub para MCT](https://github.com/MicrosoftLearning/MCT-User-Guide-ES/)
 
 ## ¿Que estamos haciendo?
 
