@@ -1,7 +1,7 @@
 ---
 wts:
     title: '21: Abrir una solicitud de soporte técnico'
-    module: 'Módulo 4: precios y soporte técnico de Azure'
+    module: 'Módulo 04: precios y soporte técnico de Azure'
 ---
 # 21 - Abrir una solicitud de soporte técnico
 

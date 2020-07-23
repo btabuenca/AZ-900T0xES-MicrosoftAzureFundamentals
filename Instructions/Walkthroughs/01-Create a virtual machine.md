@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '1: Crear una máquina virtual en el portal'
+    title: '01: Crear una máquina virtual en el portal'
     module: 'Módulo 02: Servicios principales de Azure'
 ---
 # 01: Crear una máquina virtual en el portal

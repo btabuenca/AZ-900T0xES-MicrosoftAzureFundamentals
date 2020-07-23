@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '2: Implementar Azure Container Instances'
+    title: '02: Implementar Azure Container Instances'
     module: 'Módulo 02: Servicios principales de Azure'
 ---
 
