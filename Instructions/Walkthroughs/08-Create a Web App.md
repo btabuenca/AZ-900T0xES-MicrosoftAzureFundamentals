@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '08: Crear una aplicación web'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '08 - Crear una aplicación web'
+    module: 'Módulo 02 - Servicios principales de Azure'
 ---
 # 08 - Crear una aplic. web
 

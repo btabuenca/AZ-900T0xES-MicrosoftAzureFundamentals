@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '06: Implementar un Azure IoT Hub'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '06 - Implementar un Azure IoT Hub'
+    module: 'Módulo 02 - Servicios principales de Azure'
 ---
 # 06 - Implementar un Azure IoT Hub
 

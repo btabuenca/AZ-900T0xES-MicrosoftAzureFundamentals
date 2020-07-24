@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '09: Crear una máquina virtual con una plantilla'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '09 - Crear una máquina virtual con una plantilla'
+    module: 'Módulo 02 - Servicios principales de Azure'
 ---
-# 09: Crear una máquina virtual con una plantilla
+# 09 - Crear una máquina virtual con una plantilla
 
 En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las capacidades de monitoreo.
 

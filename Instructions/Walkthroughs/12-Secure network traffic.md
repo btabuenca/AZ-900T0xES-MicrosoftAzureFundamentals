@@ -1,7 +1,7 @@
 ---
 wts:
     title: '12 - Tráfico de red segura'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
 ---
 # 12 - Tráfico de red segura
 

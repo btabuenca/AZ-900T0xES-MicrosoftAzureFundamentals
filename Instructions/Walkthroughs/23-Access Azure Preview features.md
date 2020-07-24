@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '23: Acceso a las funciones de Vista previa de Azure'
-    module: 'Módulo 04: precios y soporte técnico de Azure'
+    title: '23 - Acceso a las funciones de Vista previa de Azure'
+    module: 'Módulo 04 - precios y soporte técnico de Azure'
 ---
 
 # 23 - Acceda a las funciones de Vista previa de Azure

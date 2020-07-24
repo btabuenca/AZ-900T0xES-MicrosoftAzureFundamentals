@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '17: Implementación del etiquetado de recursos'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    title: '17 - Implementación del etiquetado de recursos'
+    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
 ---
 # 17 - Implementar etiquetado de recursos
 

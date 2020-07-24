@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '04: Creación de almacenamiento de blobs'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '04 - Creación de almacenamiento de blobs'
+    module: 'Módulo 02 - Servicios principales de Azure'
 ---
 # 04 - Crear almacenamiento de blobs
 

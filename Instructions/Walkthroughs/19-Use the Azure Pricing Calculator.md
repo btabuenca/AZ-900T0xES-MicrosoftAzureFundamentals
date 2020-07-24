@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '19: Uso de la calculadora de precios de Azure'
-    module: 'Módulo 04: precios y soporte técnico de Azure'
+    title: '19 - Uso de la calculadora de precios de Azure'
+    module: 'Módulo 04 - precios y soporte técnico de Azure'
 ---
 # 19 - Usar la calculadora de precios
 

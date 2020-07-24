@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '01: Crear una máquina virtual en el portal'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '01 - Crear una máquina virtual en el portal'
+    module: 'Módulo 02 - Servicios principales de Azure'
 ---
-# 01: Crear una máquina virtual en el portal
+# 01 - Crear una máquina virtual en el portal
 
 En este tutorial crearemos una máquina virtual en Azure Portal, nos conectaremos a dicha máquina virtual, instalaremos la función del servidor web y la probaremos. 
 

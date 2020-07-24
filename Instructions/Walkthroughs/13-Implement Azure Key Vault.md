@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '13: Implementar Azure Key Vault'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    title: '13 - Implementar Azure Key Vault'
+    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
 ---
 # 13 - Implementar Azure Key Vault
 

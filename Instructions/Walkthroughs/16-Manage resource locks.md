@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '16: Administrar bloqueos de recursos'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    title: '16 - Administrar bloqueos de recursos'
+    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
 ---
 # 16 - Administrar bloqueos de recursos
 

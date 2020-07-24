@@ -1,7 +1,7 @@
 ---
 wts:
     title: '11 - Crear una VM con la CLI'
-    module: 'Módulo 02: Servicios principales de Azure'
+    module: 'Módulo 02 - Servicios principales de Azure'
 ---
 # 11 - Crear una VM con la CLI
 

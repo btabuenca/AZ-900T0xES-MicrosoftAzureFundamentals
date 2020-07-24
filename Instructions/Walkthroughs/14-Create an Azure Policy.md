@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '14: Crear una directiva de Azure'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    title: '14 - Crear una directiva de Azure'
+    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
 ---
-# 14: Crear una directiva de Azure
+# 14 - Crear una directiva de Azure
 
 En este tutorial crearemos una directiva de Azure para restringir la implementación de los recursos de Azure en una ubicación específica.
 

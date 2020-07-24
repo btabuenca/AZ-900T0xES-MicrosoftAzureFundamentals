@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '18: Explorar el Centro de confianza'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    title: '18 - Explorar el Centro de confianza'
+    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
 ---
 # 18: Explorar el Centro de confianza
 

@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '15: Administrar el acceso con RBAC'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    title: '15 - Administrar el acceso con RBAC'
+    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
 ---
-# 15: Administrar el acceso con RBAC
+# 15 - Administrar el acceso con RBAC
 
 En este tutorial asignaremos roles y veremos registros de actividad. 
 

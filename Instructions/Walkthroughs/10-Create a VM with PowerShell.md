@@ -1,7 +1,7 @@
 ---
 wts:
     title: '10 - Crear una VM con PowerShell'
-    module: 'Módulo 02: Servicios principales de Azure'
+    module: 'Módulo 02 - Servicios principales de Azure'
 ---
 # 10 - Crear una VM con PowerShell
 

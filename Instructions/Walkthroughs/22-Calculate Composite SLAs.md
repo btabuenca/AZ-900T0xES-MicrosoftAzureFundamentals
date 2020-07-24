@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '22: Cálculo del Acuerdo de nivel de servicio compuesto'
-    module: 'Módulo 04: precios y soporte técnico de Azure'
+    title: '22 - Cálculo del Acuerdo de nivel de servicio compuesto'
+    module: 'Módulo 04 - precios y soporte técnico de Azure'
 ---
 # 22 - Calcular el Acuerdo de nivel de servicio compuesto
 

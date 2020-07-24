@@ -1,10 +1,10 @@
 ---
 wts:
-    title: '02: Implementar Azure Container Instances'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '02 - Implementar Azure Container Instances'
+    module: 'Módulo 02 - Servicios principales de Azure'
 ---
 
-# 02: Implementar Azure Container Instances
+# 02 - Implementar Azure Container Instances
 
 En este tutorial creamos, configuramos e implementamos un contenedor Docker mediante Azure Container Instances (ACI) en Azure Portal. El contenedor es una aplicación web Bienvenido a ACI que muestra una página HTML estática. 
 

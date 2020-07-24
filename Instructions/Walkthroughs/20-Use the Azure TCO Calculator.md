@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '20: Uso de la calculadora de TCO de Azure'
-    module: 'Módulo 04: precios y soporte técnico de Azure'
+    title: '20 - Uso de la calculadora de TCO de Azure'
+    module: 'Módulo 04 - precios y soporte técnico de Azure'
 ---
 # 20 - Usar la calculadora de TCO de Azure
 
