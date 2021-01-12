@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '08 - Crear una aplicación web'
-    module: 'Módulo 02 - Servicios principales de Azure'
+    title: '02 - Crear una aplicación web'
+    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
 ---
-# 08 - Crear una aplic. web
+# 02 - Crear una aplicación web
 
 En este tutorial, crearemos una nueva aplic. web que ejecute un contenedor Docker. El contenedor muestra un mensaje de bienvenida. 
 
-# Tarea 1: Cree una aplicación web
+# Tarea 1: Crear una aplicación web
 
 Azure App Service es en realidad una colección de cuatro servicios, los cuales están diseñados para hospedar y ejecutar aplicaciones web. Los cuatro servicios (Web Apps, Mobile Apps, API Apps y Logic Apps) se ven diferentes, pero, al final, todos funcionan de manera muy similar. De los cuatro servicios, las Web Apps son las que se usan con mayor frecuencia y es el servicio que utilizaremos en este laboratorio.
 
@@ -37,7 +37,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | -- | -- |
     | Opciones | **Contenedor individual** |
     | Fuente de la imagen | **Docker Hub** |
-    | Tipo de acceso | **Público** |
+    | Tipo de acceso | **Pública** |
     | Imagen y etiqueta | **microsoft/aci-helloworld** |
     | | |	
 

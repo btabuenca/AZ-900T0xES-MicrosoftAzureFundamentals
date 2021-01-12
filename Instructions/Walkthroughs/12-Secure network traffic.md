@@ -1,7 +1,7 @@
 ---
 wts:
     title: '12 - Tráfico de red segura'
-    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
+    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
 ---
 # 12 - Tráfico de red segura
 
@@ -41,12 +41,12 @@ En esta tarea, crearemos una máquina virtual de Windows Server 2019 Datacenter.
 
     | Configuración | Valores |
     | -- | -- |
-    | Diagnóstico de arranque | **Off**|
+    | Diagnóstico de arranque | **Deshabilitar**|
     | | |
 
 6. Deje los valores predeterminados restantes y luego haga clic en el botón **Revisar + crear**, en la parte inferior de la página.
 
-7. Una vez que se pasa la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede tardar unos cinco minutos.
+7. Una vez que se supere la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede tardar unos cinco minutos.
 
 8. Supervisar la implementación. La creación del grupo de recursos y la máquina virtual puede tomar varios minutos. 
 
@@ -80,7 +80,7 @@ En esta tarea, crearemos un grupo de seguridad de red y lo asociaremos con la in
 
 6. Seleccione la interfaz de red que identificó en la tarea anterior. 
 
-# Tarea 3: Configure una regla de puerto de seguridad entrante para permitir RDP
+# Tarea 3: Configurar una regla de puerto de seguridad entrante para permitir RDP
 
 En esta tarea, permitiremos el tráfico RDP a la máquina virtual configurando una regla de puerto de seguridad entrante. 
 
@@ -110,7 +110,7 @@ En esta tarea, permitiremos el tráfico RDP a la máquina virtual configurando u
 
 6. Espere a que se aprovisione la regla e intente nuevamente RDP en la máquina virtual. Esta vez debería tener éxito. Recuerde que el usuario es **azureuser** y la contraseña es **Pa$$w0rd1234**.
 
-# Tarea 4 Configure una regla de puerto de seguridad saliente para denegar el acceso a Internet
+# Tarea 4: Configurar una regla de puerto de seguridad saliente para denegar el acceso a Internet
 
 En esta tarea, crearemos una regla de puerto saliente NSG que denegará el acceso a Internet y luego la probaremos para asegurarnos de que la regla funciona.
 

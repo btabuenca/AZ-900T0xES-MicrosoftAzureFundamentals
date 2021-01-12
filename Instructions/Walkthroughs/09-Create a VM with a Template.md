@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '09 - Crear una máquina virtual con una plantilla'
-    module: 'Módulo 02 - Servicios principales de Azure'
+    title: '09: Crear una máquina virtual con una plantilla'
+    module: 'Módulo 02: Servicios principales de Azure'
 ---
-# 09 - Crear una máquina virtual con una plantilla
+# 09: Crear una máquina virtual con una plantilla
 
-En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las capacidades de monitoreo.
+En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las capacidades de supervisión.
 
-# Tarea1: Explore la galería y localice una plantilla
+# Tarea 1: Explorar la galería y localizar una plantilla
 
 En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una plantilla que crea una máquina virtual. 
 
@@ -17,7 +17,7 @@ En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una p
 
     **Nota**: ¿Hay alguna plantilla que le interese?
 
-3. Busque o acceda directamente a la plantilla [Implementar una máquina virtual de Windows simple](https://azure.microsoft.com/resources/templates/101-vm-simple-windows?azure-portal=true).
+3. Busque o acceda directamente a la plantilla [Implementar una máquina virtual](https://azure.microsoft.com/resources/templates/101-vm-simple-windows?azure-portal=true).
 
     **Nota**: El botón **Implementar en Azure** le permite implementar la plantilla a través de Azure Portal. Durante dicha implementación, se le pedirá confirmación solo de un pequeño conjunto de parámetros de configuración. 
 
@@ -25,7 +25,7 @@ En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una p
 
 5. Si se le solicita, inicie sesión en la suscripción de Azure que desea usar en este laboratorio.
 
-6. Haga clic en **Editar plantilla**. El formato de la plantilla de Resource Manager usa el formato JSON. Revise las variables y localice el nombre de la máquina virtual. Cambie el nombre a **myVMTemplate**. Seleccione **Guardar** para guardar los cambios. Regresa a la hoja **Implementación personalizada** en el Azure Portal.
+6. Haga clic en **Editar plantilla**. El formato de la plantilla de Resource Manager usa el formato JSON. Revise los parámetros y variables.  A continuación, busque el parámetro para el nombre de la máquina virtual. Cambie el nombre a **myVMTemplate**. Seleccione **Guardar** para guardar los cambios. Regresa a la hoja **Implementación personalizada** en el Azure Portal.
 
     ![Captura de pantalla de la plantilla con el cambio de nombre de VM resaltado.](../images/0901.png)
 
@@ -42,13 +42,13 @@ En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una p
     | Versión del sistema operativo Windows | **2019-Centro de datos** |
     | | |
 
-8. Marque la casilla **Acepto los términos y las condiciones establecidos anteriormente** y luego haga clic en **Comprar**.
+8. Marque la casilla "Acepto los términos y las condiciones establecidos anteriormente" y luego haga clic en Comprar. 
+** Nota: No hay coste asociado con esta plantilla.
+9. Haga clic en **Revisar + Crear**.
 
-    **Nota**: No hay coste asociado con esta plantilla.
+10. Supervise su implementación. 
 
-9. Supervise su implementación. 
-
-# Tarea 2: Compruebe la máquina virtual y haga un seguimiento de ella
+# Tarea 2: Comprobar la máquina virtual y hacer un seguimiento de ella
 
 En esta tarea, comprobaremos que la máquina virtual se implementó correctamente. 
 
@@ -62,11 +62,11 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
     **Nota**: El plazo de supervisión se puede ajustar de una hora a 30 días.
 
-4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)** y **Bytes de disco (total)**. 
+4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)**y **Bytes de disco (total)**. 
 
     ![Captura de pantalla de los cuadros de supervisión de máquinas virtuales.](../images/0903.png)
 
-5. Haga clic en cualquier gráfico. Tenga en cuenta que puede seleccionar **Agregar métrica** y cambiar el tipo de gráfico. Dado que tiene tiempo, experimente. 
+5. Haga clic en cualquier gráfico. Tenga en cuenta que puede seleccionar **Agregar métrica** y cambiar el tipo de gráfico. Si tiene tiempo, experimente. 
 
 6. Vuelva a la hoja **Visión general**.
 

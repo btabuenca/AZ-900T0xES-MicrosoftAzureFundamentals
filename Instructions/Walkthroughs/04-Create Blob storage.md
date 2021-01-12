@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '04 - Creación de almacenamiento de blobs'
-    module: 'Módulo 02 - Servicios principales de Azure'
+    title: '04: Crear almacenamiento de blobs'
+    module: 'Módulo 02: Servicios principales de Azure'
 ---
 # 04 - Crear almacenamiento de blobs
 
@@ -46,7 +46,7 @@ En esta tarea, crearemos un contenedor de blobs y subiremos un archivo de blobs.
 2. Haga clic en **+ Contenedor** y complete la información. Use los iconos de información para obtener más información. Cuando termine, haga clic en **Aceptar**.
 
 
-    | Valor | Valor |
+    | Configuración | Valor |
     | --- | --- |
     | Nombre | **contenedor1**  |
     | Nivel de acceso público| **Privado (sin acceso anónimo)** |
@@ -58,7 +58,7 @@ En esta tarea, crearemos un contenedor de blobs y subiremos un archivo de blobs.
 
 5. Busque un archivo en su computadora local. 
 
-    **Nota**: Puede crear un archivo `.txt` vacío o usar cualquier archivo existente. Considere elegir un archivo de tamaño pequeño para minimizar el tiempo de carga.
+    **Nota**: Puede crear un archivo ".txt" vacío o usar cualquier archivo existente. Considere elegir un archivo de tamaño pequeño para minimizar el tiempo de carga.
 
 6. Haga clic en la flecha **Avanzado**, deje los valores predeterminados pero revise las opciones disponibles y luego haga clic en **Cargar**.
 
@@ -74,9 +74,9 @@ En esta tarea, crearemos un contenedor de blobs y subiremos un archivo de blobs.
 
 2. Explore algunos de los problemas de almacenamiento más comunes. Tenga en cuenta que hay múltiples solucionadores de problemas.
 
-3. En la hoja de la cuenta de almacenamiento, desplácese hacia abajo hasta la sección **Supervisión** y haga clic en **Información (vista previa)**. Observe que hay información sobre Fallas, Rendimiento, Disponibilidad y Capacidad. Su información será diferente.
+3. En la hoja de la cuenta de almacenamiento, desplácese hacia abajo hasta la sección **Supervisión** y haga clic en **Información**. Observe que hay información sobre Fallas, Rendimiento, Disponibilidad y Capacidad. Su información será diferente.
 
-    ![Captura de pantalla de la página Insights de la cuenta de almacenamiento.](../images/0403.png)
+    ![Captura de pantalla de la página Insights de la cuenta de almacenamiento.](../images/0403.PNG)
 
 ¡Enhorabuena! Creó una cuenta de almacenamiento y luego trabajó con blobs de almacenamiento.
 

@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '16 - Administrar bloqueos de recursos'
-    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
+    title: '16: Administrar bloqueos de recursos'
+    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
 ---
 # 16 - Administrar bloqueos de recursos
 
@@ -48,7 +48,7 @@ En esta tarea, agregaremos un bloqueo de recursos al grupo de recursos y probare
 
     ![Captura de pantalla del error de eliminación de bloqueos.](../images/1602.png)
 
-# Tarea 3: Pruebe eliminar un miembro del grupo de recursos
+# Tarea 3: Probar a eliminar un miembro del grupo de recursos
 
 En esta tarea, probaremos si el bloqueo de recursos protege una cuenta de almacenamiento en el grupo de recursos. 
 
@@ -80,7 +80,7 @@ En esta tarea, probaremos si el bloqueo de recursos protege una cuenta de almace
 
     **Nota**: Aunque no hayamos creado específicamente un bloqueo para la cuenta de almacenamiento, hemos creado un bloqueo en el nivel del grupo de recursos que contiene la cuenta de almacenamiento. Como tal, este bloqueo de nivel *primario* nos impide eliminar el recurso y la cuenta de almacenamiento hereda el bloqueo del nivel primario.
 
-# Tarea 4 Quitar el bloqueo de recurso
+# Tarea 4: Quitar el bloqueo de recurso
 
 En esta tarea quitaremos el bloqueo del recurso y lo probaremos. 
 
