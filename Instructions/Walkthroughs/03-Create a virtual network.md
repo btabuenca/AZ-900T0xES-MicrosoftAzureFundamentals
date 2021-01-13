@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '3: Creación de una red virtual'
+    title: '03: Creación de una red virtual'
     module: 'Módulo 02: Servicios principales de Azure'
 ---
 # 03: Crear una red virtual

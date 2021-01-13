@@ -25,7 +25,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Grupo de recursos | **myRGVM** (crear nueva) |
     | Nombre de la máquina virtual | **myVm** |
     | Ubicación | **Este de EE. UU.**|
-    | Imagen | ** Windows Server 2019 Datacenter - Gen 1**|
+    | Imagen | **Windows Server 2019 Datacenter - Gen 1**|
     | Tamaño | Estándar D2s, v3|
     | Nombre de usuario de la cuenta de administrador | **azureuser** |
     | Contraseña de cuenta de administrador | **Pa$$w0rd1234**|

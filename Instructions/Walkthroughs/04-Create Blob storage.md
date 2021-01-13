@@ -76,7 +76,7 @@ En esta tarea, crearemos un contenedor de blobs y subiremos un archivo de blobs.
 
 3. En la hoja de la cuenta de almacenamiento, desplácese hacia abajo hasta la sección **Supervisión** y haga clic en **Información**. Observe que hay información sobre Fallas, Rendimiento, Disponibilidad y Capacidad. Su información será diferente.
 
-    ![Captura de pantalla de la página Insights de la cuenta de almacenamiento.](../images/0403.PNG)
+    ![Captura de pantalla de la página Insights de la cuenta de almacenamiento.](../images/0403.png)
 
 ¡Enhorabuena! Creó una cuenta de almacenamiento y luego trabajó con blobs de almacenamiento.
 

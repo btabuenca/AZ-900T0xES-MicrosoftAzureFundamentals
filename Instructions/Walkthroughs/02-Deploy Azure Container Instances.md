@@ -63,7 +63,7 @@ En esta tarea, comprobamos que la instancia del contenedor se está ejecutando a
 
 	![Captura de pantalla del panel de información general para el contenedor recién creado en Azure Portal, con el FQDN resaltado. ](../images/0202.png)
 
-2. Copie el FQDN del contenedor en el explorador web del cuadro de texto URL y presione **Entrar**. La página principal debería aparecer. 
+4. Copie el FQDN del contenedor en el explorador web del cuadro de texto URL y presione **Entrar**. La página principal debería aparecer. 
 
 	![Captura de pantalla del mensaje de bienvenida de ACI que se muestra en un explorador web.](../images/0203.png)
 
