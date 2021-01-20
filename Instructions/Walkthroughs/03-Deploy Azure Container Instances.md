@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '03: Implementación de Azure Container Instances'
+    title: '03: Implementación de Azure Container Instances (10 minutos)'
     module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
 ---
 
@@ -8,7 +8,7 @@ wts:
 
 En este tutorial creamos, configuramos e implementamos un contenedor Docker mediante Azure Container Instances (ACI) en Azure Portal. El contenedor es una aplicación web Bienvenido a ACI que muestra una página HTML estática. 
 
-# Tarea 1: Creación de una instancia de contenedor
+# Tarea 1: Creación de una instancia de contenedor (10 minutos)
 
 En esta tarea, crearemos una nueva instancia de contenedor para la aplicación web. 
 
@@ -31,7 +31,6 @@ En esta tarea, crearemos una nueva instancia de contenedor para la aplicación w
 	| Tamaño| ***Dejar en el valor predeterminado***|
 	|||
 
-
 4. Configure la pestaña Redes (reemplace **xxxx** con letras y dígitos para que el nombre sea globalmente único). Deje todas las demás configuraciones en sus valores predeterminados.
 
 	| Configuración| Valor|
@@ -39,7 +38,8 @@ En esta tarea, crearemos una nueva instancia de contenedor para la aplicación w
 	| Etiqueta de nombre DNS| **mycontainerdnsxxxx** |
 	|||
 	
-	**Nota**: Su contenedor será accesible públicamente en dns-name-label.region.azurecontainer.io. Si recibe un mensaje de error que dice **Etiqueta de nombre DNS no disponible** después de la implementación, especifique una etiqueta de nombre DNS diferente y vuelva a implementar.
+	**Nota**: Su contenedor será accesible públicamente en dns-name-label.region.azurecontainer.io. Si recibe un mensaje de error que dice **Etiqueta de nombre DNS no disponible** después de la implementación, especifique una etiqueta de nombre DNS diferente (no use xxxx) y vuelva a implementar.
+
 
 	![Captura de pantalla del panel de configuración de la hoja Crear instancias de contenedor en Azure Portal, con la etiqueta de nombre DNS especificada. ](../images/0201.png)
 

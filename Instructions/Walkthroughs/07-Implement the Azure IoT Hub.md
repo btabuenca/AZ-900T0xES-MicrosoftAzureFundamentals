@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '06 - Implementar un Azure IoT Hub'
-    module: 'Módulo 02 - Servicios principales de Azure'
+    title: '07 - Implementar un Azure IoT Hub (10 minutos)'
+    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
-# 06 - Implementar un Azure IoT Hub
+# 07 - Implementar un Azure IoT Hub
 
 En este tutorial, configuraremos un nuevo Azure IoT Hub en Azure Portal, y luego autenticaremos una conexión a un dispositivo IoT usando el simulador de dispositivo Raspberry Pi en línea. Los datos y los mensajes del sensor se pasan del simulador de Raspberry Pi a su Azure IoT Hub, y puede ver las métricas para la actividad de mensajería en Azure Portal.
 
-# Tarea 1: Crear un centro de IoT 
+# Tarea 1: Crear un centro de IoT (10 minutos)
 
 En esta tarea, crearemos un centro de IoT. 
 
@@ -23,9 +23,11 @@ En esta tarea, crearemos un centro de IoT.
     | Grupo de recursos |  **myRGIoT** (crear nuevo)|
     | Región | **Este de EE. UU.** |
     | Nombre del centro de IoT | **my-hub-groupxxxx** |
-    | | |	
+    | | |
 
-4. Vaya a la pestaña **Tamaño y escala**, use la lista desplegable para configurar **Precios y nivel de escala** en **S1: Nivel estándar**. 
+    **Nota**: Recuerde cambiar **xxxx** de modo que sea un **nombre de IoT Hub** único
+
+4. Vaya a la pestaña **Administración**, use la lista desplegable para configurar **Precios y nivel de escala** en **S1: nivel Estándar**.
 
 5. Haga clic en el botón **Revisar + Crear**.
 

@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '04: Crear almacenamiento de blobs'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '05: Crear almacenamiento de blobs (5 minutos)'
+    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
 ---
-# 04 - Crear almacenamiento de blobs
+# 05 - Crear almacenamiento de blobs
 
 En este tutorial, crearemos una cuenta de almacenamiento y luego trabajaremos con archivos de almacenamiento de blobs.
 
-# Tarea 1: Crear una cuenta de almacenamiento
+# Tarea 1: Crear una cuenta de almacenamiento (5 minutos)
 
 En esta tarea crearemos una nueva cuenta de almacenamiento. 
 
@@ -26,8 +26,9 @@ En esta tarea crearemos una nueva cuenta de almacenamiento.
     | Rendimiento | **Estándar** |
     | Variante de cuenta | **Almacenamiento V2 (uso general v2)** |
     | Replicación | **Almacenamiento con redundancia local (LRS)** |
-    | Nivel de acceso (predeterminado) | **Frecuente** |
     | | |
+
+    **Nota**: Recuerde cambiar **xxxx** de modo que sea un **nombre de cuenta de almacenamiento** único
 
 5. Haga clic en **Revisar + Crear** para revisar la configuración de su cuenta de almacenamiento y permitir que Azure valide la configuración. 
 

@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '20 - Uso de la calculadora de TCO de Azure'
-    module: 'Módulo 04 - precios y soporte técnico de Azure'
+    title: '20 - Uso de la calculadora de TCO de Azure (10 minutos)'
+    module: 'Módulo 06: Descripción de los acuerdos de nivel de servicio y la administración de costos de Azure'
 ---
 # 20 - Usar la calculadora de TCO de Azure
 
@@ -10,7 +10,7 @@ En este tutorial usará la Calculadora de costo total de propiedad (TCO) para ge
 
 **Nota**: En este tutorial, se proporcionan definiciones de ejemplo de la infraestructura local y las cargas de trabajo para un centro de datos típico. Para crear un informe de la Calculadora de TCO, use las definiciones de ejemplo o proporcione detalles de su infraestructura local y sus cargas de trabajo *reales*.
 
-# Tarea 1: Configurar la calculadora de TCO
+# Tarea 1: Configurar la calculadora de TCO (10 minutos)
 
 En esta tarea añadiremos información de infraestructura a la calculadora. 
 

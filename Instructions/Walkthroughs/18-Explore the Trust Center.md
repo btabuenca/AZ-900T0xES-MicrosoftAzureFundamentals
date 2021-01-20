@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '18 - Explorar el Centro de confianza'
-    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
+    title: '18 - Explorar el Centro de confianza (5 minutos)'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
 # 18: Explorar el Centro de confianza
 
 En este tutorial accederemos al Centro de confianza, al Portal de confianza de servicios (STP) y al Administrador de cumplimiento.
 
-# Tarea 1: Acceso al Centro de confianza
+# Tarea 1: Acceso al Centro de confianza (5 minutos)
 
 1. En un explorador, acceda a la página [Ofertas de cumplimiento del Centro de confianza de Microsoft](https://docs.microsoft.com/es-es/microsoft-365/compliance/offering-home).
 

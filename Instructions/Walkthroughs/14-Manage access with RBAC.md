@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '15 - Administrar el acceso con RBAC'
-    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
+    title: '14 - Administrar el acceso con RBAC (5 minutos)'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 15 - Administrar el acceso con RBAC
+# 14 - Administrar el acceso con RBAC
 
 En este tutorial asignaremos roles y veremos registros de actividad. 
 
-# Tarea 1: Vea y asigne roles
+# Tarea 1: Vea y asigne roles (5 minutos)
 
 En esta tarea, asignaremos el rol de colaborador de la máquina virtual. 
 
@@ -37,7 +37,7 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
     | Ajuste | Valor |
     | -- | -- |
     | Rol | **Colaborador de la máquina virtual** |
-    | Asignar acceso a | **Usuario de Azure AD, grupo o entidad de servicio** |
+    | Asignar acceso a | **Usuario, grupo o entidad de servicio** |
     | Seleccionar | su cuenta de usuario |
     | | |
 

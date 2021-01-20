@@ -1,10 +1,9 @@
 ---
 wts:
-    title: '22 - Cálculo del Acuerdo de nivel de servicio compuesto'
-    module: 'Módulo 04 - precios y soporte técnico de Azure'
+    title: '21 - Cálculo del Acuerdo de nivel de servicio compuesto (5 minutos)'
+    module: 'Módulo 06: Descripción de los acuerdos de nivel de servicio y la administración de costos de Azure'
 ---
-# 22 - Calcular el Acuerdo de nivel de servicio compuesto
-
+# 21 - Calcular el Acuerdo de nivel de servicio compuesto
 
 En este tutorial determinaremos el Acuerdo de nivel de servicio disponible de los servicios de Azure y luego calcularemos la disponibilidad basada en el Acuerdo compuesto de la aplicación esperada.
 
@@ -15,7 +14,7 @@ Nuestra aplicación de ejemplo consta de estos servicios de Azure. No entraremos
 + **Application Gateway**: Para administrar el acceso a la aplicación y la escala. 
 + **Azure SQL Database**: Para almacenar datos de la aplicación. 
 
-# Tarea 1: Determinar los valores de porcentaje de tiempo de actividad del Acuerdo de nivel de servicio para nuestra aplicación
+# Tarea 1: Determinar los valores de porcentaje de tiempo de actividad del Acuerdo de nivel de servicio para nuestra aplicación (5 minutos)
 
 1. En un explorador, vaya a la página [Resumen del Acuerdo de nivel de servicio de Azure](https://azure.microsoft.com/es-es/support/legal/sla/summary/).
 

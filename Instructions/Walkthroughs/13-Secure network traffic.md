@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '12 - Tráfico de red segura'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    title: '13 - Tráfico de red segura (10 minutos)'
+    module: 'Módulo 04: Descripción de las características de seguridad general y de seguridad de red'
 ---
-# 12 - Tráfico de red segura
+# 13 - Tráfico de red segura
 
 En este tutorial, configuraremos un grupo de seguridad de red.
 
-# Tarea 1: Crear una máquina virtual
+# Tarea 1: Crear una máquina virtual (10 minutos)
 
 En esta tarea, crearemos una máquina virtual de Windows Server 2019 Datacenter. 
 

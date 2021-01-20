@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '16: Administrar bloqueos de recursos'
-    module: 'Módulo 03: Seguridad, privacidad, cumplimiento y confianza'
+    title: '15: Administrar bloqueos de recursos (5 minutos)'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 16 - Administrar bloqueos de recursos
+# 15 - Administrar bloqueos de recursos
 
 En este tutorial, crearemos un grupo de recursos, añadiremos un bloqueo al grupo de recursos y probaremos su eliminación, probaremos la eliminación de un recurso en el grupo de recursos y quitaremos el bloqueo de recursos. 
 
-# Tarea 1: Crear un grupo de recursos
+# Tarea 1: Crear un grupo de recursos (5 minutos)
 
 En esta tarea, crearemos un grupo de recursos para este ejercicio. 
 

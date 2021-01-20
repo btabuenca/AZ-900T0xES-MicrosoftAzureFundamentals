@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '17 - Implementación del etiquetado de recursos'
-    module: 'Módulo 03 - Seguridad, privacidad, cumplimiento y confianza'
+    title: '16 - Implementación del etiquetado de recursos (5 minutos)'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 17 - Implementar etiquetado de recursos
+# 16 - Implementar etiquetado de recursos
 
 En este tutorial, crearemos una asignación de directivas que requiera etiquetado, crearemos una cuenta de almacenamiento y probaremos el etiquetado, veremos recursos con una etiqueta específica y quitaremos la directiva de etiquetado.
 
-# Tarea 1: Crear una asignación de directiva
+# Tarea 1: Crear una asignación de directiva (5 minutos)
 
 En esta tarea, configuraremos la directiva **Requerir una etiqueta en los recursos** y la asignaremos a nuestra suscripción. 
 
@@ -58,6 +58,8 @@ En esta tarea crearemos cuentas de almacenamiento para probar el etiquetado requ
     **Nota:** Si ve la pestaña Error sin formato, verá el nombre de etiqueta específico que se necesita. 
 
     ![Captura de pantalla de rechazado debido a un error de directiva.](../images/1704.png)
+
+    **Nota: Debe esperar 30 minutos hasta que se complete el etiquetado.** 
 
 5. Cierre el panel de **Error** y haga clic en **Anterior** (parte inferior de la pantalla). Proporcione la información de etiquetado. 
 

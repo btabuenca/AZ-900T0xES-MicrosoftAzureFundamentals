@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '09: Crear una máquina virtual con una plantilla'
-    module: 'Módulo 02: Servicios principales de Azure'
+    title: '09: Crear una máquina virtual con una plantilla (10 minutos)'
+    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
 # 09: Crear una máquina virtual con una plantilla
 
 En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las capacidades de supervisión.
 
-# Tarea 1: Explorar la galería y localizar una plantilla
+# Tarea 1: Explorar la galería y localizar una plantilla (10 minutos)
 
 En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una plantilla que crea una máquina virtual. 
 
@@ -41,9 +41,9 @@ En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una p
     | Prefijo de etiqueta DNS | **myvmtemplate*xxxx*** |
     | Versión del sistema operativo Windows | **2019-Centro de datos** |
     | | |
+    
+    ** Nota: No hay coste asociado con esta plantilla.
 
-8. Marque la casilla "Acepto los términos y las condiciones establecidos anteriormente" y luego haga clic en Comprar. 
-** Nota: No hay coste asociado con esta plantilla.
 9. Haga clic en **Revisar + Crear**.
 
 10. Supervise su implementación. 
@@ -66,7 +66,7 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
     ![Captura de pantalla de los cuadros de supervisión de máquinas virtuales.](../images/0903.png)
 
-5. Haga clic en cualquier gráfico. Tenga en cuenta que puede seleccionar **Agregar métrica** y cambiar el tipo de gráfico. Si tiene tiempo, experimente. 
+5. Haga clic en cualquier gráfico. Tenga en cuenta que puede seleccionar **Agregar métrica** y cambiar el tipo de gráfico.
 
 6. Vuelva a la hoja **Visión general**.
 

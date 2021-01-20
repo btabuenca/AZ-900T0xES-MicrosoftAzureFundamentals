@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '11 - Crear una VM con la CLI'
-    module: 'Módulo 02 - Servicios principales de Azure'
+    title: '11 - Crear una VM con la CLI (10 minutos)'
+    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
 # 11 - Crear una VM con la CLI
 
 En este tutorial, configuraremos Cloud Shell, utilizaremos la CLI de Azure para crear un grupo de recursos y una máquina virtual, y revisaremos las recomendaciones de Azure Advisor. 
 
-# Tarea 1: Configurar el Cloud Shell
+# Tarea 1: Configurar el Cloud Shell (10 minutos)
 
 En esta tarea, configuraremos Cloud Shell. 
 

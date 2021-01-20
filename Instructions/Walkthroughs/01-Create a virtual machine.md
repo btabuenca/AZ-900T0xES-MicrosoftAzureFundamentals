@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '1: Crear una máquina virtual en el portal'
+    title: '1: Crear una máquina virtual en el portal (10 minutos)'
     module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
 ---
 # 01 - Crear una máquina virtual en el portal
@@ -9,7 +9,7 @@ En este tutorial crearemos una máquina virtual en el Azure Portal, nos conectar
 
 **Nota**: Tómese el tiempo durante este tutorial para hacer clic y leer los iconos informativos. 
 
-# Tarea 1: Crear la máquina virtual
+# Tarea 1: Crear la máquina virtual (10 minutos)
 
 En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - Gen1. 
 
@@ -39,6 +39,8 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Seleccionar puertos de entrada | **HTTP (80), RDP (3389)**|
     | | |
 
+    **Nota**: Compruebe que tanto el puerto 80 como el puerto 3389 están seleccionados
+
 5. Vaya a la pestaña Administración y, en la sección **Supervisión**, seleccione la siguiente configuración:
 
     | Configuración | Valores |
@@ -51,7 +53,8 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
 7. Una vez que se supere la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede demorar entre cinco y siete minutos.
 
 8. Recibirá actualizaciones en la página de implementación y a través del área **Notificaciones** (el icono de la campana en el menú superior).
-* Compruebe que el Puerto 80 estaba abierto 
+
+* **Compruebe que los puertos 80 y 3389 están abiertos**
 
 # Tarea 2: Conectarse a la máquina virtual
 

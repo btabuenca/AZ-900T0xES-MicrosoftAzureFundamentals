@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '07 - Implementar Azure Functions'
-    module: 'Módulo 02 - Servicios principales de Azure'
+    title: '08 - Implementar Azure Functions (5 minutos)'
+    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
-# 07 - Implementar Azure Functions
+# 08 - Implementar Azure Functions
 
 En este tutorial, crearemos una aplicación de funciones para mostrar un mensaje de saludo cuando haya una solicitud HTTP. 
 
-# Tarea 1: Crear una aplicación de funciones
+# Tarea 1: Crear una aplicación de funciones (5 minutos)
 
 En esta tarea, crearemos un aplicación de funciones.
 
@@ -24,8 +24,11 @@ En esta tarea, crearemos un aplicación de funciones.
     | Nombre de la aplicación de funciones | **función-xxxx** |
     | Publicar | **Código** |
     | Pila de tiempo de ejecución | **NET Core** |
+    | Versión | **3.1** |
     | Región | **Este de EE. UU.** |
-    | | |	
+    | | |
+
+    **Nota**: Recuerde cambiar **xxxx** de modo que sea un **nombre de la aplicación de función** único
 
 1. Haga clic en **Revisar + Crear** y, después de una correcta validación, haga clic en **Crear** para empezar a aprovisionar e implementar su nueva aplicación de funciones de Azure.
 
