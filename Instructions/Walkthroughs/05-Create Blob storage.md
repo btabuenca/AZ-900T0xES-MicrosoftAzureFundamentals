@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '05: Crear almacenamiento de blobs (5 minutos)'
-    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
+    title: '05 - Crear almacenamiento de blobs (5 minutos)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 # 05 - Crear almacenamiento de blobs
 

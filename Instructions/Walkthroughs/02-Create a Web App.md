@@ -1,7 +1,7 @@
 ---
 wts:
     title: '02 - Crear una aplicación web (10 minutos)'
-    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 # 02 - Crear una aplicación web
 

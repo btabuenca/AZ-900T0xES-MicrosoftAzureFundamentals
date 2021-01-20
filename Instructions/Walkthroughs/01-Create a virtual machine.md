@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '1: Crear una máquina virtual en el portal (10 minutos)'
-    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
+    title: '01 - Crear una máquina virtual en el portal (10 minutos)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 # 01 - Crear una máquina virtual en el portal
 
