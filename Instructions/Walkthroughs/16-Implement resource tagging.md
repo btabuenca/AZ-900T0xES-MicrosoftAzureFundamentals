@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '16 - Implementación del etiquetado de recursos (5 minutos)'
+    title: '16 - Implementar etiquetado de recursos (5 minutos)'
     module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
 # 16 - Implementar etiquetado de recursos

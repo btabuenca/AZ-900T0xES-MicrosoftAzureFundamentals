@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '06 - Creación de una base de datos SQL (5 minutos)'
+    title: '06 - Crear una base de datos SQL (5 minutos)'
     module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 

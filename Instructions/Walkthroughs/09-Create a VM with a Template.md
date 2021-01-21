@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '09: Crear una máquina virtual con una plantilla (10 minutos)'
+    title: '09 - Crear una máquina virtual con una plantilla (10 minutos)'
     module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
 # 09: Crear una máquina virtual con una plantilla
@@ -42,7 +42,7 @@ En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una p
     | Versión del sistema operativo Windows | **2019-Centro de datos** |
     | | |
     
-    ** Nota: No hay coste asociado con esta plantilla.
+    **Nota**: No hay coste asociado con esta plantilla.
 
 9. Haga clic en **Revisar + Crear**.
 
