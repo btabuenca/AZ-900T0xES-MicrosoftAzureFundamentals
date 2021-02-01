@@ -3,7 +3,7 @@ wts:
     title: '09 - Crear una máquina virtual con una plantilla (10 minutos)'
     module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
-# 09: Crear una máquina virtual con una plantilla
+# 09 - Crear una máquina virtual con una plantilla
 
 En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las capacidades de supervisión.
 
