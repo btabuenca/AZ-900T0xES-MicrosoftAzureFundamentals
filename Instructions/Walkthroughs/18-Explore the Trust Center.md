@@ -3,7 +3,7 @@ wts:
     title: '18 - Explorar el Centro de confianza (5 minutos)'
     module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 18: Explorar el Centro de confianza
+# 18 - Explorar el Centro de confianza
 
 En este tutorial accederemos al Centro de confianza, al Portal de confianza de servicios (STP) y al Administrador de cumplimiento.
 
