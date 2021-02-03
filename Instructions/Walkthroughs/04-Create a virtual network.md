@@ -3,7 +3,7 @@ wts:
     title: '04 - Creación de una red virtual (20 minutos)'
     module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
 ---
-# 04: Crear una red virtual
+# 04 - Crear una red virtual
 
 En este tutorial crearemos una red virtual, implementaremos dos máquinas virtuales en esa red virtual y luego las configuraremos para permitir que una máquina virtual haga ping a la otra dentro de esa red.
 
