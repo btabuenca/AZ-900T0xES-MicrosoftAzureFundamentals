@@ -46,7 +46,7 @@ En esta tarea, utilizaremos PowerShell para crear un grupo de recursos y una má
     ```PowerShell
     New-AzVm `
     -ResourceGroupName "myRGPS" `
-    -Name "myVMPS" `
+    -Nombre "myVMPS" `
     -Location "East US" `
     -VirtualNetworkName "myVnetPS" `
     -SubnetName "mySubnetPS" `
@@ -97,15 +97,15 @@ En esta tarea, revisaremos las recomendaciones de Azure Advisor para nuestra má
 
 1. Desde la hoja **Todos los servicios**, busque y seleccione **Advisor**. 
 
-2. Sobre la hoja **Advisor**, seleccione **Visión general**. Las recomendaciones de aviso están agrupadas por Alta disponibilidad, Seguridad, Rendimiento y Coste. 
+2. En la hoja **Advisor**, seleccione **Visión general**. Las recomendaciones de aviso están agrupadas por Alta disponibilidad, Seguridad, Rendimiento y Coste. 
 
-    ![Captura de pantalla de la página Visión general de Advisor.](../images/1003.png)
+    ![Captura de pantalla de la página Visión general de Advisor. ](../images/1003.png)
 
 3. Seleccione **Todas las recomendaciones** y tómese un tiempo para ver cada recomendación y acciones sugeridas. 
 
     **Nota:** Dependiendo de sus recursos, sus recomendaciones serán diferentes. 
 
-    ![Captura de pantalla de la página Todas las recomendaciones de Advisor.](../images/1004.png)
+    ![Captura de pantalla de la página Todas las recomendaciones de Advisor. ](../images/1004.png)
 
 4. Tenga en cuenta que puede descargar las recomendaciones como un archivo CSV o PDF. 
 
@@ -115,4 +115,4 @@ En esta tarea, revisaremos las recomendaciones de Azure Advisor para nuestra má
 
 ¡Enhorabuena! Ha configurado Cloud Shell, creado una máquina virtual con PowerShell, practicado con comandos de PowerShell y visto las recomendaciones de Advisor.
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

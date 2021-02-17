@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '21 - Calcular el Acuerdo de nivel de servicio compuesto (5 minutos)'
-    module: 'Módulo 06: Descripción de los acuerdos de nivel de servicio y la administración de costos de Azure'
+    title: '21 - Cálcular el Acuerdo de nivel de servicio compuesto (5 min)'
+    module: 'Módulo 6: Descripción de los acuerdos de nivel de servicio y Azure Cost Management'
 ---
 # 21 - Calcular el Acuerdo de nivel de servicio compuesto
 
@@ -9,14 +9,14 @@ En este tutorial determinaremos el Acuerdo de nivel de servicio disponible de lo
 
 Nuestra aplicación de ejemplo consta de estos servicios de Azure. No entraremos en configuraciones ni consideraciones arquitectónicas en detalle. La intención aquí es dar un ejemplo de alto nivel.
 
-+ **App service**: Para alojar la aplicación.
++ **App Service**: Para hospedar la aplicación.
 + **Azure AD B2C**: Para autenticar inicios de sesión de usuarios y administrar perfiles.
 + **Application Gateway**: Para administrar el acceso a la aplicación y la escala. 
 + **Azure SQL Database**: Para almacenar datos de la aplicación. 
 
-# Tarea 1: Determinar los valores de porcentaje de tiempo de actividad del Acuerdo de nivel de servicio para nuestra aplicación (5 minutos)
+# Tarea 1: Determinar los valores de porcentaje de tiempo de actividad del Acuerdo de nivel de servicio para nuestra aplicación (5 min)
 
-1. En un explorador, vaya a la página [Resumen del Acuerdo de nivel de servicio de Azure](https://azure.microsoft.com/es-es/support/legal/sla/summary/).
+1. En un explorador, vaya a la página [Resumen de SLA para los servicios de Azure](https://azure.microsoft.com/es-es/support/legal/sla/summary/).
 
 2. Localice el valor de tiempo de actividad del Acuerdo de nivel de servicio de **App Service**, **99,95 %**. Haga clic en **Ver detalles completos** y luego expanda los **detalles del SLA**. Observe los **Porcentajes mensuales del tiempo de actividad** y los **Créditos de servicio**.
 
@@ -26,7 +26,7 @@ Nuestra aplicación de ejemplo consta de estos servicios de Azure. No entraremos
 
 5. La base de datos de Azure SQL usa niveles premium, pero no está configurada para implementaciones con redundancia de zona. Localice el valor de tiempo de actividad del SLA de **Azure SQL Database**, **99,99%**. 
 
-    **Nota**: Existen diferentes valores de tiempo de actividad para diferentes configuraciones e implementaciones de Azure SQL Database. Es importante que tenga claros los valores de tiempo de actividad requeridos al planificar y calcular el costo de su implementación y configuración. Pequeños cambios en el tiempo de actividad pueden tener un impacto en los costes del servicio, así como aumentar potencialmente la complejidad en la configuración. Otros servicios que pueden ser de interés en la página web de resumen del Acuerdo de nivel de servicio de Azure incluirían las **Maquinas virtuales**, **Cuentas de almacenamiento** y **Cosmos DB**.
+    **Nota**: Existen diferentes valores de tiempo de actividad para diferentes configuraciones e implementaciones de Azure SQL Database. Es importante que tenga claros los valores de tiempo de actividad requeridos al planificar y calcular el coste de su implementación y configuración. Pequeños cambios en el tiempo de actividad pueden tener un impacto en los costes del servicio, así como aumentar potencialmente la complejidad en la configuración. Otros servicios que pueden ser de interés en la página web de resumen del Acuerdo de nivel de servicio de Azure incluirían las **Maquinas virtuales**, **Cuentas de almacenamiento** y **Cosmos DB**.
 
 # Tarea 2: Calcular el tiempo de actividad del porcentaje del Acuerdo de nivel de servicio compuesto de la aplicación
 

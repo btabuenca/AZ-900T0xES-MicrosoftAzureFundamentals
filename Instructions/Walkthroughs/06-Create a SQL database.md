@@ -1,14 +1,14 @@
 ---
 wts:
-    title: '06 - Crear una base de datos SQL (5 minutos)'
-    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
+    title: '06 - Creación de una base de datos SQL (5 minutos)'
+    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
 ---
 
 # 06 - Crear una base de datos SQL
 
 En este tutorial, crearemos una base de datos SQL en Azure y luego consultaremos los datos en esa base de datos.
 
-# Tarea 1: Cree la base de datos (5 minutos)
+# Tarea 1: Crear una base de datos (5 minutos)
 
 En esta tarea, crearemos una base de datos SQL según la base de datos de muestra AdventureWorksLT. 
 
@@ -18,7 +18,7 @@ En esta tarea, crearemos una base de datos SQL según la base de datos de muestr
 
 3. En la pestaña **Datos básicos**, rellene esta información.  
 
-    | Valor | Valor | 
+    | Configuración | Valor | 
     | --- | --- |
     | Suscripción | **Elija su suscripción** |
     | Grupo de recursos | **myRGDb** (crear nuevo) |
@@ -27,40 +27,40 @@ En esta tarea, crearemos una base de datos SQL según la base de datos de muestr
 
 3. Junto a la lista desplegable **Servidor**, haga clic en **Crear nuevo** e introduzca esta información (sustituya **xxxx** en el nombre del servidor por letras y dígitos de modo que el nombre sea globalmente único). Haga clic en **Aceptar** cuando haya terminado.
 
-    | Valor | Valor | 
+    | Configuración | Valor | 
     | --- | --- |
     | Nombre del servidor | **sqlserverxxxx** (debe ser único) | 
     | Inicio de sesión del administrador del servidor | **sqluser** |
     | Contraseña | **Pa$$w0rd1234** |
-    | Ubicación | **Este de EE. UU.** |
+    | Ubicación | **(EE. UU.) Este de EE. UU.** |
     | Permitir que los servicios de Azure accedan al servidor| ***Seleccione la casilla*** |
     | | |
 
-   ![Captura de pantalla del panel Servidor y del panel Nuevo servidor con los campos rellenados según la tabla y los botones Revisar + crear y Aceptar resaltados.](../images/0501.png)
+   ![Captura de pantalla del panel Servidor y del panel Nuevo servidor con los campos rellenados según la tabla y los botones Revisar y crear y Aceptar resaltados.](../images/0501.png)
 
 4. Vaya a la pestaña **Redes** y configure los siguientes ajustes (deje los demás con sus valores predeterminados) 
 
-    | Valor | Valor | 
+    | Configuración | Valor | 
     | --- | --- |
-    | Método de conectividad | **Extremo público** |    
+    | Método de conectividad | **Punto de conexión público** |    
     | Permitir que los servicios y recursos de Azure accedan a este servidor | **Sí** |
     | Agregar la dirección IP actual del cliente | **No** |
     | | |
     
-   ![Captura de pantalla de la pestaña Redes de la hoja Crear base de datos SQL con la configuración seleccionada según la tabla y el botón Revisar + crear resaltado.](../images/0501b.png)
+   ![Captura de pantalla de la pestaña Redes de la hoja Crear base de datos SQL con la configuración seleccionada según la tabla y el botón Revisar y crear resaltado.](../images/0501b.png)
 
 5. Vaya a la pestaña **Configuración adicional**. Utilizaremos la base de datos de muestra AdventureWorksLT.
 
-    | Valor | Valor | 
+    | Configuración | Valor | 
     | --- | --- |
     | Use datos existentes | **Muestra** |
     | Intercalación | ***usar valor predeterminado*** |
     | Habilitar Advanced Data Security | **Ahora no** |
     | | |
 
-    ![Captura de pantalla de la pestaña Configuración adicional de la hoja Crear base de datos SQL con la configuración seleccionada según la tabla y el botón Revisar + crear resaltado.](../images/0501c.png)
+    ![Captura de pantalla de la pestaña Configuración adicional de la hoja Crear base de datos SQL con la configuración seleccionada según la tabla y el botón Revisar y crear resaltado.](../images/0501c.png)
 
-6. Haga clic en **Revisar + crear** y, a continuación, en **Crear** para implementar y aprovisionar el grupo de recursos, el servidor y la base de datos. La implementación puede tardar de 2 a 5 minutos.
+6. Haga clic en **Revisar y crear** y, a continuación, en **Crear** para implementar y aprovisionar el grupo de recursos, el servidor y la base de datos. La implementación puede tardar de 2 a 5 minutos.
 
 7. Vaya a la pestaña del recurso para buscar la base de datos SQL que creó. Puede que sea necesario actualizar.
 
@@ -72,7 +72,7 @@ En esta tarea, configuraremos el servidor SQL y ejecutaremos una consulta SQL.
 
     ![Captura de pantalla de la base de datos SQL y el servidor que se acaban de implementar.](../images/0502.png)
 
-2. Haga clic en la entrada **db1**, que representa la base de datos SQL que ha creado, y en **Editor de consultas (vista previa)**.
+2. Haga clic en la entrada **db1**, que representa la base de datos SQL que ha creado, y en **Editor de consultas (versión preliminar)**.
 
 3. Inicie la sesión como **sqluser** con la contraseña **Pa$$w0rd1234**.
 
@@ -86,11 +86,11 @@ En esta tarea, configuraremos el servidor SQL y ejecutaremos una consulta SQL.
 
 6. En la hoja **Información general** del servidor SQL, haga clic en **Establecer el firewall del servidor**.
 
-7. Haga clic en **Agregar IP de cliente** (barra de menú superior) para añadir la dirección IP referenciada en el error. Asegúrese de **guardar** los cambios. 
+7. Haga clic en **Agregar IP de cliente** (barra de menú superior) para agregar la dirección IP referenciada en el error. Asegúrese de **guardar** los cambios. 
 
     ![Captura de pantalla de la página de configuración del firewall del servidor SQL con la nueva regla de IP resaltada.](../images/0506.png)
 
-8. Vuelva a su base de datos SQL y a la página de inicio de sesión del **Editor de consultas (vista previa)**. Intente iniciar sesión de nuevo como **sqluser** con la contraseña **Pa$$w0rd1234**. Esta vez debería poder hacerlo. Tenga en cuenta que la implementación de la nueva regla de firewall puede tardar un par de minutos. 
+8. Vuelva a su base de datos SQL y a la página de inicio de sesión del **Editor de consultas (versión preliminar)**. Intente iniciar sesión de nuevo como **sqluser** con la contraseña **Pa$$w0rd1234**. Esta vez debería poder hacerlo. Tenga en cuenta que la implementación de la nueva regla de firewall puede tardar un par de minutos. 
 
 9. Una vez que inicie sesión correctamente, aparecerá el panel de consultas. Introduzca la siguiente consulta en el panel de editor.
 
@@ -109,4 +109,4 @@ En esta tarea, configuraremos el servidor SQL y ejecutaremos una consulta SQL.
 
 ¡Enhorabuena! Ha creado una base de datos SQL en Azure y ha consultado con éxito los datos en esa base de datos.
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

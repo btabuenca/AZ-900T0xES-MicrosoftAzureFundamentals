@@ -1,17 +1,17 @@
 ---
 wts:
-    title: '22 - Abrir una solicitud de soporte técnico (5 minutos)'
+    title: '22 - Abrir una solicitud de soporte técnico (5 min)'
     module: 'No se utiliza en el examen actual'
 ---
 # 22 - Abrir una solicitud de soporte técnico
 
-En este tutorial veremos las opciones de planes de soporte disponibles y luego practicaremos la creación y el seguimiento de una nueva solicitud de soporte técnico.
+En este tutorial veremos las opciones de planes de soporte disponibles y luego practicaremos la creación y la supervisión de una nueva solicitud de soporte técnico.
 
-# Tarea 1: Vea las opciones de plan de soporte disponibles y una solicitud de soporte técnico (5 minutos)
+# Tarea 1: Ver las opciones de plan de soporte disponibles y una solicitud de soporte técnico (5 min)
 
-1. Inicie sesión en el [**portal de Azure**](https://portal.azure.com).
+1. Inicie sesión en [**Azure Portal**](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Ayuda + soporte técnico**, luego seleccione **Planes de soporte**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Ayuda y soporte técnico**, después, seleccione **Planes de soporte**.
 
 3. Tómese unos minutos para revisar los diferentes planes de soporte técnico. Tenga en cuenta lo que se incluye en el plan **Básico**. 
 
@@ -33,7 +33,7 @@ En este tutorial veremos las opciones de planes de soporte disponibles y luego p
 
     **Nota:** Nos detendremos en este punto. ¿Entiende cómo enviar una solicitud técnica?
 
-# Tarea 2: Cree una solicitud de soporte técnico de facturación
+# Tarea 2: Crear una solicitud de soporte técnico de facturación
 
 1. Vuelva a la sección **Nueva solicitud de soporte técnico** y a la pestaña **Básico**. 
 
@@ -54,6 +54,6 @@ En este tutorial veremos las opciones de planes de soporte disponibles y luego p
 
 4. Haga clic en **Todas las solicitudes de soporte técnico**. Aquí es donde se muestran sus solicitudes de soporte técnico. También se envía un correo electrónico a su dirección de correo electrónico con detalles de la solicitud de soporte técnico.
 
-¡Enhorabuena! Ha visto las opciones de plan de soporte disponibles y ha practicado la creación y el seguimiento de una nueva solicitud de soporte técnico.
+¡Enhorabuena! Ha visto las opciones de plan de soporte disponibles y ha practicado la creación y la supervisión de una nueva solicitud de soporte técnico.
 
 **Nota**: Haga clic para obtener más información sobre la [**creación de un vale de soporte de Azure**](https://azure.microsoft.com/es-es/support/create-ticket).

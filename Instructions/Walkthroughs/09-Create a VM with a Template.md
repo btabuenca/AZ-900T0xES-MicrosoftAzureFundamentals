@@ -3,11 +3,11 @@ wts:
     title: '09 - Crear una máquina virtual con una plantilla (10 minutos)'
     module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
-# 09 - Crear una máquina virtual con una plantilla
+# 09: Crear una máquina virtual con una plantilla
 
 En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las capacidades de supervisión.
 
-# Tarea 1: Explorar la galería y localizar una plantilla (10 minutos)
+# Tarea 1: Explorar la galería y localizar una plantilla (10 minutos)
 
 En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una plantilla que crea una máquina virtual. 
 
@@ -35,16 +35,16 @@ En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una p
     |----|----|
     | Suscripción | **Elija su suscripción**|
     | Grupo de recursos | **myRGTemplate** (crear nuevo) |
-    | Ubicación | **Este de EE. UU.** |
+    | Ubicación | **(EE. UU.) Este de EE. UU.** |
     | Nombre del usuario administrador | **azureuser** |
     | Contraseña del administrador | **Pa$$w0rd1234** |
     | Prefijo de etiqueta DNS | **myvmtemplate*xxxx*** |
     | Versión del sistema operativo Windows | **2019-Centro de datos** |
     | | |
     
-    **Nota**: No hay coste asociado con esta plantilla.
+    ** Nota: No hay coste asociado con esta plantilla.
 
-9. Haga clic en **Revisar + Crear**.
+9. Haga clic en **Revisar y crear**.
 
 10. Supervise su implementación. 
 
@@ -62,7 +62,7 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
     **Nota**: El plazo de supervisión se puede ajustar de una hora a 30 días.
 
-4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)** y **Bytes de disco (total)**. 
+4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)**y **Bytes de disco (total)**. 
 
     ![Captura de pantalla de los cuadros de supervisión de máquinas virtuales.](../images/0903.png)
 
@@ -72,8 +72,8 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
 7. Haga clic en el **Registro de actividades** (panel izquierdo). Los registros de actividad registran eventos tales como la creación o modificación de recursos. 
 
-8. Haga clic en **Añadir filtro** y experimente buscando diferentes tipos de eventos y operaciones. 
+8. Haga clic en **Agregar filtro** y experimente buscando diferentes tipos de eventos y operaciones. 
 
-    ![Captura de pantalla de la página Añadir filtros con el tipo de evento seleccionado.](../images/0904.png)
+    ![Captura de pantalla de la página Agregar filtros con el tipo de evento seleccionado.](../images/0904.png)
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

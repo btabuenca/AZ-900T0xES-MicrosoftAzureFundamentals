@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '11 - Crear una VM con la CLI (10 minutos)'
+    title: '11 - Crear una VM con la CLI (10 min)'
     module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
 # 11 - Crear una VM con la CLI
 
 En este tutorial, configuraremos Cloud Shell, utilizaremos la CLI de Azure para crear un grupo de recursos y una máquina virtual, y revisaremos las recomendaciones de Azure Advisor. 
 
-# Tarea 1: Configurar el Cloud Shell (10 minutos)
+# Tarea 1: Configurar el Cloud Shell (10 min)
 
 En esta tarea, configuraremos Cloud Shell. 
 
@@ -21,7 +21,7 @@ En esta tarea, configuraremos Cloud Shell.
 
 4. Cuando se le solicite seleccionar **Bash** o **PowerShell**, seleccione **Bash**. 
 
-5. Cuando se le solicite, haga clic en **Crear almacenamiento** y espere a que Azure Cloud Shell se inicialice. 
+5. Cuando se le solicite, haga clic en **Crear almacenamiento**y espere a que Azure Cloud Shell se inicialice. 
 
 # Tarea 2: Creación de un grupo de recursos y una máquina virtual.
 
@@ -55,7 +55,7 @@ En esta tarea, usaremos la CLI de Azure para crear un grupo de recursos y una m�
     --admin-password Pa$$w0rd1234
     ```
 
-    >**Nota**: Si está utilizando la línea de comandos en un equipo Windows, reemplace el carácter de barra diagonal inversa (`\`) con el carácter de intercalación (`^`).
+    >**Nota**: Si utiliza la línea de comandos en un equipo Windows, reemplace el carácter de barra diagonal inversa ("\") con el carácter de intercalación ("^").
     
     **Nota**: El comando tardará entre 2 y 3 minutos en completarse. El comando creará una máquina virtual y varios recursos asociados, como recursos de seguridad, almacenamiento y redes. No continúe con el siguiente paso hasta que se complete la implementación de la máquina virtual. 
 
@@ -92,7 +92,7 @@ En esta tarea, practicaremos la ejecución de comandos de CLI desde Cloud Shell.
     az vm show --resource-group myRGCLI --name myVMCLI --show-details --output table 
     ```
 
-# Tarea 4 Revise las recomendaciones de Azure Advisor
+# Tarea 4: Revisar las recomendaciones de Azure Advisor
 
 En esta tarea, revisaremos las recomendaciones de Azure Advisor.
 
@@ -100,7 +100,7 @@ En esta tarea, revisaremos las recomendaciones de Azure Advisor.
 
 1. Desde la hoja **Todos los servicios**, busque y seleccione **Advisor**. 
 
-2. Sobre la hoja **Advisor**, seleccione **Visión general**. Las recomendaciones de aviso están agrupadas por Alta disponibilidad, Seguridad, Rendimiento y Coste. 
+2. En la hoja **Advisor**, seleccione **Visión general**. Las recomendaciones de aviso están agrupadas por Alta disponibilidad, Seguridad, Rendimiento y Coste. 
 
     ![Captura de pantalla de la página Visión general de Advisor. ](../images/1103.png)
 
@@ -118,4 +118,4 @@ En esta tarea, revisaremos las recomendaciones de Azure Advisor.
 
 ¡Enhorabuena! Ha configurado Cloud Shell, ha creado una máquina virtual con la CLI de Azure, ha practicado con los comandos de la CLI de Azure y ha visto las recomendaciones de Advisor.
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

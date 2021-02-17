@@ -1,15 +1,15 @@
 ---
 wts:
     title: '01 - Crear una máquina virtual en el portal (10 minutos)'
-    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
+    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
 ---
 # 01 - Crear una máquina virtual en el portal
 
-En este tutorial crearemos una máquina virtual en el Azure Portal, nos conectaremos a dicha máquina virtual, instalaremos la función del servidor web y la probaremos. 
+En este tutorial crearemos una máquina virtual en Azure Portal, nos conectaremos a dicha máquina virtual, instalaremos la función del servidor web y la probaremos. 
 
 **Nota**: Tómese el tiempo durante este tutorial para hacer clic y leer los iconos informativos. 
 
-# Tarea 1: Crear la máquina virtual (10 minutos)
+# Tarea 1: Crear una máquina virtual (10 minutos)
 
 En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - Gen1. 
 
@@ -25,11 +25,11 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Grupo de recursos | **myRGVM** (crear nueva) |
     | Nombre de la máquina virtual | **myVm** |
     | Ubicación | **Este de EE. UU.**|
-    | Imagen | **Windows Server 2019 Datacenter - Gen 1**|
+    | Imagen | ** Windows Server 2019 Datacenter - Gen 1**|
     | Tamaño | Estándar D2s, v3|
     | Nombre de usuario de la cuenta de administrador | **azureuser** |
     | Contraseña de cuenta de administrador | **Pa$$w0rd1234**|
-    | Reglas del puerto de entrada - Permitir puertos seleccionados | **RDP (3389)** y **HTTP (80)**|
+    | Reglas del puerto de entrada: Permitir puertos seleccionados | **RDP (3389)** y **HTTP (80)**|
     | | |
 
 4. Cambie a la pestaña Redes y busque **Seleccionar puertos de entrada:**
@@ -39,7 +39,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Seleccionar puertos de entrada | **HTTP (80), RDP (3389)**|
     | | |
 
-    **Nota**: Compruebe que tanto el puerto 80 como el puerto 3389 están seleccionados
+    **Nota** - : Compruebe que tanto el puerto 80 como el puerto 3389 están seleccionados
 
 5. Vaya a la pestaña Administración y, en la sección **Supervisión**, seleccione la siguiente configuración:
 
@@ -48,7 +48,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Diagnóstico de arranque | **Deshabilitar**|
     | | |
 
-6. Deje los valores predeterminados restantes y luego haga clic en el botón **Revisar + crear**, en la parte inferior de la página.
+6. Deje los valores predeterminados restantes y luego haga clic en el botón **Revisar y crear**, en la parte inferior de la página.
 
 7. Una vez que se supere la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede demorar entre cinco y siete minutos.
 
@@ -115,4 +115,4 @@ En esta tarea, instale el rol Servidor web en el servidor y asegúrese de que se
 ¡Enhorabuena! Creó un servidor web al que se puede acceder a través de su dirección IP pública. Si tuviera una aplicación web para hospedar, podría implementar archivos de aplicación en la máquina virtual y hospedarlos para acceso público en la máquina virtual implementada.
 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervisee las **Notificaciones** para comprobar que la eliminación se haya completado correctamente. 
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para comprobar que la eliminación se haya completado correctamente. 

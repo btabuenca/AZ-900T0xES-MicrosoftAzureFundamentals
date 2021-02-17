@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '04 - Creación de una red virtual (20 minutos)'
+    title: '04 - Crear una red virtual (20 minutos)'
     module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
 ---
-# 04 - Crear una red virtual
+# 04: Crear una red virtual
 
 En este tutorial crearemos una red virtual, implementaremos dos máquinas virtuales en esa red virtual y luego las configuraremos para permitir que una máquina virtual haga ping a la otra dentro de esa red.
 
@@ -13,7 +13,7 @@ En esta tarea, crearemos una red virtual.
 
 1. Inicie sesión en Azure Portal en <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Redes virtuales** y, luego, haga clic en **Añadir**. 
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Redes virtuales** y, luego, haga clic en **Agregar**. 
 
 3. En la hoja **Crear red virtual** complete lo siguiente (deje los valores predeterminados para todo lo demás):
 
@@ -23,14 +23,14 @@ En esta tarea, crearemos una red virtual.
     | Espacio de direcciones |**10.1.0.0/16** |
     | Suscripción | **Seleccione su suscripción** |
     | Grupo de recursos | **myRGVNet** (crear nuevo) |
-    | Ubicación | **Este de EE. UU.** |
+    | Ubicación | **(EE. UU.) Este de EE. UU.** |
     | Subred - Nombre | **predeterminado** |
     | Rango de dirección de subred | **10.1.0.0/24** |
 
     ![Captura de pantalla del paso "Básico" de la hoja Crear red virtual con los campos predeterminados.](../images/0301a.png)
     ![Captura de pantalla del paso "Dirección IP" de la hoja Crear red virtual con los campos predeterminados.](../images/0301b.png)
 
-5. Haga clic en el botón **Revisar + Crear**. Asegúrese de que la validación sea exitosa.
+5. Haga clic en el botón **Revisar y crear**. Asegúrese de que la validación sea exitosa.
 
 6. Haga clic en el botón **Crear** para implementar la red virtual. 
 
@@ -40,7 +40,7 @@ En esta tarea, crearemos una red virtual.
 
 En esta tarea crearemos dos máquinas virtuales en la red virtual. 
 
-1. Desde la hoja **Todos los servicios**, busque **Maquinas virtuales** y luego haga clic en **Añadir**. 
+1. Desde la hoja **Todos los servicios**, busque **Maquinas virtuales** y luego haga clic en **Agregar**. 
 
 2. En la pestaña **Datos básicos**, complete la siguiente información (deje los valores predeterminados para todo lo demás):
 
@@ -49,7 +49,7 @@ En esta tarea crearemos dos máquinas virtuales en la red virtual.
    | Suscripción | **Elija su suscripción**  |
    | Grupo de recursos |  **myRGVNet** |
    | Nombre de la máquina virtual | **vm1**|
-   | Región | **Este de EE. UU.** |
+   | Región | **(EE. UU.) Este de EE. UU.** |
    | Imagen | **Centro de datos de Windows Server 2019** |
    | Nombre de usuario| **azureuser** |
    | Contraseña| **Pa$$w0rd1234** |
@@ -64,7 +64,7 @@ En esta tarea crearemos dos máquinas virtuales en la red virtual.
    | Red virtual | **vnet1** |
    |||
 
-4. Haga clic en **Revisar + Crear**. Después de que la validación sea exitosa, haga clic en **Crear**. Los tiempos de implementación pueden variar, pero generalmente la implementación demora entre tres y seis minutos.
+4. Haga clic en **Revisar y crear**. Después de que la validación sea exitosa, haga clic en **Crear**. Los tiempos de implementación pueden variar, pero generalmente la implementación demora entre tres y seis minutos.
 
 5. Supervise su implementación, pero continúe con el siguiente paso. 
 
@@ -130,4 +130,4 @@ En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtua
 
 ¡Enhorabuena! Ha configurado dos máquinas virtuales y las ha implementado en una red virtual. También ha configurado el firewall de Windows para que una de las máquinas virtuales permita las solicitudes de ping entrantes. 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

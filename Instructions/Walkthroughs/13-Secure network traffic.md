@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '13 - Tráfico de red segura (10 minutos)'
+    title: '13 - Tráfico de red segura (10 min)'
     module: 'Módulo 04: Descripción de las características de seguridad general y de seguridad de red'
 ---
 # 13 - Tráfico de red segura
 
 En este tutorial, configuraremos un grupo de seguridad de red.
 
-# Tarea 1: Crear una máquina virtual (10 minutos)
+# Tarea 1: Crear una máquina virtual (10 min)
 
 En esta tarea, crearemos una máquina virtual de Windows Server 2019 Datacenter. 
 
@@ -37,14 +37,14 @@ En esta tarea, crearemos una máquina virtual de Windows Server 2019 Datacenter.
     | Grupo de seguridad de red NIC | **Ninguna**|
     | | |
 
-5. Cambie a la pestaña **Administración** y en la sección **Supervisión**, seleccione la siguiente configuración:
+5. Vaya a la pestaña **Administración** y, en la sección **Supervisión**, seleccione la siguiente configuración:
 
     | Configuración | Valores |
     | -- | -- |
     | Diagnóstico de arranque | **Deshabilitar**|
     | | |
 
-6. Deje los valores predeterminados restantes y luego haga clic en el botón **Revisar + crear**, en la parte inferior de la página.
+6. Deje los valores predeterminados restantes y luego haga clic en el botón **Revisar y crear**, en la parte inferior de la página.
 
 7. Una vez que se supere la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede tardar unos cinco minutos.
 
@@ -60,7 +60,7 @@ En esta tarea, crearemos una máquina virtual de Windows Server 2019 Datacenter.
 
 En esta tarea, crearemos un grupo de seguridad de red y lo asociaremos con la interfaz de red.
 
-1. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de seguridad de red** y luego haga clic en **+ Añadir**
+1. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de seguridad de red** y luego haga clic en **+ Agregar**
 
 2. Sobre la pestaña **Datos básicos** de la hoja **Crear grupo de seguridad de red**, especifique la siguiente configuración.
 
@@ -69,10 +69,10 @@ En esta tarea, crearemos un grupo de seguridad de red y lo asociaremos con la in
     | Suscripción | **Elija su suscripción** |
     | Grupo de recursos | **myRGSecure** |
     | Nombre | **myNSGSecure** |
-    | Región | **Este de EE. UU.**  |
+    | Región | **(EE. UU.) Este de EE. UU.**  |
     | | |
 
-3. Haga clic en **Revisar + crear** y luego, después de la validación, haga clic en  **Crear**.
+3. Haga clic en **Revisar y crear** y luego, después de la validación, haga clic en  **Crear**.
 
 4. Después de crear el NSG, haga clic en **Ir al recurso**.
 
@@ -94,7 +94,7 @@ En esta tarea, permitiremos el tráfico RDP a la máquina virtual configurando u
 
 4. En la hoja de la máquina virtual, desplácese hacia abajo hasta la sección **Configuración**, haga clic en **Redes** y observe las reglas de entrada para el grupo de seguridad de red **myNSGSecure (conectado a la interfaz de red: myVMNic)** niega todo el tráfico entrante, excepto el tráfico dentro de la red virtual y las sondas de equilibrador de carga.
 
-5. Sobre la pestaña **Reglas de puerto de entrada**, haga clic en **Agregar regla de puerto de entrada** . Haga clic en **Añadir** cuando haya terminado. 
+5. Sobre la pestaña **Reglas de puerto de entrada**, haga clic en **Agregar regla de puerto de entrada** . Haga clic en **Agregar** cuando haya terminado. 
 
     | Configuración | Valor |
     | -- | -- |
@@ -108,7 +108,7 @@ En esta tarea, permitiremos el tráfico RDP a la máquina virtual configurando u
     | Nombre | **AllowRDP** |
     | | |
 
-6. Espere a que se aprovisione la regla e intente nuevamente RDP en la máquina virtual. Esta vez debería tener éxito. Recuerde que el usuario es **azureuser** y la contraseña es **Pa$$w0rd1234**.
+6. Espere a que se aprovisione la regla y vuelva a intentar el RDP en la máquina virtual. Esta vez debería tener éxito. Recuerde que el usuario es **azureuser** y la contraseña es **Pa$$w0rd1234**.
 
 # Tarea 4: Configurar una regla de puerto de seguridad saliente para denegar el acceso a Internet
 
@@ -124,11 +124,11 @@ En esta tarea, crearemos una regla de puerto saliente NSG que denegará el acces
 
 4. En Azure Portal, vuelva a la hoja de la máquina virtual **SimpleWinVM**. 
 
-5. Debajo de **Configuraciones**, haga clic en **Redes** y, a continuación, en **Reglas de puerto de salida**.
+5. En **Configuración**, haga clic en **Redes** y, a continuación, en **Reglas de puerto de salida**.
 
-6. Observe que hay una regla, **AllowInternetOutbound**. Esta es una regla predeterminada y no se puede eliminar. 
+6. Verá que hay una regla, **AllowInternetOutbound**. Esta es una regla predeterminada y no se puede eliminar. 
 
-7. Haga clic en **Agregar regla de puerto de salida**, a la derecha del grupo de seguridad de red **myNSGSecure (conectado a la interfaz de red: myVMNic)** y configure una nueva regla de seguridad saliente con una prioridad más alta que denegará el tráfico de Internet. Seleccione **Añadir** cuando haya acabado. 
+7. Haga clic en **Agregar regla de puerto de salida**, a la derecha del grupo de seguridad de red **myNSGSecure (conectado a la interfaz de red: myVMNic)** y configure una nueva regla de seguridad saliente con una prioridad más alta que denegará el tráfico de Internet. Seleccione **Agregar** cuando haya acabado. 
 
     | Configuración | Valor |
     | -- | -- |
@@ -138,13 +138,13 @@ En esta tarea, crearemos una regla de puerto saliente NSG que denegará el acces
     | Etiqueta de servicio de destino | **Internet** |
     | Rangos de puertos de destino | **\*** |
     | Protocolo | **TCP** |
-    | Acción | **Denegar** |
+    | Acción | **Deny** |
     | Prioridad | **4000** |
-    | Nombre | **DenegarInternet** |
+    | Nombre | **DenyInternet** |
     | | |
 
 8. Vuelva a su sesión RDP. 
 
 9. Visite **https://www.microsoft.com**. La página no debe mostrarse. Es posible que deba trabajar a través de ventanas emergentes de seguridad mejoradas de IE adicionales.  
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

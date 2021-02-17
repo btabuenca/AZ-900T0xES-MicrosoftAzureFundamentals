@@ -1,19 +1,19 @@
 ---
 wts:
-    title: '14 - Administrar el acceso con RBAC (5 minutos)'
+    title: '14 - Administrar el acceso con RBAC (5 min)'
     module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 14 - Administrar el acceso con RBAC
+# 14: Administrar el acceso con RBAC
 
 En este tutorial asignaremos roles y veremos registros de actividad. 
 
-# Tarea 1: Vea y asigne roles (5 minutos)
+# Tarea 1: Ver y asignar roles (5 min)
 
 En esta tarea, asignaremos el rol de colaborador de la máquina virtual. 
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos**, luego haga clic en **+ Añadir**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos**, luego haga clic en **+ Agregar**.
 
 3. Cree un grupo de recursos nuevo. Haga clic en **Crear** cuando haya acabado. 
 
@@ -21,10 +21,10 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
     | -- | -- |
     | Suscripción | **Elija su suscripción** |
     | Grupo de recursos | **miRGRBAC** |
-    | Región | **Este de EE. UU.** |
+    | Región | **(EE. UU.) Este de EE. UU.** |
     | | |
 
-4. Cree con **Revisar + crear** y luego haga clic en **Crear**.
+4. Para crear, use **Revisar y crear** y luego haga clic en **Crear**.
 
 5. Use **Actualizar** en la página del grupo de recursos y haga clic en la entrada que representa el grupo de recursos recién creado.
 
@@ -34,10 +34,10 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
 
 7. Cambie a la pestaña **Asignaciones de roles** en la hoja **miRGRBAC - Control de acceso (IAM)**, haga clic en **+ Agregar** y, luego, haga clic en **Agregar asignación de roles**. Asigne el rol de colaborador de la máquina virtual a su cuenta de usuario y, luego, haga clic en **Guardar**. 
 
-    | Ajuste | Valor |
+    | Configuración | Valor |
     | -- | -- |
     | Rol | **Colaborador de la máquina virtual** |
-    | Asignar acceso a | **Usuario, grupo o entidad de servicio** |
+    | Asignar acceso a | **usuario, grupo o entidad de servicio** |
     | Seleccionar | su cuenta de usuario |
     | | |
 
@@ -65,6 +65,6 @@ En esta tarea, veremos el registro de actividad para comprobar la asignación de
 
 ¡Enhorabuena! Ha asignado roles y ha visto registros de actividad. 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
 
 

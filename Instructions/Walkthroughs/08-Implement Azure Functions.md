@@ -7,7 +7,7 @@ wts:
 
 En este tutorial, crearemos una aplicación de funciones para mostrar un mensaje de saludo cuando haya una solicitud HTTP. 
 
-# Tarea 1: Crear una aplicación de funciones (5 minutos)
+# Tarea 1: Crear una aplicación Functions (5 minutos)
 
 En esta tarea, crearemos un aplicación de funciones.
 
@@ -28,9 +28,9 @@ En esta tarea, crearemos un aplicación de funciones.
     | Región | **Este de EE. UU.** |
     | | |
 
-    **Nota**: Recuerde cambiar **xxxx** de modo que sea un **nombre de la aplicación de función** único
+    **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre de aplicación de Functions** único
 
-1. Haga clic en **Revisar + Crear** y, después de una correcta validación, haga clic en **Crear** para empezar a aprovisionar e implementar su nueva aplicación de funciones de Azure.
+1. Haga clic en **Revisar y crear** y, después de una correcta validación, haga clic en **Crear** para empezar a aprovisionar e implementar su nueva aplicación de funciones de Azure.
 
 1. Espere la notificación de que el recurso ha sido creado.
 
@@ -44,21 +44,21 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
 1. Sobre la hoja **Aplicación de funciones**, haga clic en la aplicación de funciones recién creada. 
 
-1. En la hoja de la aplicación de funciones, en la sección **Funciones**, haga clic en **Funciones** y luego en **+ Añadir**.
+1. En la hoja de la aplicación de funciones, en la sección **Funciones**, haga clic en **Funciones** y luego en **+ Agregar**.
 
     ![Captura de pantalla del paso elegir un entorno de desarrollo en Azure Function para el panel de inicio dot net dentro de Azure Portal. Se resaltan los elementos de visualización para crear una nueva función en el portal. Los elementos resaltados son expandir la aplicación de funciones, agregar nuevas funciones, en el portal y el botón continuar.](../images/0702.png)
 
-1. Sobre la pestaña **Plantillas** de la hoja **Nueva función**, haga clic en **Desencadenador HTTP**. 
+1. En la pestaña **Plantillas** de la hoja **Nueva función**, haga clic en **Desencadenador HTTP**. 
 
     ![Captura de pantalla del paso Crear una función en Azure Functions para el panel de inicio dot net dentro de Azure Portal. La tarjeta de desencadenador HTTP se resalta para ilustrar los elementos de visualización utilizados para agregar un nuevo webhook a una función de Azure.](../images/0702a.png)
 
-1. Sobre la pestaña **Detalles** de la hoja **Nueva función**, acepte el nombre predeterminado **Nueva función** y el **Nivel de autorización** y luego haga clic en **Crear función**. 
+1. En la pestaña **Detalles** de la hoja **Nueva función**, acepte el nombre predeterminado **Nueva función** y el **Nivel de autorización** y luego haga clic en **Crear función**. 
 
     ![Captura de pantalla del paso Crear una función en Azure Functions para el panel de inicio dot net dentro de Azure Portal. El botón webhook + API y el botón Crear se resaltan para ilustrar los elementos de visualización que se usan para agregar un nuevo webhook a una función de Azure.](../images/0703.png)
 
 1. En la hoja **HttpTrigger1**, en la sección **Desarrollador**, haga clic en **Código + Prueba**. 
 
-1. En la hoja **HttpTrigger1 \|** En la hoja **Código + prueba**, revise el código generado automáticamente y tenga en cuenta que el código está diseñado para ejecutar una solicitud HTTP y registrar información. Además, observe que la función devuelve un mensaje de saludo con un nombre. 
+1. En la hoja **HttpTrigger1 \| **En la hoja **Código + prueba**, revise el código generado automáticamente y tenga en cuenta que el código está diseñado para ejecutar una solicitud HTTP y registrar información. Además, observe que la función devuelve un mensaje de saludo con un nombre. 
 
     ![Captura de pantalla del código de función. El mensaje de saludo está resaltado.](../images/0704.png)
 
@@ -78,10 +78,10 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
     ![Captura de pantalla de una URL de función resaltada y un nombre de usuario de ejemplo adjunto en la barra de direcciones de un explorador web. El mensaje de saludo y el nombre de usuario también se resaltan para ilustrar el resultado de la función en la ventana principal del explorador.](../images/0707.png)
 
-1. Cuando se ejecuta su función, se rastrea cada invocación. Para ver el seguimiento en Azure Portal, vuelva a **HttpTrigger1 \|** Hoja **Código + Prueba** y haga clic en **Supervisar**.
+1. Cuando se ejecuta su función, se rastrea cada invocación. Para ver el seguimiento en Azure Portal, vuelva a **HttpTrigger1 \| **Hoja **Código + Prueba** y haga clic en **Supervisar**.
 
     ![Captura de pantalla de un registro de información de seguimiento resultante de ejecutar la función dentro del editor de funciones en Azure Portal.](../images/0709.png) 
 
 ¡Enhorabuena! Ha creado una aplicación de funciones para mostrar un mensaje de saludo cuando hay una solicitud HTTP. 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

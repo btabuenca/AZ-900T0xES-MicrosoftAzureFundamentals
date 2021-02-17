@@ -21,15 +21,15 @@ En esta tarea, crearemos un centro de IoT.
     |--|--|
     | Suscripción | **Elija su suscripción** |
     | Grupo de recursos |  **myRGIoT** (crear nuevo)|
-    | Región | **Este de EE. UU.** |
+    | Región | **Este de EE. UU.** |
     | Nombre del centro de IoT | **my-hub-groupxxxx** |
     | | |
 
-    **Nota**: Recuerde cambiar **xxxx** de modo que sea un **nombre de IoT Hub** único
+    **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre de centro de IoT** único
 
-4. Vaya a la pestaña **Administración**, use la lista desplegable para configurar **Precios y nivel de escala** en **S1: nivel Estándar**.
+4. Vaya a la pestaña **Administración**, use la lista desplegable para configurar **Precios y nivel de escala** en **S1: **
 
-5. Haga clic en el botón **Revisar + Crear**.
+5. Haga clic en el botón **Revisar y crear**.
 
 6. Haga clic en el botón **Crear** para comenzar a crear su nueva instancia de Azure IoT Hub.
 
@@ -43,9 +43,9 @@ En esta tarea, agregaremos un dispositivo IoT al centro de IoT.
 
 	![Captura de pantalla de la implementación en curso y notificaciones de implementación exitosa en Azure Portal.](../images/0601.png)
 
-2. Para añadir un nuevo dispositivo IoT, desplácese hacia abajo hasta la sección **Exploradores** y haga clic en **Dispositivos IoT**. Luego, haga clic en **+ Nuevo**.
+2. Para agregar un nuevo dispositivo IoT, desplácese hacia abajo hasta la sección **Exploradores** y haga clic en **Dispositivos IoT**. Luego, haga clic en **+ Nuevo**.
 
-	![Captura de pantalla del panel de dispositivos IoT, resaltado dentro de la hoja de navegación del centro IoT, en Azure Portal. El botón Nuevo se resalta para ilustrar cómo añadir una nueva identidad del dispositivo IoT al centro de IoT.](../images/0602.png)
+	![Captura de pantalla del panel de dispositivos IoT, resaltado dentro de la hoja de navegación del centro IoT, en Azure Portal. El botón Nuevo se resalta para ilustrar cómo agregar una nueva identidad del dispositivo IoT al centro de IoT.](../images/0602.png)
 
 3. Proporcione un nombre para su nuevo dispositivo IoT, **myRaspberryPi**, y haga clic en el botón **Guardar**. Esto creará una nueva identidad del dispositivo IoT en su Azure IoT Hub.
 
@@ -82,4 +82,4 @@ En esta tarea probaremos nuestro dispositivo usando el simulador de Raspberry Pi
 
 ¡Enhorabuena! Ha configurado Azure IoT Hub para recopilar datos del sensor de un dispositivo IoT.
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

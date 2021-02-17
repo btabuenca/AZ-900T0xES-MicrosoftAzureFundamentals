@@ -3,7 +3,7 @@ wts:
     title: '02 - Crear una aplicación web (10 minutos)'
     module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
-# 02 - Crear una aplicación web
+# 02 - Crear una aplic. web
 
 En este tutorial, crearemos una nueva aplic. web que ejecute un contenedor Docker. El contenedor muestra un mensaje de bienvenida. 
 
@@ -29,7 +29,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | Región | **Este de EE. UU.** (ignore cualquier advertencia de disponibilidad del plan de servicio) |
     | | |	
     
-    **Nota**: Recuerde cambiar **xxxx** de modo que sea un **nombre** único
+    **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre** único
 
 4. Haga clic en **Siguiente > Docker** y configure la información del contenedor. El comando de inicio es opcional y no es necesario en este ejercicio. 
 
@@ -38,13 +38,13 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | Configuración | Valor |
     | -- | -- |
     | Opciones | **Contenedor individual** |
-    | Fuente de la imagen | **Docker Hub** |
+    | Origen de imagen | **Docker Hub** |
     | Tipo de acceso | **Pública** |
     | Imagen y etiqueta | **microsoft/aci-helloworld** |
     | | |	
 
 
-5. Haga clic en **Revisar + crear**, y luego haga clic en **Crear**. 
+5. Haga clic en **Revisar y crear**, y luego haga clic en **Crear**. 
 
 # Tarea 2: Probar la aplicación web
 
@@ -64,5 +64,5 @@ En esta tarea probaremos la aplicación web.
 
 5. Vuelva a la hoja de **Información general** de su aplicación web y tenga en cuenta que incluye varios gráficos. Si repite el paso 4 varias veces, debería poder ver la telemetría correspondiente en los gráficos. Esto incluye el número de solicitudes y el tiempo de respuesta promedio. 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
 
