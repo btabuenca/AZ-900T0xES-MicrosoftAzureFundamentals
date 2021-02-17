@@ -1,7 +1,7 @@
 ---
 wts:
     title: '03 - Implementar Azure Container Instances (10 minutos)'
-    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 
 # 03 - Implementación de Azure Container Instances

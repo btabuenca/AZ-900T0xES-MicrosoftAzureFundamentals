@@ -25,9 +25,9 @@ En esta tarea, crearemos un centro de IoT.
     | Nombre del centro de IoT | **my-hub-groupxxxx** |
     | | |
 
-    **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre de centro de IoT** único
+    **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre de centro de IoT** único
 
-4. Vaya a la pestaña **Administración**, use la lista desplegable para configurar **Precios y nivel de escala** en **S1: **
+4. Vaya a la pestaña **Administración**, use la lista desplegable para configurar **Precios y nivel de escala** en **S1:**
 
 5. Haga clic en el botón **Revisar y crear**.
 

@@ -1,7 +1,7 @@
 ---
 wts:
     title: '05 - Creación de almacenamiento de blobs (5 minutos)'
-    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 # 05 - Crear almacenamiento de blobs
 
@@ -28,7 +28,7 @@ En esta tarea crearemos una nueva cuenta de almacenamiento.
     | Replicación | **Almacenamiento con redundancia local (LRS)** |
     | | |
 
-    **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre de cuenta de almacenamiento** único
+    **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre de cuenta de almacenamiento** único
 
 5. Haga clic en **Revisar y crear** para revisar la configuración de su cuenta de almacenamiento y permitir que Azure valide la configuración. 
 
@@ -59,7 +59,7 @@ En esta tarea, crearemos un contenedor de blobs y subiremos un archivo de blobs.
 
 5. Busque un archivo en su equipo local. 
 
-    **Nota**: Puede crear un archivo ".txt" vacío o usar cualquier archivo existente. Considere elegir un archivo de tamaño pequeño para minimizar el tiempo de carga.
+    **Nota**: Puede crear un archivo `.txt` vacío o usar cualquier archivo existente. Considere elegir un archivo de tamaño pequeño para minimizar el tiempo de carga.
 
 6. Haga clic en la flecha **Avanzado**, deje los valores predeterminados pero revise las opciones disponibles y luego haga clic en **Cargar**.
 
@@ -77,7 +77,7 @@ En esta tarea, crearemos un contenedor de blobs y subiremos un archivo de blobs.
 
 3. En la hoja de la cuenta de almacenamiento, desplácese hacia abajo hasta la sección **Supervisión** y haga clic en **Información**. Observe que hay información sobre Fallas, Rendimiento, Disponibilidad y Capacidad. Su información será diferente.
 
-    ![Captura de pantalla de la página Insights de la cuenta de almacenamiento.](../images/0403.PNG)
+    ![Captura de pantalla de la página Insights de la cuenta de almacenamiento.](../images/0403.png)
 
 ¡Enhorabuena! Creó una cuenta de almacenamiento y luego trabajó con blobs de almacenamiento.
 

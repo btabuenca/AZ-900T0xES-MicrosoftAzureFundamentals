@@ -28,7 +28,7 @@ En esta tarea, crearemos un aplicación de funciones.
     | Región | **Este de EE. UU.** |
     | | |
 
-    **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre de aplicación de Functions** único
+    **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre de aplicación de Functions** único
 
 1. Haga clic en **Revisar y crear** y, después de una correcta validación, haga clic en **Crear** para empezar a aprovisionar e implementar su nueva aplicación de funciones de Azure.
 
@@ -58,7 +58,7 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
 1. En la hoja **HttpTrigger1**, en la sección **Desarrollador**, haga clic en **Código + Prueba**. 
 
-1. En la hoja **HttpTrigger1 \| **En la hoja **Código + prueba**, revise el código generado automáticamente y tenga en cuenta que el código está diseñado para ejecutar una solicitud HTTP y registrar información. Además, observe que la función devuelve un mensaje de saludo con un nombre. 
+1. En la hoja **HttpTrigger1 \|** En la hoja **Código + prueba**, revise el código generado automáticamente y tenga en cuenta que el código está diseñado para ejecutar una solicitud HTTP y registrar información. Además, observe que la función devuelve un mensaje de saludo con un nombre. 
 
     ![Captura de pantalla del código de función. El mensaje de saludo está resaltado.](../images/0704.png)
 
@@ -78,7 +78,7 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
     ![Captura de pantalla de una URL de función resaltada y un nombre de usuario de ejemplo adjunto en la barra de direcciones de un explorador web. El mensaje de saludo y el nombre de usuario también se resaltan para ilustrar el resultado de la función en la ventana principal del explorador.](../images/0707.png)
 
-1. Cuando se ejecuta su función, se rastrea cada invocación. Para ver el seguimiento en Azure Portal, vuelva a **HttpTrigger1 \| **Hoja **Código + Prueba** y haga clic en **Supervisar**.
+1. Cuando se ejecuta su función, se rastrea cada invocación. Para ver el seguimiento en Azure Portal, vuelva a **HttpTrigger1 \|** Hoja **Código + Prueba** y haga clic en **Supervisar**.
 
     ![Captura de pantalla de un registro de información de seguimiento resultante de ejecutar la función dentro del editor de funciones en Azure Portal.](../images/0709.png) 
 

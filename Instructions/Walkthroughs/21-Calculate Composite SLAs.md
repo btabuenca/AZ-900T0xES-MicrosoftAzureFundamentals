@@ -1,7 +1,7 @@
 ---
 wts:
     title: '21 - Cálcular el Acuerdo de nivel de servicio compuesto (5 min)'
-    module: 'Módulo 6: Descripción de los acuerdos de nivel de servicio y Azure Cost Management'
+    module: 'Módulo 06: Descripción de los acuerdos de nivel de servicio y Azure Cost Management'
 ---
 # 21 - Calcular el Acuerdo de nivel de servicio compuesto
 

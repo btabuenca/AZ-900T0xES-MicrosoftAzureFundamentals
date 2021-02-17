@@ -55,7 +55,7 @@ En esta tarea, usaremos la CLI de Azure para crear un grupo de recursos y una m�
     --admin-password Pa$$w0rd1234
     ```
 
-    >**Nota**: Si utiliza la línea de comandos en un equipo Windows, reemplace el carácter de barra diagonal inversa ("\") con el carácter de intercalación ("^").
+    >**Nota**: Si utiliza la línea de comandos en un equipo Windows, reemplace el carácter de barra diagonal inversa (`\`) con el carácter de intercalación (`^`).
     
     **Nota**: El comando tardará entre 2 y 3 minutos en completarse. El comando creará una máquina virtual y varios recursos asociados, como recursos de seguridad, almacenamiento y redes. No continúe con el siguiente paso hasta que se complete la implementación de la máquina virtual. 
 

@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '15: Administrar bloqueos de recursos (5 min)'
+    title: '15 - Administrar bloqueos de recursos (5 min)'
     module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
 # 15 - Administrar bloqueos de recursos

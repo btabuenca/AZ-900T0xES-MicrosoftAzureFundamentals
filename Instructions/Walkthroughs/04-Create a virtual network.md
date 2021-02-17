@@ -1,7 +1,7 @@
 ---
 wts:
     title: '04 - Crear una red virtual (20 minutos)'
-    module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 # 04: Crear una red virtual
 
@@ -100,7 +100,7 @@ En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtua
 
 7. Abra un símbolo del sistema de PowerShell en la máquina virtual haciendo clic en el botón **Inicio**, escribiendo **PowerShell**, haciendo clic con el botón derecho en **Windows PowerShell** en el menú del botón derecho y seleccionando **Ejecutar como administrador**.
 
-8. Intente hacer ping a vm2 (asegúrese de que vm2 se esté ejecutando). Recibirá un error que indica que la solicitud ha excedido el tiempo de espera.  El "ping" falla porque usa el **Protocolo de mensajes de control de Internet (ICMP)**. De forma predeterminada, ICMP no está permitido a través del firewall de Windows.
+8. Intente hacer ping a vm2 (asegúrese de que vm2 se esté ejecutando). Recibirá un error que indica que la solicitud ha excedido el tiempo de espera.  El `ping` falla porque usa el **Protocolo de mensajes de control de Internet (ICMP)**. De forma predeterminada, ICMP no está permitido a través del firewall de Windows.
 
 
    ```PowerShell

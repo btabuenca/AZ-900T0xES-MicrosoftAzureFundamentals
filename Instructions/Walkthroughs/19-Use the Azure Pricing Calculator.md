@@ -1,7 +1,7 @@
 ---
 wts:
     title: '19 - Usar la calculadora de precios de Azure (10 min)'
-    module: 'Módulo 6: Descripción de los acuerdos de nivel de servicio y Azure Cost Management'
+    module: 'Módulo 06: Descripción de los acuerdos de nivel de servicio y Azure Cost Management'
 ---
 # 19 - Usar la calculadora de precios
 
@@ -41,9 +41,9 @@ En esta tarea, calcularemos el coste de una infraestructura de muestra con la Ca
 
    ![Captura de pantalla del área de opciones de facturación de VM en la página web de estimación de la calculadora de precios de Azure. La opción de facturación de pago por uso resaltada indica cómo especificar una opción de facturación para una máquina virtual dentro de una estimación de la calculadora de precios de Azure.](../images/1903.png)
 
-6. En Azure, un mes se define como 730 horas. Si su VM necesita estar disponible el 100 por ciento del tiempo cada mes, establezca el valor de horas por mes en "730". El ejemplo de este tutorial necesita que una VM esté disponible el 50 por ciento del tiempo cada mes.
+6. En Azure, un mes se define como 730 horas. Si su VM necesita estar disponible el 100 por ciento del tiempo cada mes, establezca el valor de horas por mes en `730`. El ejemplo de este tutorial necesita que una VM esté disponible el 50 por ciento del tiempo cada mes.
 
-    Deje el número de máquinas virtuales establecido en "1" y cambie el valor de las horas por mes a "365".
+    Deje el número de máquinas virtuales establecido en `1` y cambie el valor de las horas por mes a `365`.
 
    ![Captura de pantalla del área de opciones de facturación de VM en la página web de estimación de la calculadora de precios de Azure. El número resaltado de instancias de máquinas virtuales y las opciones de horas por mes indican cómo especificar el número de instancias y horas por mes para una máquina virtual dentro de una estimación de la calculadora de precios de Azure.](../images/1904.png)
 

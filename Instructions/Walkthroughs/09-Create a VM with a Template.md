@@ -62,7 +62,7 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
     **Nota**: El plazo de supervisión se puede ajustar de una hora a 30 días.
 
-4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)**y **Bytes de disco (total)**. 
+4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)** y **Bytes de disco (total)**. 
 
     ![Captura de pantalla de los cuadros de supervisión de máquinas virtuales.](../images/0903.png)
 
