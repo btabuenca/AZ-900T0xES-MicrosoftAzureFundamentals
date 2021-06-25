@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '03 - Implementar Azure Container Instances (10 minutos)'
-    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
+    title: '03 - Implementación de Azure Container Instances (10 minutos)'
+    module: 'Módulo 2 - Servicios principales de Azure (Cargas de trabajo)'
 ---
 
 # 03 - Implementación de Azure Container Instances
@@ -14,7 +14,7 @@ En esta tarea, crearemos una nueva instancia de contenedor para la aplicación w
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Container instances** y luego haga clic en **Agregar**. 
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Container instances** y haga clic en **+ Agregar, + Crear, o + Nuevo** 
 
 3. Proporcione los siguientes detalles básicos para la nueva instancia de contenedor (deje los valores predeterminados para todo lo demás): 
 
@@ -24,7 +24,7 @@ En esta tarea, crearemos una nueva instancia de contenedor para la aplicación w
 	| Grupo de recursos | **myRGContainer** (crear nuevo) |
 	| Nombre del contenedor| **mycontainer**|
 	| Región | **(EE. UU.) Este de EE. UU.** |
-	| Origen de imagen| **Docker Hub u otro registro**|
+	| Fuente de imagen| **Docker Hub u otro registro**|
 	| Tipo de imagen| **Público**|
 	| Imagen| **microsoft / aci-helloworld**|
 	| Tipo de sistema operativo| **Linux** |
@@ -51,7 +51,7 @@ En esta tarea, crearemos una nueva instancia de contenedor para la aplicación w
 
 8. Mientras espera puede que esté interesado en ver el [código de muestra detrás de esta sencilla aplicación](https://github.com/Azure-Samples/aci-helloworld). Examine la carpeta \app. 
 
-# Tarea 2: Compruebe la implementación de la instancia del contenedor
+# Tarea 2: Compruebe la implementación de la instancia del contenedor
 
 En esta tarea, comprobamos que la instancia del contenedor se está ejecutando asegurándonos de que se muestre la página principal.
 

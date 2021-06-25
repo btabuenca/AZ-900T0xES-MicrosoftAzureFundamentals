@@ -1,9 +1,9 @@
 ---
 wts:
     title: '09 - Crear una máquina virtual con una plantilla (10 minutos)'
-    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
+    module: 'Módulo 3: Describir las soluciones principales y las herramientas de administración'
 ---
-# 09: Crear una máquina virtual con una plantilla
+# 09 - Crear una máquina virtual con una plantilla
 
 En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las capacidades de supervisión.
 
@@ -42,13 +42,13 @@ En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una p
     | Versión del sistema operativo Windows | **2019-Centro de datos** |
     | | |
     
-    ** Nota: No hay coste asociado con esta plantilla.
+    **Nota**: No hay coste asociado con esta plantilla.
 
-9. Haga clic en **Revisar y crear**.
+8. Haga clic en **Revisar y crear**.
 
-10. Supervise su implementación. 
+9. Una vez que supere la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede demorar entre cinco y siete minutos. 
 
-# Tarea 2: Comprobar la máquina virtual y hacer un seguimiento de ella
+# Tarea 2: Comprobar la máquina virtual y hacer un seguimiento de ella
 
 En esta tarea, comprobaremos que la máquina virtual se implementó correctamente. 
 
@@ -62,7 +62,7 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
     **Nota**: El plazo de supervisión se puede ajustar de una hora a 30 días.
 
-4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)** y **Bytes de disco (total)**. 
+4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)**y **Bytes de disco (total)**. 
 
     ![Captura de pantalla de los cuadros de supervisión de máquinas virtuales.](../images/0903.png)
 
@@ -72,7 +72,7 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
 7. Haga clic en el **Registro de actividades** (panel izquierdo). Los registros de actividad registran eventos tales como la creación o modificación de recursos. 
 
-8. Haga clic en **Agregar filtro** y experimente buscando diferentes tipos de eventos y operaciones. 
+8. Haga clic en **Agregar filtro** y experimente con la búsqueda de diferentes tipos de eventos y operaciones. 
 
     ![Captura de pantalla de la página Agregar filtros con el tipo de evento seleccionado.](../images/0904.png)
 
