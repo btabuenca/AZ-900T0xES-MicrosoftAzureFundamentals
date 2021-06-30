@@ -13,7 +13,7 @@ En esta tarea, crearemos un grupo de recursos para este ejercicio.
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. En la barra **Buscar** de la parte superior del portal, busque ** Grupos de recursos**. 
+2. En la barra **Buscar** de la parte superior del portal, busque **Grupos de recursos**. 
 
 3. Luego, haga clic en **+Agregar, +Nuevo +Crear** 
 

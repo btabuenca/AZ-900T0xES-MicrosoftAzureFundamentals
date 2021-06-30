@@ -3,7 +3,7 @@ wts:
     title: '16 - Implementar el etiquetado de recursos (5 min)'
     module: 'Módulo 5: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 16 - Implementar etiquetado de recursos
+# 16 - Implementar el etiquetado de recursos
 
 En este tutorial, crearemos una asignación de directivas que requiera etiquetado, crearemos una cuenta de almacenamiento y probaremos el etiquetado, veremos recursos con una etiqueta específica y quitaremos la directiva de etiquetado.
 
@@ -75,7 +75,7 @@ En esta tarea crearemos cuentas de almacenamiento para probar el etiquetado requ
 
 1. En Azure Portal, desde la hoja **Todos los servicios**, busque y seleccione **Etiquetas**.
 
-2. Tenga en cuenta todas las etiquetas y sus valores. Haga clic en la **Compañía: **Par clave/valor **Contoso**. Esto mostrará una hoja que muestra la cuenta de almacenamiento recién creada, siempre que haya incluido la etiqueta durante su implementación. 
+2. Tenga en cuenta todas las etiquetas y sus valores. Haga clic en la **Compañía:** Par clave/valor **Contoso**. Esto mostrará una hoja que muestra la cuenta de almacenamiento recién creada, siempre que haya incluido la etiqueta durante su implementación. 
 
    ![Captura de pantalla de las etiquetas con compañía y contoso seleccionados.](../images/1705.png)
 
