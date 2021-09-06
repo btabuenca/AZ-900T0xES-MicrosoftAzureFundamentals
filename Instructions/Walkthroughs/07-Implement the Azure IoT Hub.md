@@ -1,7 +1,7 @@
 ---
 wts:
     title: '07 - Implementar un Azure IoT Hub (10 minutos)'
-    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
+    module: 'Módulo 3: Describir las soluciones principales y las herramientas de administración'
 ---
 # 07 - Implementar un Azure IoT Hub
 
@@ -13,9 +13,9 @@ En esta tarea, crearemos un centro de IoT.
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Centro de IoT** y luego haga clic en **+ Agregar**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **IoT Hub** y haga clic en **+ Agregar, + Crear, o + Nuevo**
 
-3. En la pestaña **Datos básicos** de la hoja **centro de IoT**, complete los campos con los siguientes detalles (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea globalmente único):
+3. En la pestaña **Datos básicos** de la hoja **IoT hub**, complete los campos con los siguientes detalles (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea globalmente único):
 
     | Configuración | Valor |
     |--|--|
@@ -25,9 +25,9 @@ En esta tarea, crearemos un centro de IoT.
     | Nombre del centro de IoT | **my-hub-groupxxxx** |
     | | |
 
-    **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre de centro de IoT** único
+    **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre de centro de IoT** único
 
-4. Vaya a la pestaña **Administración**, use la lista desplegable para configurar **Precios y nivel de escala** en **S1:**
+4. Vaya a la pestaña **Administración**, use la lista desplegable para configurar **Precios y nivel de escala** en **S1: Nivel estándar**.
 
 5. Haga clic en el botón **Revisar y crear**.
 
@@ -35,7 +35,7 @@ En esta tarea, crearemos un centro de IoT.
 
 7. Espere hasta que se implemente la instancia de Azure IoT Hub. 
 
-# Tarea 2: Agregar un dispositivo de IoT
+# Tarea 2: Agregar un dispositivo de IoT
 
 En esta tarea, agregaremos un dispositivo IoT al centro de IoT. 
 

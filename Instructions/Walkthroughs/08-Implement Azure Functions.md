@@ -1,7 +1,7 @@
 ---
 wts:
     title: '08 - Implementar Azure Functions (5 minutos)'
-    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
+    module: 'Módulo 3: Describir las soluciones principales y las herramientas de administración'
 ---
 # 08 - Implementar Azure Functions
 
@@ -13,9 +13,9 @@ En esta tarea, crearemos un aplicación de funciones.
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-1. En el cuadro de texto **Buscar recursos, servicios y documentos**, en la parte superior del portal, busque y seleccione **Aplicación de funciones** y luego, desde la hoja **Aplicación de funciones**, haga clic en **Agregar**.
+1. En el cuadro de texto **Buscar recursos, servicios y documentos**, en la parte superior del portal, busque y seleccione **Aplicación de funciones** y luego, desde la hoja **Aplicación de funciones**, haga clic en **+ Agregar, + Crear, o + Nuevo**.
 
-1. En la pestaña **Básico** de la hoja **Aplicación de funciones**, especifique la siguiente configuración (reemplace **xxxx** en el nombre de la función por letras y dígitos, de modo que el nombre sea globalmente único, y deje todas las demás configuraciones con sus valores predeterminados): 
+1. En la pestaña **Datos básicos** de la hoja **Aplicación de funciones**, especifique la siguiente configuración (reemplace **xxxx** en el nombre de la función por letras y dígitos, de modo que el nombre sea globalmente único, y deje todas las demás configuraciones con sus valores predeterminados): 
 
     | Configuración | Valor |
     | -- | --|
@@ -23,12 +23,12 @@ En esta tarea, crearemos un aplicación de funciones.
     | Grupo de recursos | el nombre de un nuevo grupo de recursos **myRGFunction** |
     | Nombre de la aplicación de funciones | **función-xxxx** |
     | Publicar | **Código** |
-    | Pila de tiempo de ejecución | **NET Core** |
-    | Versión | **3.1** |
-    | Región | **Este de EE. UU.** |
+    | Pila de tiempo de ejecución | **NET** |
+    | Versión | **3,1** |
+    | Región | **East US** |
     | | |
 
-    **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre de aplicación de Functions** único
+    **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre de la aplicación de funciones** único
 
 1. Haga clic en **Revisar y crear** y, después de una correcta validación, haga clic en **Crear** para empezar a aprovisionar e implementar su nueva aplicación de funciones de Azure.
 
@@ -38,23 +38,17 @@ En esta tarea, crearemos un aplicación de funciones.
 
     ![Captura de pantalla de la página Aplicación de funciones con la nueva aplicación de funciones.](../images/0701.png)
 
-# Tarea 2: Crear una función activada por HTTP y probar
+# Tarea 2: Crear una función activada por HTTP y probar
 
 En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuando haya una solicitud HTTP. 
 
 1. Sobre la hoja **Aplicación de funciones**, haga clic en la aplicación de funciones recién creada. 
 
-1. En la hoja de la aplicación de funciones, en la sección **Funciones**, haga clic en **Funciones** y luego en **+ Agregar**.
+1. En la hoja de la aplicación de funciones, en la sección **Funciones**, haga clic en **Funciones** y luego en **+ Añadir**.
 
     ![Captura de pantalla del paso elegir un entorno de desarrollo en Azure Function para el panel de inicio dot net dentro de Azure Portal. Se resaltan los elementos de visualización para crear una nueva función en el portal. Los elementos resaltados son expandir la aplicación de funciones, agregar nuevas funciones, en el portal y el botón continuar.](../images/0702.png)
 
-1. En la pestaña **Plantillas** de la hoja **Nueva función**, haga clic en **Desencadenador HTTP**. 
-
-    ![Captura de pantalla del paso Crear una función en Azure Functions para el panel de inicio dot net dentro de Azure Portal. La tarjeta de desencadenador HTTP se resalta para ilustrar los elementos de visualización utilizados para agregar un nuevo webhook a una función de Azure.](../images/0702a.png)
-
-1. En la pestaña **Detalles** de la hoja **Nueva función**, acepte el nombre predeterminado **Nueva función** y el **Nivel de autorización** y luego haga clic en **Crear función**. 
-
-    ![Captura de pantalla del paso Crear una función en Azure Functions para el panel de inicio dot net dentro de Azure Portal. El botón webhook + API y el botón Crear se resaltan para ilustrar los elementos de visualización que se usan para agregar un nuevo webhook a una función de Azure.](../images/0703.png)
+1. En la sección **Seleccionar plantilla** de la hoja **Agregar función**, haga clic en **Desencadenador de HTTP**, bajo la sección **Detalles de la plantilla**, acepte los valores predeterminados y haga clic en **Agregar**.
 
 1. En la hoja **HttpTrigger1**, en la sección **Desarrollador**, haga clic en **Código + Prueba**. 
 
