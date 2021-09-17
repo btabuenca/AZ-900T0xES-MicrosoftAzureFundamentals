@@ -1,7 +1,7 @@
 ---
 wts:
     title: '12 - Implementar Azure Key Vault (5 min)'
-    module: 'Módulo 4: Descripción de las características de seguridad general y de seguridad de red'
+    module: 'Módulo 04: Descripción de las características de seguridad general y de seguridad de red'
 ---
 # 12 - Implementar Azure Key Vault
 
@@ -11,7 +11,7 @@ En este tutorial, crearemos un Azure Key Vault y luego crearemos un secreto de c
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Almacenes de claves** y, luego seleccione **+ Agregar. + Crear, o + Nuevo**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Almacenes de claves** y, luego, **+ Agregar**.
 
 3. Configure el almacén de claves (reemplace **xxxx** en el nombre del almacén de claves con letras y dígitos de manera que el nombre sea globalmente único). Deje los valores predeterminados para todo lo demás.
 
@@ -24,7 +24,7 @@ En este tutorial, crearemos un Azure Key Vault y luego crearemos un secreto de c
     | Plan de tarifas | **Estándar** |
     | | |
 
-4. Haga clic en **Revisar y crear** y después de la validación, haga clic en **Crear**. 
+4. Haga clic en **Revisar y crear**, y luego haga clic en **Crear**. 
 
 5. Una vez que se aprovisione el nuevo almacén de claves, haga clic en **Ir al recurso**. O puede localizar su nuevo almacén de claves buscándolo. 
 
@@ -34,7 +34,7 @@ En este tutorial, crearemos un Azure Key Vault y luego crearemos un secreto de c
 
     **Nota**: Su cuenta de Azure es la única autorizada para realizar operaciones en este nuevo almacén. Puede modificar esto si lo desea en **Configuración** y, luego, en la sección **Directivas de acceso**.
 
-# Tarea 2: Agregar un secreto al almacén de claves
+# Tarea 2: Agregar un secreto a Key Vault
         
 En esta tarea agregaremos una contraseña al almacén de claves. 
 

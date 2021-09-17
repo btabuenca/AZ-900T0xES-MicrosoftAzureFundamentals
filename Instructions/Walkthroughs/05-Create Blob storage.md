@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '05 - Crear almacenamiento de blobs (5 minutos)'
-    module: 'Módulo 2 - Servicios principales de Azure (Cargas de trabajo)'
+    title: '05 - Creación de almacenamiento de blobs (5 minutos)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 # 05 - Crear almacenamiento de blobs
 
@@ -13,7 +13,7 @@ En esta tarea crearemos una nueva cuenta de almacenamiento.
 
 1. Inicie sesión en Azure Portal en <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y haga clic en **+ Agregar, + Crear, o + Nuevo** 
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y luego haga clic en **+ Agregar**. 
 
 3. En la pestaña **Datos básicos** de la hoja **Crear cuenta de almacenamiento**, complete la siguiente información (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea globalmente único). Deje los valores predeterminados para todo lo demás.
 
@@ -24,7 +24,7 @@ En esta tarea crearemos una nueva cuenta de almacenamiento.
     | Nombre de la cuenta de almacenamiento | **storageaccountxxxx** |
     | Ubicación | **(EE. UU.) Este de EE. UU.**  |
     | Rendimiento | **Estándar** |
-    | Tipo de cuenta | **StorageV2 (uso general v2)** |
+    | Tipo de cuenta | **Almacenamiento V2 (uso general v2)** |
     | Replicación | **Almacenamiento con redundancia local (LRS)** |
     | | |
 
@@ -38,13 +38,13 @@ En esta tarea crearemos una nueva cuenta de almacenamiento.
 
     ![Captura de pantalla de la cuenta de almacenamiento recién creada en Azure Portal.](../images/0401.png)
 
-# Tarea 2: Trabaje con almacenamiento de blobs
+# Tarea 2: Trabaje con almacenamiento de blobs
 
 En esta tarea, crearemos un contenedor de blobs y subiremos un archivo de blobs. 
 
 1. Haga clic en el nombre de la nueva cuenta de almacenamiento, desplácese hasta la sección **Blob service** y luego haga clic **Contenedores**.
 
-2. Haga clic en **+ Contenedor** y complete la información. Use los iconos de información para obtener más información. Cuando termine, haga clic en **Crear**.
+2. Haga clic en **+ Contenedor** y complete la información. Use los iconos de información para obtener más información. Cuando termine, haga clic en **Aceptar**.
 
 
     | Configuración | Valor |

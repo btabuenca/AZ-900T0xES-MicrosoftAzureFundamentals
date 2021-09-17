@@ -1,11 +1,11 @@
 ---
 wts:
     title: '04 - Crear una red virtual (20 minutos)'
-    module: 'Módulo 2 - Servicios principales de Azure (Cargas de trabajo)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
-# 04 - Crear una red virtual
+# 04: Crear una red virtual
 
-En este tutorial crearemos una red virtual, implementaremos dos máquinas virtuales en esa red virtual y luego permitiremos que una máquina virtual haga ping a la otra dentro de esa red.
+En este tutorial crearemos una red virtual, implementaremos dos máquinas virtuales en esa red virtual y luego las configuraremos para permitir que una máquina virtual haga ping a la otra dentro de esa red.
 
 # Tarea 1: Crear una red virtual (20 minutos)
 
@@ -13,17 +13,17 @@ En esta tarea, crearemos una red virtual.
 
 1. Inicie sesión en Azure Portal en <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Redes virtuales** y haga clic en **+ Agregar, + Crear, o + Nuevo** 
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Redes virtuales** y, luego, haga clic en **Agregar**. 
 
 3. En la hoja **Crear red virtual** complete lo siguiente (deje los valores predeterminados para todo lo demás):
 
     | Configuración | Valor | 
     | --- | --- |
+    | Nombre | **vnet1** |
+    | Espacio de direcciones |**10.1.0.0/16** |
     | Suscripción | **Seleccione su suscripción** |
     | Grupo de recursos | **myRGVNet** (crear nuevo) |
-    | Nombre | **vnet1** |
     | Ubicación | **(EE. UU.) Este de EE. UU.** |
-    | Espacio de direcciones |**10.1.0.0/16** |
     | Subred - Nombre | **predeterminado** |
     | Rango de dirección de subred | **10.1.0.0/24** |
 
@@ -40,7 +40,7 @@ En esta tarea, crearemos una red virtual.
 
 En esta tarea crearemos dos máquinas virtuales en la red virtual. 
 
-1. Desde la hoja **Todos los servicios** busque **Máquinas virtuales** y luego haga clic en **+ Agregar** y seleccione **+ Maquinas virtuales**. 
+1. Desde la hoja **Todos los servicios**, busque **Maquinas virtuales** y luego haga clic en **Agregar**. 
 
 2. En la pestaña **Datos básicos**, complete la siguiente información (deje los valores predeterminados para todo lo demás):
 
@@ -82,9 +82,9 @@ En esta tarea crearemos dos máquinas virtuales en la red virtual.
 
 # Tarea 3: Probar la conexión 
 
-En esta tarea, permitiremos iniciar sesión en una de las máquinas virtuales y hacer ping a la otra. 
+En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtuales pueden comunicarse (hacer ping) entre sí. 
 
-1. Desde la hoja **Todos los recursos**, busque **vm1**, abra la pestaña **Vista general** y asegúrese de que su **Estado** sea **En ejecución**. Es posible que necesite **Actualizar** la página.
+1. Desde la hoja **Todos los recursos**, busque **vm1**, abra la pestaña **Visión general** y asegúrese de que su **Estado** sea **Ejecutándose**. Es posible que necesite **Actualizar** la página.
 
 2. En la hoja **Información general**, haga clic en el botón **Conectar**.
 
@@ -100,12 +100,34 @@ En esta tarea, permitiremos iniciar sesión en una de las máquinas virtuales y 
 
 7. Abra un símbolo del sistema de PowerShell en la máquina virtual haciendo clic en el botón **Inicio**, escribiendo **PowerShell**, haciendo clic con el botón derecho en **Windows PowerShell** en el menú del botón derecho y seleccionando **Ejecutar como administrador**.
 
-8. En Powershell, teclee el siguiente comando para establecer comunicación con la vm2, podrá ver si ha tenido éxito.
+8. Intente hacer ping a vm2 (asegúrese de que vm2 se esté ejecutando). Recibirá un error que indica que la solicitud ha excedido el tiempo de espera.  El `ping` falla porque usa el **Protocolo de mensajes de control de Internet (ICMP)**. De forma predeterminada, ICMP no está permitido a través del firewall de Windows.
+
+
+   ```PowerShell
+   ping vm2
+   ```
+   
+   ![Captura de pantalla del símbolo del sistema de PowerShell con el comando ping vm2 después de su finalización y el resultado que indica que el comando no tuvo éxito.](../images/0302.png)
+
+    **Nota**: Ahora abrirá una sesión RDP en vm2 y permitirá conexiones entrantes ICMP
+
+9. Conectar a **vm2** mediante RDP. Puede seguir los pasos **2 a 6**.
+
+10. Abra un aviso de **PowerShell** y habilite ICMP. Este comando permite conexiones entrantes ICMP a través del firewall de Windows.
+
+   ```PowerShell
+   New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
+   ```
+   ![Captura de pantalla del símbolo del sistema de PowerShell con el comando New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 después de su finalización y el resultado que indica que el comando fue exitoso.](../images/0303.png)
+
+   **Nota**: Ahora cambiará a la sesión RDP a vm1 e intentará hacer ping nuevamente.
+
+11. Regrese a la sesión RDP a vm1 e intente hacer ping nuevamente. Ahora debería tener éxito. 
 
    ```PowerShell
    ping vm2
    ```
 
-¡Enhorabuena! Ha configurado dos máquinas virtuales y las ha implementado en una red virtual. Y ha comprobado que puede comunicarse entre las dos máquinas virtuales. 
+¡Enhorabuena! Ha configurado dos máquinas virtuales y las ha implementado en una red virtual. También ha configurado el firewall de Windows para que una de las máquinas virtuales permita las solicitudes de ping entrantes. 
 
 **Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

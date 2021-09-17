@@ -1,11 +1,11 @@
 ---
 wts:
     title: '15 - Administrar bloqueos de recursos (5 min)'
-    module: 'Módulo 5: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
 # 15 - Administrar bloqueos de recursos
 
-En este tutorial, agregaremos un bloqueo al grupo de recursos y probaremos la eliminación del grupo de recursos. Se pueden aplicar bloqueos a una suscripción de un grupo de recursos o a recursos individuales para evitar la eliminación o modificación accidental de recursos críticos.  
+En este tutorial, crearemos un grupo de recursos, agregaremos un bloqueo al grupo de recursos y probaremos su eliminación, probaremos la eliminación de un recurso en el grupo de recursos y quitaremos el bloqueo de recursos. 
 
 # Tarea 1: Crear un grupo de recursos (5 min)
 
@@ -13,16 +13,16 @@ En esta tarea, crearemos un grupo de recursos para este ejercicio.
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. En la barra **Buscar** de la parte superior del portal, busque **Grupos de recursos**. 
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos**, luego seleccione **+ Agregar**.
 
-3. Luego, haga clic en **+Agregar, +Nuevo +Crear** 
+3. Cree un grupo de recursos nuevo. Cuando haya terminado, haga clic en **Revisar + crear** y luego en **Crear**. 
 
     | Configuración | Valor |
     | -- | -- |
     | Suscripción | **Use su suscripción** |
     | Nombre | **myRGLocks** |
     | Región | **(EE. UU.) Este de EE. UU.** |
-    
+    | | |
 
 # Tarea 2:  Agregar un bloqueo al grupo de recursos y probar su eliminación
 
@@ -52,9 +52,9 @@ En esta tarea, agregaremos un bloqueo de recursos al grupo de recursos y probare
 
 En esta tarea, probaremos si el bloqueo de recursos protege una cuenta de almacenamiento en el grupo de recursos. 
 
-1. Desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y haga clic en **+ Agregar, + Crear, o + Nuevo** 
+1. Desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y luego haga clic en **+ Agregar**. 
 
-2. En la pestaña **Cuentas de almacenamiento** de la hoja **+Agregar +Nuevo +Crear**, complete la siguiente información (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea globalmente único). Deje los valores predeterminados para todo lo demás.
+2. En la pestaña **Datos básicos** de la hoja **Crear cuenta de almacenamiento**, complete la siguiente información (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea globalmente único). Deje los valores predeterminados para todo lo demás.
 
     | Configuración | Valor | 
     | --- | --- |
@@ -63,10 +63,10 @@ En esta tarea, probaremos si el bloqueo de recursos protege una cuenta de almace
     | Nombre de la cuenta de almacenamiento | **storageaccountxxxx** |
     | Ubicación | **(EE. UU.) Este de EE. UU.**  |
     | Rendimiento | **Estándar** |
-    | Tipo de cuenta | **StorageV2 (uso general v2)** |
+    | Tipo de cuenta | **Almacenamiento V2 (uso general v2)** |
     | Replicación | **Almacenamiento con redundancia local (LRS)** |
     | Nivel de acceso (predeterminado) | **Frecuente** |
-   
+    | | |
 
 3. Haga clic en **Revisar y crear** para revisar la configuración de su cuenta de almacenamiento y permitir que Azure valide la configuración. 
 
@@ -84,9 +84,9 @@ En esta tarea, probaremos si el bloqueo de recursos protege una cuenta de almace
 
 En esta tarea quitaremos el bloqueo del recurso y lo probaremos. 
 
-1. Vuelva a la hoja del grupo de recursos **myRGLocks-XXXXXXXX** y, en la sección **Configuración**, haga clic en **Bloqueos**.
+1. Vuelva a la hoja del grupo de recursos **miRGLocks** y, en la sección **Configuración**, haga clic en **Bloqueos**.
     
-2. Haga clic en el vínculo **Eliminar** de la derecha de la entrada **myRGLocks-XXXXXXXX**, a la derecha de **Editar**.
+2. Haga clic en el vínculo **Eliminar** a la derecha de la entrada **RGLock**.
 
     ![Captura de pantalla del bloqueo con el vínculo Eliminar resaltado](../images/1604.png)
 

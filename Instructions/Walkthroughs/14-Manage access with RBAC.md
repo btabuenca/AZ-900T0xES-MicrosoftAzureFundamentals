@@ -1,9 +1,9 @@
 ---
 wts:
     title: '14 - Administrar el acceso con RBAC (5 min)'
-    module: 'Módulo 5: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 14 - Administrar el acceso con RBAC
+# 14: Administrar el acceso con RBAC
 
 En este tutorial asignaremos roles y veremos registros de actividad. 
 
@@ -13,9 +13,9 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos**, luego haga clic en **+ Agregar, + Crear, o + Nuevo**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos**, luego haga clic en **+ Agregar**.
 
-3. Crear un grupo de recursos. Haga clic en **Crear** cuando haya acabado. 
+3. Cree un grupo de recursos nuevo. Haga clic en **Crear** cuando haya acabado. 
 
     | Configuración | Valor |
     | -- | -- |
@@ -49,7 +49,7 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
 
     **Nota**: Esta asignación en realidad no le concede ningún privilegio adicional, ya que su cuenta ya tiene el rol Propietario, que incluye todos los privilegios asociados al rol Colaborador.
 
-# Tarea 2: Supervisar asignaciones de roles y quitar un rol
+# Tarea 2: Supervisar asignaciones de roles y quitar un rol
 
 En esta tarea, veremos el registro de actividad para comprobar la asignación de roles y luego quitaremos el rol. 
 

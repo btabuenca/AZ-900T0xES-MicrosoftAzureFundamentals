@@ -1,9 +1,9 @@
 ---
 wts:
     title: '17 - Crear una directiva de Azure (10 min)'
-    module: 'Módulo 5: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 17 - Crear una directiva de Azure
+# 17: Crear una directiva de Azure
 
 En este tutorial crearemos una directiva de Azure para restringir la implementación de los recursos de Azure en una ubicación específica.
 
@@ -41,11 +41,11 @@ En esta tarea, configuraremos la directiva de ubicación permitida y la asignare
 
 9. La asignación de directiva de **Ubicaciones permitidas** ahora aparece en el panel **Directiva: Asignaciones** y ahora está implementada, aplicando la directiva en el nivel de ámbito que especificamos (nivel de suscripción).
 
-# Tarea 2: Probar la directiva de Ubicación permitida
+# Tarea 2: Prueba de la directiva de Ubicación permitida
 
 En esta tarea probaremos la directiva de Ubicación permitida. 
 
-1. En Azure Portal, desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y luego haga clic en **+ Agregar, + Crear, o + Nuevo**.
+1. En Azure Portal, desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y luego haga clic en **+ Agregar**.
 
 2. Configure la cuenta de almacenamiento (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea único a nivel global). Deje los valores predeterminados para todo lo demás. 
 

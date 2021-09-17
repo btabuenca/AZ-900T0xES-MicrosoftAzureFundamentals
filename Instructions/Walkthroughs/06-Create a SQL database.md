@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '06 - Crear una base de datos SQL (5 minutos)'
-    module: 'Módulo 2 - Servicios principales de Azure (Cargas de trabajo)'
+    title: '06 - Creación de una base de datos SQL (5 minutos)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
 
 # 06 - Crear una base de datos SQL
@@ -14,7 +14,7 @@ En esta tarea, crearemos una base de datos SQL según la base de datos de muestr
 
 1. Inicie sesión en Azure Portal a través de [**https://portal.azure.com**](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Bases de datos de SQL** y haga clic en **+ Agregar, + Crear, o + Nuevo** 
+2. En la hoja **Todos los servicios**, busque y seleccione **Bases de datos SQL** y, después, haga clic en **+ Agregar**. 
 
 3. En la pestaña **Datos básicos**, rellene esta información.  
 
@@ -55,7 +55,7 @@ En esta tarea, crearemos una base de datos SQL según la base de datos de muestr
     | --- | --- |
     | Use datos existentes | **Muestra** |
     | Intercalación | ***usar valor predeterminado*** |
-    | Habilitar Azure Defender para SQL | **Ahora no** |
+    | Habilitar Advanced Data Security | **Ahora no** |
     | | |
 
     ![Captura de pantalla de la pestaña Configuración adicional de la hoja Crear base de datos SQL con la configuración seleccionada según la tabla y el botón Revisar y crear resaltado.](../images/0501c.png)
@@ -64,7 +64,7 @@ En esta tarea, crearemos una base de datos SQL según la base de datos de muestr
 
 7. Vaya a la pestaña del recurso para buscar la base de datos SQL que creó. Puede que sea necesario actualizar.
 
-# Tarea 2: Pruebe la base de datos.
+# Tarea 2: Pruebe la base de datos.
 
 En esta tarea, configuraremos el servidor SQL y ejecutaremos una consulta SQL. 
 

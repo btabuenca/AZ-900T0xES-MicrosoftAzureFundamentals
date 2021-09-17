@@ -1,9 +1,9 @@
 ---
 wts:
     title: '16 - Implementar el etiquetado de recursos (5 min)'
-    module: 'Módulo 5: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 16 - Implementar el etiquetado de recursos
+# 16 - Implementar etiquetado de recursos
 
 En este tutorial, crearemos una asignación de directivas que requiera etiquetado, crearemos una cuenta de almacenamiento y probaremos el etiquetado, veremos recursos con una etiqueta específica y quitaremos la directiva de etiquetado.
 
@@ -19,13 +19,13 @@ En esta tarea, configuraremos la directiva **Requerir una etiqueta en los recurs
 
 4. Tenga en cuenta que el **Ámbito** para nuestra directiva será toda la suscripción. 
 
-5. Bajo **Datos básicos**, seleccione el botón de puntos suspensivos **Definición de directiva** (al lado derecho del cuadro de texto). En el cuadro **Buscar**, escriba el valor **etiqueta**. Aparecerá una lista de directivas relacionadas con la palabra **etiqueta**. Desplácese hacia abajo hasta que encuentre la definición **Requerir una etiqueta en los recursos**, haga clic en ella y en **Seleccionar**.
+5. Seleccione el botón de puntos suspensivos **Definición de la directiva** (al final del cuadro de texto de la derecha). **Busque** definiciones de directivas que incluyen la **etiqueta** de valor, en el conjunto de resultados, haga clic en la definición **Requerir una etiqueta en los recursos**, luego haga clic en **Seleccionar**.
 
    ![Captura de pantalla del panel Definiciones disponibles con la opción Requerir una etiqueta en los recursos seleccionada.](../images/1701.png)
 
-6. En la pestaña **Parámetros**, escriba **Compañía** para el nombre de la etiqueta. Y **Contoso** para el valor. Haga clic en **Revisar y crear** y, luego, en **Crear**.
+6. En la hoja **Asignar directiva**, en la pestaña **Parámetros**, escriba **Empresa** para el nombre de la etiqueta. Haga clic en **Revisar y crear** y, luego, en **Crear**.
 
-    **Nota:** Este es un ejemplo simple para demostrar el etiquetado. Tenga en cuenta que la asignación tarda unos 30 minutos en aplicarse. 
+    **Nota:** Este es un ejemplo simple para demostrar el etiquetado. 
 
     ![Captura de pantalla del panel Asignar directiva con el nombre de etiqueta completado.](../images/1702.png)
 
@@ -33,18 +33,18 @@ En esta tarea, configuraremos la directiva **Requerir una etiqueta en los recurs
 
    ![Captura de pantalla de la directiva: panel de asignaciones con la asignación de ubicaciones permitidas resaltada.](../images/1703.png)
 
-# Tarea 2: Crear una cuenta de almacenamiento para probar el etiquetado requerido
+# Tarea 2: Crear una cuenta de almacenamiento para probar el etiquetado requerido
 
 En esta tarea crearemos cuentas de almacenamiento para probar el etiquetado requerido. 
 
-1. En Azure Portal, desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y luego haga clic en **+ Agregar, + Crear, o + Nuevo**.
+1. En Azure Portal, desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y luego haga clic en **+ Agregar**.
 
 2. En la pestaña **Datos básicos** de la hoja **Crear cuenta de almacenamiento**, complete la siguiente información (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea globalmente único). Deje los valores predeterminados para todo lo demás.
 
     | Configuración | Valor | 
     | --- | --- |
     | Suscripción | **Use su suscripción** |
-    | Grupo de recursos | **myRGTags**  |
+    | Grupo de recursos | **myRGTags** (nuevo) |
     | Nombre de la cuenta de almacenamiento | **storageaccountxxxx** |
     | Ubicación | **(EE. UU.) Este de EE. UU.** |
     | | |
@@ -59,7 +59,7 @@ En esta tarea crearemos cuentas de almacenamiento para probar el etiquetado requ
 
     ![Captura de pantalla de rechazado debido a un error de directiva.](../images/1704.png)
 
-    **Nota - Debe esperar 30 minutos hasta que se complete el etiquetado.** 
+    **Nota: Debe esperar 30 minutos hasta que se complete el etiquetado.** 
 
 5. Cierre el panel de **Error** y haga clic en **Anterior** (parte inferior de la pantalla). Proporcione la información de etiquetado. 
 
@@ -75,7 +75,7 @@ En esta tarea crearemos cuentas de almacenamiento para probar el etiquetado requ
 
 1. En Azure Portal, desde la hoja **Todos los servicios**, busque y seleccione **Etiquetas**.
 
-2. Tenga en cuenta todas las etiquetas y sus valores. Haga clic en la **Compañía:** Par clave/valor **Contoso**. Esto mostrará una hoja que muestra la cuenta de almacenamiento recién creada, siempre que haya incluido la etiqueta durante su implementación. 
+2. Tenga en cuenta todas las etiquetas y sus valores. Haga clic en la **Compañía: **Par clave/valor **Contoso**. Esto mostrará una hoja que muestra la cuenta de almacenamiento recién creada, siempre que haya incluido la etiqueta durante su implementación. 
 
    ![Captura de pantalla de las etiquetas con compañía y contoso seleccionados.](../images/1705.png)
 

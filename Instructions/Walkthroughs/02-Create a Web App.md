@@ -1,9 +1,9 @@
 ---
 wts:
     title: '02 - Crear una aplicación web (10 minutos)'
-    module: 'Módulo 2 - Servicios principales de Azure (Cargas de trabajo)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
-# 02 - Crear una aplicación web
+# 02 - Crear una aplic. web
 
 En este tutorial, crearemos una nueva aplic. web que ejecute un contenedor Docker. El contenedor muestra un mensaje de bienvenida. 
 
@@ -15,9 +15,9 @@ En esta tarea, creará una aplicación web de Azure App Service.
 
 1. Inicie sesión en [Azure Portal](http://portal.azure.com/). 
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **App Services** y haga clic en **+ Agregar, + Crear, o + Nuevo**
+2. Desde la hoja **Todos los servicios**, busque y seleccione **App Services** y haga clic en **+ Agregar**.
 
-3. En la pestaña **Datos básicos** de la hoja **Aplicación web**, especifique la siguiente configuración (reemplace **xxxx** en el nombre de la aplicación web por letras y dígitos para que el nombre sea único a nivel mundial). Deje los valores predeterminados para todo lo demás, incluido el plan de App Service. 
+3. En la pestaña **Datos básicos** de la hoja **Aplicación web**, especifique la siguiente configuración (reemplace **xxxx** en el nombre de la aplicación web con letras y dígitos para que el nombre sea único a nivel mundial). Deje los valores predeterminados para todo lo demás, incluido el plan de App Service. 
 
     | Configuración | Valor |
     | -- | -- |
@@ -29,7 +29,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | Región | **Este de EE. UU.** (ignore cualquier advertencia de disponibilidad del plan de servicio) |
     | | |	
     
-    **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre** único
+    **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre** único
 
 4. Haga clic en **Siguiente > Docker** y configure la información del contenedor. El comando de inicio es opcional y no es necesario en este ejercicio. 
 
@@ -38,7 +38,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | Configuración | Valor |
     | -- | -- |
     | Opciones | **Contenedor individual** |
-    | Origen de la imagen | **Docker Hub** |
+    | Origen de imagen | **Docker Hub** |
     | Tipo de acceso | **Pública** |
     | Imagen y etiqueta | **microsoft/aci-helloworld** |
     | | |	
@@ -46,7 +46,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
 
 5. Haga clic en **Revisar y crear**, y luego haga clic en **Crear**. 
 
-# Tarea 2: Probar la aplicación web
+# Tarea 2: Probar la aplicación web
 
 En esta tarea probaremos la aplicación web.
 
