@@ -1,28 +1,28 @@
 ---
 wts:
     title: '14 - Administrar el acceso con RBAC (5 min)'
-    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
+    module: 'Módulo 5: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
-# 14: Administrar el acceso con RBAC
+# 14: Administrar el acceso con RBAC (5 min)
 
-En este tutorial asignaremos roles y veremos registros de actividad. 
+En este tutorial, asignaremos roles de permiso a recursos y visualizaremos registros.
 
-# Tarea 1: Ver y asignar roles (5 min)
+# Tarea 1: Ver y asignar roles
 
 En esta tarea, asignaremos el rol de colaborador de la máquina virtual. 
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos**, luego haga clic en **+ Agregar**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos** y, después, seleccione **+Agregar, +Nuevo y +Crear**.
 
-3. Cree un grupo de recursos nuevo. Haga clic en **Crear** cuando haya acabado. 
+3. Crear un grupo de recursos. Haga clic en **Crear** cuando haya acabado. 
 
     | Configuración | Valor |
     | -- | -- |
-    | Suscripción | **Elija su suscripción** |
+    | Suscripción | **Utilice la suscripción predeterminada suministrada** |
     | Grupo de recursos | **miRGRBAC** |
     | Región | **(EE. UU.) Este de EE. UU.** |
-    | | |
+   
 
 4. Para crear, use **Revisar y crear** y luego haga clic en **Crear**.
 
@@ -38,8 +38,8 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
     | -- | -- |
     | Rol | **Colaborador de la máquina virtual** |
     | Asignar acceso a | **usuario, grupo o entidad de servicio** |
-    | Seleccionar | su cuenta de usuario |
-    | | |
+    | Seleccionar | **Agregue su cuenta de usuario** |
+ 
 
     **Nota:** El rol de colaborador de la máquina virtual le permite administrar máquinas virtuales, pero no acceder a su sistema operativo ni administrar la red virtual ni la cuenta de almacenamiento a la que estén conectadas.
 
@@ -49,7 +49,7 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
 
     **Nota**: Esta asignación en realidad no le concede ningún privilegio adicional, ya que su cuenta ya tiene el rol Propietario, que incluye todos los privilegios asociados al rol Colaborador.
 
-# Tarea 2: Supervisar asignaciones de roles y quitar un rol
+# Tarea 2: Supervisar asignaciones de roles y quitar un rol
 
 En esta tarea, veremos el registro de actividad para comprobar la asignación de roles y luego quitaremos el rol. 
 
@@ -63,8 +63,7 @@ En esta tarea, veremos el registro de actividad para comprobar la asignación de
 
     **Nota**: ¿Sabe cómo quitar su asignación de roles?
 
-¡Enhorabuena! Ha asignado roles y ha visto registros de actividad. 
+¡Enhorabuena! Ha creado un grupo de recursos, le ha asignado un rol de acceso y ha visualizado los registros de actividad. 
 
 **Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
-
 

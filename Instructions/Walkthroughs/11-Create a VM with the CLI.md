@@ -3,29 +3,33 @@ wts:
     title: '11 - Crear una VM con la CLI (10 min)'
     module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
-# 11 - Crear una VM con la CLI
+# 11: Crear una VM con la CLI (10 min)
 
 En este tutorial, configuraremos Cloud Shell, utilizaremos la CLI de Azure para crear un grupo de recursos y una máquina virtual, y revisaremos las recomendaciones de Azure Advisor. 
 
-# Tarea 1: Configurar el Cloud Shell (10 min)
+# Tarea 1: Configurar el Cloud Shell 
 
-En esta tarea, configuraremos Cloud Shell. 
+En esta tarea, configuraremos Cloud Shell y luego usaremos la CLI de Azure para crear un grupo de recursos y una máquina virtual.  
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
 2. Desde Azure Portal, abra el **Azure Cloud Shell** haciendo clic en el icono de la esquina superior derecha de Azure Portal.
 
     ![Captura de pantalla del icono de Azure Portal Azure Cloud Shell.](../images/1002.png)
+   
+3. En el cuadro de diálogo Le damos la bienvenida a Azure Cloud Shell, cuando se le pida que seleccione **Bash** o **PowerShell**, seleccione **Bash**. 
 
-3. Si ya ha utilizado Cloud Shell, continúe con la siguiente tarea. 
+4. Se abrirá una nueva ventana con el mensaje **No tiene ningún almacenamiento montado**. Seleccione **Configuración avanzada**.
 
-4. Cuando se le solicite seleccionar **Bash** o **PowerShell**, seleccione **Bash**. 
+5. En la pantalla Configuración avanzada, rellene los siguientes campos y luego haga clic en Crear almacenamiento:
+    - Grupo de recursos: **Crear un nuevo grupo de recursos**
+    - Cuenta de almacenamiento: cree una nueva cuenta y utilice un nombre único a nivel global (p. ej., mialmacenamientodecloudshell)
+    - Recurso compartido de archivos: cree uno nuevo y denomínelo recursocompartidodearchivosdecloudshell.
 
-5. Cuando se le solicite, haga clic en **Crear almacenamiento**y espere a que Azure Cloud Shell se inicialice. 
 
-# Tarea 2: Creación de un grupo de recursos y una máquina virtual.
+# Tarea 2: Utilizar la CLI para crear una máquina virtual
 
-En esta tarea, usaremos la CLI de Azure para crear un grupo de recursos y una máquina virtual.  
+En esta tarea, usaremos la CLI de Azure para crear un grupo de recursos y una máquina virtual.
 
 1. Asegúrese de que **Bash** esté seleccionado en el menú desplegable superior izquierdo del panel Cloud Shell (y si no, selecciónelo).
 
@@ -43,20 +47,20 @@ En esta tarea, usaremos la CLI de Azure para crear un grupo de recursos y una m�
     az group list --output table
     ```
 
-4. Crear una nueva máquina virtual. Asegúrese de que cada línea, excepto la última, vaya seguida del carácter de barra diagonal inversa (`\`). Si escribe el comando completo en la misma línea, no utilice caracteres de barra invertida. 
+4. Escriba el siguiente comando en Cloud Shell y asegúrese de que todas las líneas salvo la última van seguidas del carácter barra diagonal inversa ("\")  Si escribe el comando completo en la misma línea, no utilice caracteres de barra diagonal inversa. 
 
     ```cli
     az vm create \
     --name myVMCLI \
     --resource-group myRGCLI \
     --image UbuntuLTS \
-    --location EastUS \
+    --location EastUS2 \
     --admin-username azureuser \
     --admin-password Pa$$w0rd1234
     ```
 
     >**Nota**: Si utiliza la línea de comandos en un equipo Windows, reemplace el carácter de barra diagonal inversa (`\`) con el carácter de intercalación (`^`).
-    
+
     **Nota**: El comando tardará entre 2 y 3 minutos en completarse. El comando creará una máquina virtual y varios recursos asociados, como recursos de seguridad, almacenamiento y redes. No continúe con el siguiente paso hasta que se complete la implementación de la máquina virtual. 
 
 5. Cuando el comando termine de ejecutarse, en la ventana del explorador cierre el panel Cloud Shell.
