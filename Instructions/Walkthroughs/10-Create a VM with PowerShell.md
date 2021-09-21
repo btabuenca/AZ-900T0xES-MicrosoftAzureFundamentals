@@ -3,11 +3,11 @@ wts:
     title: '10 - Crear una VM con PowerShell (10 minutos)'
     module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
-# 10 - Crear una VM con PowerShell
+# 10: Crear una VM con PowerShell (10 min)
 
 En este tutorial, configuraremos Cloud Shell, utilizaremos el módulo Azure PowerShell para crear un grupo de recursos y una máquina virtual, y revisaremos las recomendaciones de Azure Advisor. 
 
-# Tarea 1: Configurar el Cloud Shell (10 minutos)
+# Tarea 1: Configurar el Cloud Shell 
 
 En esta tarea, configuraremos Cloud Shell. 
 
@@ -17,11 +17,17 @@ En esta tarea, configuraremos Cloud Shell.
 
     ![Captura de pantalla del icono de Azure Portal Azure Cloud Shell.](../images/1002.png)
 
-3. Si ya ha utilizado Cloud Shell, continúe con la siguiente tarea. 
+3. Cuando se le pida que seleccione **Bash** o **PowerShell**, seleccione **PowerShell**.
 
-4. Cuando se le solicite seleccionar **Bash** o **PowerShell**, seleccione **PowerShell**.
+4. En la pantalla **No tiene ningún almacenamiento montado**, seleccione **Mostrar la configuración avanzada** y luego rellene la siguiente información.
 
-5. Cuando se le solicite, haga clic en **Crear almacenamiento**y espere a que Azure Cloud Shell se inicialice. 
+    | Configuración | Valores |
+    |  -- | -- |
+    | Grupo de recursos | **Crear un nuevo grupo de recursos** |
+    | Cuenta de almacenamiento (Cree una nueva cuenta y utilice un nombre único a nivel global (p. ej., mialmacenamientodecloudshell) | **cloudshellxxxxxxx** |
+    | Recurso compartido de archivos (crear nuevo) | **almacenamientodeshell** |
+
+5. Seleccione **Crear almacenamiento**.
 
 # Tarea 2: Crear un grupo de recursos y una máquina virtual.
 
@@ -29,33 +35,28 @@ En esta tarea, utilizaremos PowerShell para crear un grupo de recursos y una má
 
 1. Asegúrese de que **PowerShell** esté seleccionado en el menú desplegable superior izquierdo del panel Cloud Shell.
 
-2. En la sesión de PowerShell, dentro del panel Cloud Shell, cree un nuevo grupo de recursos. 
-
-    ```PowerShell
-    New-AzResourceGroup -Name myRGPS -Location EastUS
-    ```
-
-3. Verifique su nuevo grupo de recursos. 
+2. Compruebe su nuevo grupo de recursos. Para ello, ejecute el siguiente comando en la ventana de Powershell. Presione **Entrar** para ejecutar el comando.
 
     ```PowerShell
     Get-AzResourceGroup | Format-Table
     ```
 
-4. Cree una máquina virtual. Cuando se le solicite, proporcione el nombre de usuario (**azureuser**) y la contraseña (**Pa$$w0rd1234**) que se configurará como la cuenta de administrador local en esas máquinas virtuales. Asegúrese de incluir los caracteres de marca (`) al final de cada línea, excepto en la última (no debe haber ningún carácter de marca si escribe el comando completo en una sola línea).
+3. Cree una máquina virtual. Para ello, pegue el siguiente comando en la ventana del terminal. 
 
     ```PowerShell
     New-AzVm `
     -ResourceGroupName "myRGPS" `
-    -Nombre "myVMPS" `
+    -Name "myVMPS" `
     -Location "East US" `
     -VirtualNetworkName "myVnetPS" `
     -SubnetName "mySubnetPS" `
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-** Espere a que la máquina virtual se implemente antes de cerrar PowerShell.
+    
+4. Cuando se le pida, proporcione el nombre de usuario (**azureuser**) y la contraseña (**Pa$$w0rd1234**) que se configurarán como la cuenta de administrador local en la máquina virtual Azureadmin.
 
-5. Cierre el panel de Cloud Shell de la sesión de PowerShell.
+5. Una vez que la VM se haya creado, cierre el panel de Cloud Shell en la sesión de PowerShell.
 
 6. En Azure Portal, busque **Virtual Machines** y verifique que **myVMPS** se esté ejecutando. Este proceso puede durar unos minutos.
 
@@ -77,13 +78,14 @@ En esta tarea, practicaremos la ejecución de comandos de PowerShell desde Cloud
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-4. Reinicie la máquina virtual. Cuando se le solicite, confirme (Sí) a la acción. 
+4. Detenga la máquina virtual mediante el siguiente comando. 
 
     ```PowerShell
     Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
     ```
+5. Cuando se le solicite, confirme (Sí) a la acción. Espere hasta que aparezca el estado **Operación correcta**.
 
-5. Verifique el estado de su máquina virtual. Ahora PowerState debería estar **desasignado**. También puede comprobar el estado de la máquina virtual en el portal. 
+6. Compruebe el estado de su máquina virtual. Ahora PowerState debería estar **desasignado**. También puede comprobar el estado de la máquina virtual en el portal. Cierre Cloud Shell.
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize

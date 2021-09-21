@@ -1,52 +1,46 @@
 ---
 wts:
     title: '09 - Crear una máquina virtual con una plantilla (10 minutos)'
-    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
+    module: 'Módulo 3: Describir las soluciones principales y las herramientas de administración'
 ---
-# 09: Crear una máquina virtual con una plantilla
+# 09: Crear una máquina virtual con una plantilla (10 min)
 
-En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las capacidades de supervisión.
+En este tutorial implementaremos una máquina virtual con una plantilla de inicio rápido y examinaremos las funcionalidades de supervisión.
 
-# Tarea 1: Explorar la galería y localizar una plantilla (10 minutos)
+# Tarea 1: Explorar la galería de inicio rápido y localizar una plantilla 
 
-En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una plantilla que crea una máquina virtual. 
+En esta tarea, examinaremos la galería de inicio rápido de Azure e implementaremos una plantilla que crea una máquina virtual. 
 
-1. En el explorador, acceda a [Galería de plantillas de Azure Quickstart](https://azure.microsoft.com/resources/templates?azure-portal=true). En la galería encontrará una serie de plantillas populares y recientemente actualizadas. Estas plantillas automatizan la implementación de los recursos de Azure, incluida la instalación de paquetes de software populares.
+1. En el ambiente del laboratorio, abra una nueva ventana en el explorador y escriba T https://azure.microsoft.com/es-es/resources/templates/?azure-portal=true. En la galería encontrará una serie de plantillas populares y recientemente actualizadas. Estas plantillas automatizan la implementación de los recursos de Azure, incluida la instalación de paquetes de software populares. Explore los diferentes tipos de plantillas disponibles.
 
-2. Explore los diferentes tipos de plantillas disponibles. 
+2. Seleccione **Implementar una VM de Windows sencilla**.
 
-    **Nota**: ¿Hay alguna plantilla que le interese?
-
-3. Busque o acceda directamente a la plantilla [Implementar una máquina virtual](https://azure.microsoft.com/resources/templates/101-vm-simple-windows?azure-portal=true).
+3. Haga clic en el botón **Implementar en Azure**. Su sesión del explorador se redirigirá automáticamente a [Azure Portal](http://portal.azure.com/).
 
     **Nota**: El botón **Implementar en Azure** le permite implementar la plantilla a través de Azure Portal. Durante dicha implementación, se le pedirá confirmación solo de un pequeño conjunto de parámetros de configuración. 
 
-4. Haga clic en el botón **Implementar en Azure**. Su sesión del explorador se redirigirá automáticamente a [Azure Portal](http://portal.azure.com/).
+4. Cuando se le solicite, inicie sesión en su suscripción de Azure.
 
-5. Si se le solicita, inicie sesión en la suscripción de Azure que desea usar en este laboratorio.
-
-6. Haga clic en **Editar plantilla**. El formato de la plantilla de Resource Manager usa el formato JSON. Revise los parámetros y variables.  A continuación, busque el parámetro para el nombre de la máquina virtual. Cambie el nombre a **myVMTemplate**. Seleccione **Guardar** para guardar los cambios. Regresa a la hoja **Implementación personalizada** en el Azure Portal.
+5. En la hoja **Implementación personalizada**, haga clic en **Editar plantilla**. El formato de la plantilla Administrador de recursos usa el formato JSON. Revise los parámetros y variables.  A continuación, busque el parámetro para el nombre de la máquina virtual. Cambie el nombre a **myVMTemplate**. Seleccione **Guardar** para guardar los cambios. Regresa a la hoja **Implementación personalizada** en el Azure Portal.
 
     ![Captura de pantalla de la plantilla con el cambio de nombre de VM resaltado.](../images/0901.png)
 
-7. En la hoja **Implementación personalizada**, configure los parámetros requeridos por la plantilla (reemplace ***xxxx*** en el prefijo de la etiqueta DNS con letras y dígitos de modo que la etiqueta sea globalmente única). Deje los valores predeterminados para todo lo demás. 
+6. En la hoja **Implementación personalizada**, configure los parámetros requeridos por la plantilla (reemplace ***xxxx*** en el prefijo de la etiqueta DNS con letras y dígitos de modo que la etiqueta sea globalmente única). Deje los valores predeterminados para todo lo demás. 
 
     | Configuración| Valor|
     |----|----|
-    | Suscripción | **Elija su suscripción**|
-    | Grupo de recursos | **myRGTemplate** (crear nuevo) |
-    | Ubicación | **(EE. UU.) Este de EE. UU.** |
-    | Nombre del usuario administrador | **azureuser** |
+    | Suscripción | **Deje la suscripción predeterminada suministrada**|
+    | Grupo de recursos | **Crear un nuevo grupo de recursos** |
+    | Región | Deje la opción predeterminada |
+    | Nombre de usuario del administrador | **azureuser** |
     | Contraseña del administrador | **Pa$$w0rd1234** |
-    | Prefijo de etiqueta DNS | **myvmtemplate*xxxx*** |
-    | Versión del sistema operativo Windows | **2019-Centro de datos** |
-    | | |
-    
-    ** Nota: No hay coste asociado con esta plantilla.
+    | Prefijo de etiqueta DNS | **miplantillavmxxxx** |
+    | Versión del SO | **2019-Centro de datos** |
 
-9. Haga clic en **Revisar y crear**.
 
-10. Supervise su implementación. 
+7. Haga clic en **Revisar y crear**.
+
+8. Supervise su implementación. 
 
 # Tarea 2: Comprobar la máquina virtual y hacer un seguimiento de ella
 
@@ -58,7 +52,7 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
     ![Captura de pantalla de la página de máquinas virtuales. Se muestra y se ejecuta la nueva VM.](../images/0902.png)
 
-3. Seleccione su máquina virtual y en el panel **Información general** desplácese hacia abajo para ver los datos de supervisión.
+3. Seleccione su máquina virtual y, en el panel **Información general**, seleccione la pestaña **Supervisión** y desplácese hacia abajo para ver los datos de supervisión.
 
     **Nota**: El plazo de supervisión se puede ajustar de una hora a 30 días.
 
@@ -68,12 +62,13 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
 5. Haga clic en cualquier gráfico. Tenga en cuenta que puede seleccionar **Agregar métrica** y cambiar el tipo de gráfico.
 
-6. Vuelva a la hoja **Visión general**.
+6. Vuelva a la hoja **Visión general**. (Deslice la barra de alternancia hacia la izquierda).
+7. Haga clic en el **Registro de actividad** (panel izquierdo). Los registros de actividad registran eventos tales como la creación o modificación de recursos. 
 
-7. Haga clic en el **Registro de actividades** (panel izquierdo). Los registros de actividad registran eventos tales como la creación o modificación de recursos. 
-
-8. Haga clic en **Agregar filtro** y experimente buscando diferentes tipos de eventos y operaciones. 
+8. Haga clic en **Agregar filtro** y experimente con la búsqueda de diferentes tipos de eventos y operaciones. 
 
     ![Captura de pantalla de la página Agregar filtros con el tipo de evento seleccionado.](../images/0904.png)
+
+¡Enhorabuena! Ha creado correctamente un recurso a partir de una plantilla y la ha implementado en Azure.
 
 **Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

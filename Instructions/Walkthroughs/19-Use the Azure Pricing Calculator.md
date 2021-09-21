@@ -3,11 +3,11 @@ wts:
     title: '19 - Usar la calculadora de precios de Azure (10 min)'
     module: 'Módulo 06: Descripción de los acuerdos de nivel de servicio y Azure Cost Management'
 ---
-# 19 - Usar la calculadora de precios
+# 19: Usar la calculadora de precios (10 min)
 
 En este tutorial, utilizaremos la Calculadora de precios de Azure para generar una estimación de costes para una máquina virtual Azure y recursos de red relacionados.
 
-# Tarea 1: Configurar la calculadora de precios (10 min)
+# Tarea 1: Configurar la calculadora de precios
 
 En esta tarea, calcularemos el coste de una infraestructura de muestra con la Calculadora de precios de Azure. 
 
@@ -23,15 +23,13 @@ En esta tarea, calcularemos el coste de una infraestructura de muestra con la Ca
 
 4. Modifique la configuración de VM predeterminada.
 
-    | Región | Sistema operativo | Tipo |
-    |------|----------------|----|
-    | Norte de Europa | Windows | (Solo sistema operativo) |
-    | | |
-
-    | Nivel | Instancia |
-    |----|--------|
-    | Estándar | A2: 2 núcleos, 3,5 GB de RAM, 135 GB de almacenamiento temporal |
-    | | |
+    | Configuración | Valor |
+    | -- | -- |
+    | Región | **Norte de Europa** |
+    | Sistema operativo | **Windows** |
+    | Tipo | **(Solo sistema operativo)** |
+    | Nivel | **Estándar** |  
+    | Instancia | **A2: 2 núcleos, 3,5 GB de RAM, 135 GB de almacenamiento temporal** |
 
    ![Captura de pantalla del área de configuración de la máquina virtual en la página web de estimación de la calculadora de precios de Azure. Los ejemplos resaltados de los valores de propiedad de configuración de VM escritos por el usuario indican cómo especificar una configuración de VM dentro de una estimación de la calculadora de precios de Azure.](../images/1902.png)
 
@@ -73,25 +71,15 @@ En esta tarea, calcularemos el coste de una infraestructura de muestra con la Ca
 
 11. Agregue un nombre para la configuración de su Application Gateway. Este tutorial utiliza el nombre **App Gateway: Windows VM**. Para modificar la configuración predeterminada de Application Gateway, agregue los siguientes detalles.
 
-    | Región | Nivel | Tamaño |
-    | ------ | ---- | ---- |
-    | Norte de Europa | Básico | Pequeño |
-    | | |
-
-    | Instancias | Horas |
-    | ------- | ------- |
-    | 1 | 365 |
-    | | |
-
-    | Datos procesados |
-    | -------------- |
-    | 50 GB |
-    | | |
-
-    | Zona 1: Norteamérica, Europa |
-    | ----------------------------- |
-    | 50 GB |
-    | | |
+    | Configuración | Valor |
+    | -- | -- |
+    | Región | **Norte de Europa** |
+    | Nivel | **Básico** |
+    | Tamaño | **Pequeño** |
+    | Instancias | **1** |  
+    | Horas | **365** |
+    | Datos procesados | **50 GB** |
+    | Zona 1: Norteamérica, Europa | **50 GB**|
 
     ![Captura de pantalla del área de configuración de la puerta de enlace de aplicaciones dentro de la página web de estimación de la calculadora de precios de Azure.](../images/1909.png)
 

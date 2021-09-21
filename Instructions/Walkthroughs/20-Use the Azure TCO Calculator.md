@@ -3,14 +3,14 @@ wts:
     title: '20 - Usar la calculadora de TCO de Azure (10 min)'
     module: 'Módulo 06: Descripción de los acuerdos de nivel de servicio y Azure Cost Management'
 ---
-# 20 - Usar la calculadora de TCO de Azure
+# 20: Usar la calculadora de TCO de Azure (10 min)
 
 
 En este tutorial usará la Calculadora del coste total de propiedad (TCO) para generar un informe de comparación de costes para un entorno local.
 
 **Nota**: En este tutorial, se proporcionan definiciones de ejemplo de la infraestructura local y las cargas de trabajo para un centro de datos típico. Para crear un informe de la Calculadora de TCO, use las definiciones de ejemplo o proporcione detalles de su infraestructura local y sus cargas de trabajo *reales*.
 
-# Tarea 1: Configurar la calculadora de TCO (10 min)
+# Tarea 1: Configurar la calculadora de TCO
 
 En esta tarea agregaremos información de infraestructura a la calculadora. 
 
@@ -30,7 +30,6 @@ En esta tarea agregaremos información de infraestructura a la calculadora.
     | RAM (GB) | **16** |
     | Optimizar por | **CPU** |
     | Windows Server 2008/2008 R2 | **Apagado** |
-    | | |
 
 3. Seleccione **+ Agregar carga de trabajo del servidor** para hacer una fila para una definición de cargas de trabajo del servidor nueva. 
 
@@ -46,7 +45,6 @@ En esta tarea agregaremos información de infraestructura a la calculadora.
     | RAM (GB) | **16** |
     | Optimizar por | **CPU** |
     | Windows Server 2008/2008 R2 | **Apagado** |
-    | | |
 
 4. En el panel **Almacenamiento**, haga clic en **Agregar almacenamiento**.
 
@@ -58,14 +56,12 @@ En esta tarea agregaremos información de infraestructura a la calculadora.
     | Capacidad | **60 TB** |  
     | Copia de seguridad | **120 TB** |
     | Archivo | **0 TB** |
-    | | |
 
 5. En el panel **Redes**, agregue el ancho de banda. 
 
     | Configuración | Valor |
     | -- | -- |
     | Ancho de banda de salida | 15 TB|
-    | | |
 
 6. Haga clic en **Siguiente**.
 
@@ -74,7 +70,6 @@ En esta tarea agregaremos información de infraestructura a la calculadora.
     | Configuración | Valor |
     | -- | -- |
     | Divisa | **Euro** |
-    | | |
 
 8. Haga clic en **Siguiente**.
 
@@ -88,8 +83,6 @@ En esta tarea revisaremos las recomendaciones de ahorro de costes y descargaremo
     | -- | -- |
     | Período| **3 años** |
     | Región | **Norte de Europa** |
-    | | |
-
 
 2. Para modificar la información que proporcionó, vaya al final de la página y haga clic en **Atrás**. 
 

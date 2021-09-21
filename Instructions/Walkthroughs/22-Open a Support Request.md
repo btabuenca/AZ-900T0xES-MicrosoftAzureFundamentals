@@ -3,11 +3,11 @@ wts:
     title: '22 - Abrir una solicitud de soporte técnico (5 min)'
     module: 'No se utiliza en el examen actual'
 ---
-# 22 - Abrir una solicitud de soporte técnico
+# 22: Abrir una solicitud de soporte técnico (5 min)
 
 En este tutorial veremos las opciones de planes de soporte disponibles y luego practicaremos la creación y la supervisión de una nueva solicitud de soporte técnico.
 
-# Tarea 1: Ver las opciones de plan de soporte disponibles y una solicitud de soporte técnico (5 min)
+# Tarea 1: Vea las opciones de plan de soporte disponibles y una solicitud de soporte técnico
 
 1. Inicie sesión en [**Azure Portal**](https://portal.azure.com).
 
@@ -44,7 +44,6 @@ En este tutorial veremos las opciones de planes de soporte disponibles y luego p
     | Resumen | **El cargo mensual no es correcto** |
     | Tipo de problema | **Precios** |
     | Subtipo de problema | **Ayúdeme a descubrir los precios del servicio** |    
-    | | |
 
 2. Haga clic en **Siguiente: Soluciones** y lea las soluciones recomendadas.
 
