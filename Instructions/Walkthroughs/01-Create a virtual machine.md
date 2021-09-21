@@ -26,7 +26,7 @@ En este tutorial crearemos una máquina virtual en Azure Portal, nos conectarem
     | Tamaño | **Estándar D2s v3**|
     | Nombre de usuario de la cuenta de administrador | **azureuser** |
     | Contraseña de cuenta de administrador | **Pa$$w0rd1234**|
-    | Reglas de puerto de entrada: | Permitir los puertos seleccionados|
+    | Reglas de puerto de entrada: | **Permitir los puertos seleccionados**|
     | Seleccionar puertos de entrada | **RDP (3389)** y **HTTP (80)**| 
 
 5. Cambie a la pestaña Redes para asegurarse de que **HTTP (80) y RDP (3389)** están seleccionados en la sección **Seleccionar puertos de entrada**.

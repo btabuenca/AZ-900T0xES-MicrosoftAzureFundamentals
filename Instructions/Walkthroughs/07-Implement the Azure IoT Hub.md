@@ -26,7 +26,7 @@ En esta tarea, crearemos un centro de IoT.
 
     **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre de IoT Hub** único.
 
-4. Vaya a la pestaña **Administración** y utilice el menú desplegable para configurar el **Nivel de precios y de escala** en **S1**:** Nivel estándar**.
+4. Vaya a la pestaña **Administración** y utilice el menú desplegable para configurar el **Nivel de precios y de escala** en **S1: Nivel estándar**.
 
 5. Haga clic en el botón **Revisar y crear**.
 

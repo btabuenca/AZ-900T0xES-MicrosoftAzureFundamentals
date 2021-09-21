@@ -13,19 +13,19 @@ En esta tarea, examinaremos la galería de inicio rápido de Azure e implementar
 
 1. En el ambiente del laboratorio, abra una nueva ventana en el explorador y escriba T https://azure.microsoft.com/es-es/resources/templates/?azure-portal=true. En la galería encontrará una serie de plantillas populares y recientemente actualizadas. Estas plantillas automatizan la implementación de los recursos de Azure, incluida la instalación de paquetes de software populares. Explore los diferentes tipos de plantillas disponibles.
 
-3. Seleccione **Implementar una VM de Windows sencilla**.
+2. Seleccione **Implementar una VM de Windows sencilla**.
 
-4. Haga clic en el botón **Implementar en Azure**. Su sesión del explorador se redirigirá automáticamente a [Azure Portal](http://portal.azure.com/).
+3. Haga clic en el botón **Implementar en Azure**. Su sesión del explorador se redirigirá automáticamente a [Azure Portal](http://portal.azure.com/).
 
-  **Nota**: El botón **Implementar en Azure** le permite implementar la plantilla a través de Azure Portal. Durante dicha implementación, se le pedirá confirmación solo de un pequeño conjunto de parámetros de configuración. 
+    **Nota**: El botón **Implementar en Azure** le permite implementar la plantilla a través de Azure Portal. Durante dicha implementación, se le pedirá confirmación solo de un pequeño conjunto de parámetros de configuración. 
 
-5. Cuando se le solicite, inicie sesión en su suscripción de Azure.
+4. Cuando se le solicite, inicie sesión en su suscripción de Azure.
 
-6. En la hoja **Implementación personalizada**, haga clic en **Editar plantilla**. El formato de la plantilla Administrador de recursos usa el formato JSON. Revise los parámetros y variables.  A continuación, busque el parámetro para el nombre de la máquina virtual. Cambie el nombre a **myVMTemplate**. Seleccione **Guardar** para guardar los cambios. Regresa a la hoja **Implementación personalizada** en el Azure Portal.
+5. En la hoja **Implementación personalizada**, haga clic en **Editar plantilla**. El formato de la plantilla Administrador de recursos usa el formato JSON. Revise los parámetros y variables.  A continuación, busque el parámetro para el nombre de la máquina virtual. Cambie el nombre a **myVMTemplate**. Seleccione **Guardar** para guardar los cambios. Regresa a la hoja **Implementación personalizada** en el Azure Portal.
 
     ![Captura de pantalla de la plantilla con el cambio de nombre de VM resaltado.](../images/0901.png)
 
-7. En la hoja **Implementación personalizada**, configure los parámetros requeridos por la plantilla (reemplace ***xxxx*** en el prefijo de la etiqueta DNS con letras y dígitos de modo que la etiqueta sea globalmente única). Deje los valores predeterminados para todo lo demás. 
+6. En la hoja **Implementación personalizada**, configure los parámetros requeridos por la plantilla (reemplace ***xxxx*** en el prefijo de la etiqueta DNS con letras y dígitos de modo que la etiqueta sea globalmente única). Deje los valores predeterminados para todo lo demás. 
 
     | Configuración| Valor|
     |----|----|
@@ -38,9 +38,9 @@ En esta tarea, examinaremos la galería de inicio rápido de Azure e implementar
     | Versión del SO | **2019-Centro de datos** |
 
 
-9. Haga clic en **Revisar y crear**.
+7. Haga clic en **Revisar y crear**.
 
-10. Supervise su implementación. 
+8. Supervise su implementación. 
 
 # Tarea 2: Comprobar la máquina virtual y hacer un seguimiento de ella
 
@@ -56,7 +56,7 @@ En esta tarea, comprobaremos que la máquina virtual se implementó correctament
 
     **Nota**: El plazo de supervisión se puede ajustar de una hora a 30 días.
 
-4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)**y **Bytes de disco (total)**. 
+4. Revise los diferentes cuadros que se proporcionan, incluidos **CPU (promedio)**, **Red (total)** y **Bytes de disco (total)**. 
 
     ![Captura de pantalla de los cuadros de supervisión de máquinas virtuales.](../images/0903.png)
 

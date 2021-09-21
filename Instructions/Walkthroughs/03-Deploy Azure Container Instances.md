@@ -38,7 +38,7 @@ En esta tarea, crearemos una nueva instancia de contenedor para la aplicación w
 	| Etiqueta de nombre DNS| **Micontenedordnsxxxxx** |
 
 	
-	**Nota**: Su contenedor será accesible públicamente en dns-name-label.region.azurecontainer.io. Si recibe el mensaje de error** Etiqueta de nombre DNS no disponible** después de la implementación, especifique una etiqueta de nombre DNS diferente (para ello, reemplace xxxxx) y vuelva a realizar la implementación. 
+	**Nota**: Su contenedor será accesible públicamente en dns-name-label.region.azurecontainer.io. Si recibe el mensaje de error **Etiqueta de nombre DNS no disponible** después de la implementación, especifique una etiqueta de nombre DNS diferente (para ello, reemplace xxxxx) y vuelva a realizar la implementación. 
 
 5. Haga clic en **Revisar y crear** para iniciar el proceso de validación automática.
 
