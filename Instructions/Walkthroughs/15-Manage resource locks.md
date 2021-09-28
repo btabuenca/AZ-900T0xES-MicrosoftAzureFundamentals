@@ -7,41 +7,22 @@ wts:
 
 En este tutorial, agregaremos un bloqueo al grupo de recursos y probaremos la eliminación del grupo de recursos. Se pueden aplicar bloqueos a una suscripción de un grupo de recursos o a recursos individuales para evitar la eliminación o modificación accidental de recursos críticos.  
 
-# Tarea 1: Crear un grupo de recursos 
 
-En esta tarea, crearemos un grupo de recursos para este ejercicio. 
-
-1. Inicie sesión en [Azure Portal](https://portal.azure.com).
-
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos** y, después, seleccione **+Agregar**, **+Crear** o **+Nuevo**.
-
-3. Cree un nuevo grupo de recursos. Haga clic en **Crear** cuando haya acabado. 
-
-    | Configuración | Valor |
-    | -- | -- |
-    | Suscripción | **Elija su suscripción** |
-    | Grupo de recursos | **myRGLocks** |
-    | Región | **Este de EE. UU. (EE. UU.)** |
-    | | |
-
-4. Para crear, use **Revisar y crear** y luego haga clic en **Crear**.
-
-5. Use **Actualizar** en la página del grupo de recursos y haga clic en la entrada que representa el grupo de recursos recién creado.
-    
-
-# Tarea 2:  Agregar un bloqueo al grupo de recursos y probar su eliminación
+# Tarea 1:  Agregar un bloqueo al grupo de recursos y probar su eliminación
 
 En esta tarea, agregaremos un bloqueo de recursos al grupo de recursos y probaremos la eliminación del grupo de recursos. 
 
-1. En Azure Portal, navegue hasta el grupo de recursos recién creado **myRGLocks**.
+1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Puede aplicar un bloqueo a una suscripción, un grupo de recursos o un recurso individual para evitar la eliminación o modificación accidental de recursos críticos. 
+2. En Azure Portal, vaya al grupo de recursos **myRGLocks**.
 
-3. En la sección **Configuración**, haga clic en **Bloqueos** y luego en **+ Agregar**. 
+3. Puede aplicar un bloqueo a una suscripción, un grupo de recursos o un recurso individual para evitar la eliminación o modificación accidental de recursos críticos. 
+
+4. En la sección **Configuración**, haga clic en **Bloqueos** y luego en **+ Agregar**. 
 
     ![Captura de pantalla del grupo de recursos myRGLocks que muestra el panel Bloqueos.](../images/1601.png)
 
-4. Configure el nuevo bloqueo. Al finalizar, haga clic en **Aceptar**. 
+5. Configure el nuevo bloqueo. Al finalizar, haga clic en **Aceptar**. 
 
     | Configuración | Valor |
     | -- | -- |
@@ -49,11 +30,11 @@ En esta tarea, agregaremos un bloqueo de recursos al grupo de recursos y probare
     | Tipo de bloqueo | **Eliminar** |
     | | |
 
-5. Haga clic en **Información general** y en **Eliminar grupo de recursos**. Escriba el nombre del grupo de recursos y haga clic en **Aceptar**. Recibirá un mensaje de error que indica que el grupo de recursos está bloqueado y que no se puede eliminar.
+6. Haga clic en **Información general** y en **Eliminar grupo de recursos**. Escriba el nombre del grupo de recursos y haga clic en **Aceptar**. Recibirá un mensaje de error que indica que el grupo de recursos está bloqueado y que no se puede eliminar.
 
     ![Captura de pantalla del error sobre el bloqueo contra la eliminación.](../images/1602.png)
 
-# Tarea 3: Probar a eliminar un miembro del grupo de recursos
+# Tarea 2: Probar a eliminar un miembro del grupo de recursos
 
 En esta tarea, probaremos si el bloqueo de recursos protege una cuenta de almacenamiento en el grupo de recursos. 
 
@@ -85,7 +66,7 @@ En esta tarea, probaremos si el bloqueo de recursos protege una cuenta de almace
 
     **Nota**: Aunque no hayamos creado específicamente un bloqueo para la cuenta de almacenamiento, hemos creado un bloqueo en el nivel del grupo de recursos que contiene la cuenta de almacenamiento. Como tal, este bloqueo de nivel *primario* nos impide eliminar el recurso y la cuenta de almacenamiento hereda el bloqueo del nivel primario.
 
-# Tarea 4: Quitar el bloqueo de recurso
+# Tarea 3: Quitar el bloqueo de recurso
 
 En esta tarea quitaremos el bloqueo del recurso y lo probaremos. 
 
@@ -99,4 +80,4 @@ En esta tarea quitaremos el bloqueo del recurso y lo probaremos.
 
 ¡Enhorabuena! Creó un grupo de recursos, agregó un bloqueo al grupo de recursos y probó su eliminación, probó la eliminación de un recurso en el grupo de recursos y quitó el bloqueo de un recurso. 
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

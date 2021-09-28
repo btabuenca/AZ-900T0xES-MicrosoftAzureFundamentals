@@ -59,4 +59,4 @@ En esta tarea agregaremos una contraseña al almacén de claves.
 
 ¡Enhorabuena! Ha creado un Azure Key Vault y, luego, un secreto de contraseña en ese almacén de claves, lo que le proporciona una contraseña almacenada de forma segura y administrada centralmente para su uso con aplicaciones.
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

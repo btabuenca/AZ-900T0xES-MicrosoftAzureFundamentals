@@ -63,7 +63,6 @@ En esta tarea crearemos cuentas de almacenamiento para probar el etiquetado requ
     | Configuración | Valor | 
     | --- | --- |
     | Nombre de etiqueta | **Compañía** (puede no estar en la lista desplegable) |
-    | Valor de la etiqueta | **Contoso** |
 
 6. Haga clic en **Revisar y crear** y verifique que la validación haya sido exitosa. Haga clic en **Crear** para implementar la cuenta de almacenamiento. 
 
@@ -98,4 +97,4 @@ En esta tarea eliminaremos la directiva **Requerir una etiqueta en los recursos*
 ¡Enhorabuena! En este tutorial, hemos creado una asignación de directiva que requería etiquetado, hemos creado un recurso (una cuenta de almacenamiento) y hemos probado el etiquetado; hemos visto recursos con una etiqueta específica, y hemos quitado la directiva de etiquetado.
 
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
