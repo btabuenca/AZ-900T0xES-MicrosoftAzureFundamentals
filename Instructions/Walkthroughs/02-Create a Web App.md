@@ -61,6 +61,6 @@ En esta tarea probaremos la aplicación web.
 
 5. Vuelva a la hoja **Información general** de su aplicación web y desplácese hacia abajo. Verá varios gráficos que realizan un seguimiento de los datos entrantes y salientes y las solicitudes. Si repite el paso 4 unas cuantas veces, debería poder ver la telemetría correspondiente en estos gráficos. Esto incluye el número de solicitudes y el tiempo de respuesta promedio. 
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
 
 ¡Enhorabuena! Ha creado correctamente un Servicio de aplicaciones de Azure.

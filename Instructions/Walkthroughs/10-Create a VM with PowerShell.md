@@ -11,8 +11,7 @@ En este tutorial, configuraremos Cloud Shell, utilizaremos el módulo Azure Powe
 
 En esta tarea, configuraremos Cloud Shell. 
 
-1. Inicie sesión en [Azure Portal](https://portal.azure.com).
-
+1. Inicie sesión en [Azure Portal](https://portal.azure.com). **Puede encontrar sus credenciales de inicio de sesión en la pestaña Recursos (justo al lado de la pestaña Instrucciones).**
 2. Desde Azure Portal, abra el **Azure Cloud Shell** haciendo clic en el icono de la esquina superior derecha de Azure Portal.
 
     ![Captura de pantalla del icono de Azure Portal Azure Cloud Shell.](../images/1002.png)
@@ -117,4 +116,4 @@ En esta tarea, revisaremos las recomendaciones de Azure Advisor para nuestra má
 
 ¡Enhorabuena! Ha configurado Cloud Shell, creado una máquina virtual con PowerShell, practicado con comandos de PowerShell y visto las recomendaciones de Advisor.
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

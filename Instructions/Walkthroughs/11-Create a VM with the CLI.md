@@ -23,7 +23,7 @@ En esta tarea, configuraremos Cloud Shell y luego usaremos la CLI de Azure pa
 
 5. En la pantalla Configuración avanzada, rellene los siguientes campos y luego haga clic en Crear almacenamiento:
     - Grupo de recursos: **Crear un nuevo grupo de recursos**
-    - Cuenta de almacenamiento: cree una nueva cuenta y utilice un nombre único a nivel global (p. ej., mialmacenamientodecloudshell)
+    - Cuenta de almacenamiento: Cree una cuenta nueva y use un nombre único a nivel global (p. ej., cloudshellalmacenamientoxyz).
     - Recurso compartido de archivos: cree uno nuevo y denomínelo recursocompartidodearchivosdecloudshell.
 
 
@@ -35,19 +35,14 @@ En esta tarea, usaremos la CLI de Azure para crear un grupo de recursos y una 
 
     ![Captura de pantalla de Azure Portal Azure Cloud Shell con el menú desplegable Bash resaltado.](../images/1002a.png)
 
-2. En la sesión Bash, dentro del panel Cloud Shell, cree un nuevo grupo de recursos. 
 
-    ```cli
-    az group create --name myRGCLI --location EastUS
-    ```
-
-3. Verifique que se haya creado el grupo de recursos.
+2. Compruebe el grupo de recursos que utiliza mediante el siguiente comando:
 
     ```cli
     az group list --output table
     ```
 
-4. Escriba el siguiente comando en Cloud Shell y asegúrese de que todas las líneas salvo la última van seguidas del carácter barra diagonal inversa ("\")  Si escribe el comando completo en la misma línea, no utilice caracteres de barra diagonal inversa. 
+4. Escriba el siguiente comando en Cloud Shell y asegúrese de que todas las líneas salvo la última van seguidas del carácter barra diagonal inversa (`\`)  Si escribe el comando completo en la misma línea, no utilice caracteres de barra diagonal inversa. 
 
     ```cli
     az vm create \
@@ -122,4 +117,4 @@ En esta tarea, revisaremos las recomendaciones de Azure Advisor.
 
 ¡Enhorabuena! Ha configurado Cloud Shell, ha creado una máquina virtual con la CLI de Azure, ha practicado con los comandos de la CLI de Azure y ha visto las recomendaciones de Advisor.
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

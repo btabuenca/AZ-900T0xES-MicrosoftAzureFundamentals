@@ -22,10 +22,11 @@ En este tutorial crearemos una máquina virtual en Azure Portal, nos conectarem
     | Grupo de recursos | **Crear un nuevo grupo de recursos** |
     | Nombre de la máquina virtual | **MiVM** |
     | Región | **Este de EE. UU.**|
-    | Imagen | ** Windows Server 2019 Datacenter - Gen 1**|
+    | Opciones de disponibilidad | No se necesitan opciones de redundancia de la infraestructura|
+    | Imagen | **Windows Server 2019 Datacenter - Gen 2**|
     | Tamaño | **Estándar D2s v3**|
     | Nombre de usuario de la cuenta de administrador | **azureuser** |
-    | Contraseña de cuenta de administrador | **Pa$$w0rd1234**|
+    | Contraseña de la cuenta de administrador (escríbala cuidadosamente) | **Pa$$w0rd1234**|
     | Reglas de puerto de entrada: | **Permitir los puertos seleccionados**|
     | Seleccionar puertos de entrada | **RDP (3389)** y **HTTP (80)**| 
 
@@ -47,9 +48,9 @@ En este tutorial crearemos una máquina virtual en Azure Portal, nos conectarem
 
 En esta tarea, nos conectaremos a nuestra nueva máquina virtual mediante RDP (Protocolo de escritorio remoto). 
 
-1. Busque **myVM** y seleccione su nueva máquina virtual.
+1. Haga clic en el icono en forma de campana que aparece en la barra de herramientas azul de la parte superior y seleccione "Ir al recurso" cuando la implementación se haya completado con éxito. 
 
-    **Nota**: También puede usar el vínculo **Ir al recurso** que aparece en la página de implementación o el vínculo al recurso del área **Notificaciones**.
+    **Nota**: También puede usar el vínculo **Ir al recurso** de la página de implementación. 
 
 2. En la hoja **Información general** de la máquina virtual, haga clic en el botón **Conectar** y seleccione **RDP** en el menú desplegable.
 
@@ -75,7 +76,7 @@ Se iniciará una nueva máquina virtual (MiVM) en su laboratorio. Cierre las ven
 
 En esta tarea, instalará el rol de servidor web en el servidor de la máquina virtual que acaba de crear y se asegurará de que se muestre la página principal predeterminada del IIS. 
 
-1. En la máquina virtual, inicie PowerShell. Para ello, busque **PowerShell** en la barra de búsqueda y, cuando lo haya encontrado, haga clic con el botón derecho en **Windows PowerShell** para seleccionar **Ejecutar como administrador**.
+1. En la máquina virtual que acaba de abrir, inicie PowerShell. Para ello, busque **PowerShell** en la barra de búsqueda y, cuando lo encuentre, haga clic con el botón derecho en **Windows PowerShell** y luego en la opción **Ejecutar como administrador**.
 
     ![Captura de pantalla del escritorio de la máquina virtual con el botón de inicio presionado y PowerShell seleccionado, con la opción Ejecutar como administrador resaltada.](../images/0105.png)
 
@@ -85,7 +86,7 @@ En esta tarea, instalará el rol de servidor web en el servidor de la máquina v
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
   
-3. Cuando haya finalizado, aparecerá un mensaje con las palabras **Operación realizada correctamente** junto al valor **Verdadero**. No es necesario que reinicie la máquina virtual para completar la instalación. Cierre la conexión RDP a la máquina virtual. Para ello, haga clic en la **x** que aparece en la barra azul de la parte superior central de su máquina virtual. 
+3. Cuando complete este paso, aparecerá un aviso que indicará **Correcto** con el valor **Verdadero**. No es necesario que reinicie la máquina virtual para completar la instalación. Cierre la conexión RDP a la máquina virtual. Para ello, haga clic en la **x** que aparece en la barra azul de la parte superior central de la máquina virtual. También puede minimizarla si hace clic en el **-** que aparece en la barra azul de la parte superior central.
 
     ![Captura de pantalla del símbolo del sistema de Windows PowerShell con el comando Install-WindowsFeature -name Web-Server -IncludeManagementTools completado correctamente y la salida que indica que fue exitoso.](../images/0106.png)
 
@@ -100,4 +101,4 @@ En esta tarea, instalará el rol de servidor web en el servidor de la máquina v
 **¡Enhorabuena!** Ha creado una nueva máquina virtual que ejecuta un servidor web accesible a través de su dirección IP pública. Si tuviera una aplicación web para hospedar, podría implementar archivos de aplicación en la máquina virtual y hospedarlos para su acceso público en la máquina virtual implementada.
 
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para comprobar que la eliminación se haya completado correctamente. 
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
