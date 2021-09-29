@@ -42,7 +42,7 @@ En esta tarea, usaremos la CLI de Azure para crear un grupo de recursos y una 
     az group list --output table
     ```
 
-4. Escriba el siguiente comando en Cloud Shell y asegúrese de que todas las líneas salvo la última van seguidas del carácter barra diagonal inversa ("\")  Si escribe el comando completo en la misma línea, no utilice caracteres de barra diagonal inversa. 
+4. Escriba el siguiente comando en Cloud Shell y asegúrese de que todas las líneas salvo la última van seguidas del carácter barra diagonal inversa (`\`)  Si escribe el comando completo en la misma línea, no utilice caracteres de barra diagonal inversa. 
 
     ```cli
     az vm create \
