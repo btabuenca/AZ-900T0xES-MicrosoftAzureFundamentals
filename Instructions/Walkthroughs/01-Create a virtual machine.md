@@ -80,7 +80,7 @@ En esta tarea, instalará el rol de servidor web en el servidor de la máquina v
 
     ![Captura de pantalla del escritorio de la máquina virtual con el botón de inicio presionado y PowerShell seleccionado, con la opción Ejecutar como administrador resaltada.](../images/0105.png)
 
-2. En PowerShell, instale la característica **Servidor web** en la máquina virtual. Para ello, ejecute el siguiente comando. 
+2. Instale la característica **Servidor web** en la máquina virtual. Para ello, ejecute el siguiente comando en PowerShell. (Pegue el comando y presione ENTRAR para que se inicie la instalación).
 
     ```PowerShell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools

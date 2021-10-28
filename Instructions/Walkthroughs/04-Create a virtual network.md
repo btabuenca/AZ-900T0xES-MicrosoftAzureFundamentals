@@ -25,7 +25,7 @@ En esta tarea, crearemos una red virtual.
     | Región | **Este de EE. UU. (EE. UU.)** |
     
    
-4. Haga clic en el botón **Revisar y crear**. Asegúrese de que la validación sea exitosa.
+4. Haga clic en el botón **Revisar y crear**. Asegúrese de que la validación sea exitosa. Luego, seleccione Crear para implementar el recurso.
 
 
 # Tarea 2: Crear dos máquinas virtuales
