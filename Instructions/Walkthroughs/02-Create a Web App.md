@@ -37,7 +37,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | Opciones | **Contenedor individual** |
     | Origen de la imagen | **Docker Hub** |
     | Tipo de acceso | **Pública** |
-    | Imagen y etiqueta | **microsoft/aci-helloworld** |
+    | Imagen y etiqueta | **mcr.microsoft.com/azuredocs/aci-helloworld** |
     
  **Nota**: el comando de inicio es opcional y no es necesario en este ejercicio.
 
