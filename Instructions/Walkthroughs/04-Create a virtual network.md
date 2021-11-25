@@ -11,6 +11,8 @@ En este tutorial crearemos una red virtual, implementaremos dos máquinas virtua
 
 En esta tarea, crearemos una red virtual. 
 
+Nota: Antes de comenzar el laboratorio, deshabilite el firewall público y privado en su máquina virtual. Para ello, seleccione el menú Inicio > Configuración > Red e Internet y busque Firewall de Windows
+
 1. Inicie sesión en Azure Portal en <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
 2. En la hoja **Todos los servicios**, busque y seleccione **Redes virtuales** y luego haga clic en **+ Agregar, + Crear y + Nueva**. 
@@ -42,7 +44,7 @@ En esta tarea crearemos dos máquinas virtuales en la red virtual.
    | Grupo de recursos |  **Seleccione la opción predeterminada en el menú desplegable** |
    | Nombre de la máquina virtual | **vm1**|
    | Región | **(EE. UU.) Este de EE. UU.** |
-   | Imagen | **Windows Server 2019 Datacenter - Gen 1** |
+   | Imagen | **Windows Server 2019 Datacenter - Gen2** |
    | Nombre de usuario| **azureuser** |
    | Contraseña| **Pa$$w0rd1234** |
    | Puertos de entrada públicos| Seleccione **Permitir puertos seleccionados**  |
@@ -83,6 +85,8 @@ En esta tarea, trataremos de probar si las máquinas virtuales pueden comunicars
 5. En la ventana **Seguridad de Windows**, escriba el nombre de usuario **azureuser** y la contraseña **Pa$$w0rd1234** y luego haga clic en **Aceptar**.
 
 6. Es posible que reciba una advertencia de certificado durante el proceso de inicio de sesión. Haga clic en **Sí** para crear la conexión y conectarse a su VM implementada. Debería conectarse correctamente. Cierre las ventanas de Windows Server y el panel que han aparecido. Debería ver el fondo azul de Windows. Ahora se encuentra en su máquina virtual.
+
+Nota: En la máquina virtual recién creada, deshabilite el firewall público y privado. Para ello, seleccione el menú Inicio > Configuración > Red e Internet y busque Firewall de Windows
 
 7. Abra PowerShell en la máquina virtual. Para ello, haga clic en el botón **Inicio**, escriba **PowerShell** en Búsqueda y haga clic con el botón derecho en **Windows PowerShell** y luego en **Ejecutar como administrador**.
 
