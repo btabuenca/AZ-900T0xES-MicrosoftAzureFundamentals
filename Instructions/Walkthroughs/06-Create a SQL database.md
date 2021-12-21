@@ -25,9 +25,10 @@ En esta tarea, crearemos una base de datos SQL según la base de datos de muestr
     | Nombre de la base de datos| **db1** | 
     | Servidor | Seleccione **Crear nuevo** (se abrirá una nueva barra lateral a la derecha)|
     | Nombre del servidor | **sqlserverxxxx** (debe ser único) | 
+    | Ubicación | **Este de EE. UU. (EE. UU.)** |
+    | Método de autenticación | **Use la autenticación de SQL** |
     | Inicio de sesión del administrador del servidor | **sqluser** |
     | Contraseña | **Pa$$w0rd1234** |
-    | Ubicación | **(EE. UU.) Este de EE. UU.** |
     | Haga clic en  | **Aceptar** |
 
    ![Captura de pantalla del panel Servidor y del panel Nuevo servidor con los campos rellenados según la tabla y los botones Revisar y crear y Aceptar resaltados.](../images/0501.png)
@@ -46,7 +47,7 @@ En esta tarea, crearemos una base de datos SQL según la base de datos de muestr
 
     | Configuración | Valor | 
     | --- | --- |
-    | Azure Defender para SQL| **Ahora no** |
+    | Microsoft Defender para SQL| **Ahora no** |
     
 6. Vaya a la pestaña **Configuración adicional**. Utilizaremos la base de datos de muestra AdventureWorksLT.
 

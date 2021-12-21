@@ -73,7 +73,7 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
     ![Captura de pantalla de una URL de función resaltada y un nombre de usuario de ejemplo adjunto en la barra de direcciones de un explorador web. El mensaje de saludo y el nombre de usuario también se resaltan para ilustrar el resultado de la función en la ventana principal del explorador.](../images/0707.png)
 
-10. Cuando pulsa Entrar, su función se ejecuta y se realiza un seguimiento de todas las invocaciones. Para ver los seguimientos, vuelva a **DesencadenadorHttp1** en Portal **|** hoja **Código y prueba**, y haga clic en **Supervisar**. **Configure** Application Insights. Para ello, seleccione la función que ha elegido y la región. Seleccione **Crear**.
+10. Cuando pulse Entrar, la función se ejecutará y se realizará un seguimiento de todas las invocaciones. Para ver los seguimientos, vuelva a la hoja **DesencadenadorHttp1 \| Código + Prueba** de Portal y haga clic en **Supervisar**. Puede **configurar** Application Insights al seleccionar la marca de tiempo y al hacer clic en **Ejecutar consulta en Application Insights**.
 
     ![Captura de pantalla de un registro de información de seguimiento resultante de ejecutar la función dentro del editor de funciones en Azure Portal.](../images/0709.png) 
 
