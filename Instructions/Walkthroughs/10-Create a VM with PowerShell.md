@@ -98,7 +98,7 @@ En esta tarea, revisaremos las recomendaciones de Azure Advisor para nuestra má
 
 1. Desde la hoja **Todos los servicios**, busque y seleccione **Advisor**. 
 
-2. En la hoja **Advisor**, seleccione **Visión general**. Las recomendaciones de aviso están agrupadas por Alta disponibilidad, Seguridad, Rendimiento y Coste. 
+2. En la hoja **Advisor**, seleccione **Información general**. Las recomendaciones se agrupan por confiabilidad, seguridad, rendimiento y coste. 
 
     ![Captura de pantalla de la página Visión general de Advisor. ](../images/1003.png)
 

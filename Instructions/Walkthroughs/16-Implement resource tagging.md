@@ -23,7 +23,7 @@ En esta tarea, configuraremos la directiva **Requerir una etiqueta en los recurs
 
    ![Captura de pantalla del panel Definiciones disponibles con la opción Requerir una etiqueta en los recursos seleccionada.](../images/1701.png)
    
-6. En la pestaña **Parámetros**, escriba **Compañía** para el nombre de la etiqueta. Y **Contoso** para el valor. Haga clic en **Revisar y crear** y, luego, en **Crear**.
+6.  En la pestaña **Parámetros**, escriba **Compañía** para el nombre de la etiqueta. Haga clic en **Revisar y crear** y, luego, en **Crear**.
 
     ![Captura de pantalla del panel Asignar directiva con el nombre de etiqueta completado.](../images/1702.png)
 

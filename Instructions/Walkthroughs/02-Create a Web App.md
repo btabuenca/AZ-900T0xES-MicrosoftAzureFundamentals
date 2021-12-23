@@ -28,7 +28,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | Sistema operativo | **Linux** |
     | Región | **Este de EE. UU.** |
     
-    **Nota** - : No olvide cambiar **xxxx** para que el nombre de su aplicación web sea único.
+    **Nota:** Recuerde cambiar las **xxxx** para que el nombre de su aplicación web sea único.
 
 4. Haga clic en **Siguiente > Docker** y configure la información del contenedor.  
 
@@ -39,7 +39,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | Tipo de acceso | **Pública** |
     | Imagen y etiqueta | **mcr.microsoft.com/azuredocs/aci-helloworld** |
     
- **Nota**: el comando de inicio es opcional y no es necesario en este ejercicio.
+ **Nota:** El comando de inicio es opcional y no es necesario en este ejercicio.
 
 5. Haga clic en **Revisar y crear**, y luego haga clic en **Crear**. 
 

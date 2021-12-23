@@ -21,8 +21,8 @@ En esta tarea, crearemos un centro de IoT.
     |--|--|
     | Suscripción | **Deje la suscripción predeterminada suministrada** |
     | Grupo de recursos | **Crear un nuevo grupo de recursos** |
-    | Región | **Este de EE. UU.** |
     | Nombre del IoT Hub | **migrupohubxxxxx** |
+    | Region | **Este de EE. UU.** |
 
     **Nota** - : Recuerde cambiar **xxxx** de modo que sea un **nombre de IoT Hub** único.
 
@@ -42,7 +42,7 @@ En esta tarea, agregaremos un dispositivo IoT al centro de IoT.
 
 	![Captura de pantalla de la implementación en curso y notificaciones de implementación exitosa en Azure Portal.](../images/0601.png)
 
-2. Para agregar un nuevo dispositivo IoT, desplácese hacia abajo hasta la sección **Exploradores** y haga clic en **Dispositivos IoT**. Después, haga clic en **+ Agregar, + Crear, + Nuevo**.
+2. Para agregar un nuevo dispositivo IoT, desplácese hacia abajo hasta la sección **Administración de dispositivos** y haga clic en **Dispositivos**. Luego, haga clic en **+ Agregar dispositivo**.
 
 	![Captura de pantalla del panel de dispositivos IoT, resaltado dentro de la hoja de navegación del centro IoT, en Azure Portal. El botón Nuevo se resalta para ilustrar cómo agregar una nueva identidad del dispositivo IoT al centro de IoT.](../images/0602.png)
 

@@ -61,7 +61,7 @@ En esta tarea crearemos dos máquinas virtuales en la red virtual.
 
     | Configuración | Valor |
     | --- | --- |
-    | Grupo de recursos | **myRGVNet** |
+    | Grupo de recursos | **seleccionar la opción predeterminada en el menú desplegable (igual que la Tarea 1-3 y la Tarea 2-2)** |
     | Nombre de la máquina virtual |  **vm2** |
     | Red virtual | **vnet1** |
     | IP pública | **vm2-ip** |
