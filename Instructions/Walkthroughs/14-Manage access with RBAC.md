@@ -29,7 +29,7 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
 5. Use **Actualizar** en la página del grupo de recursos y haga clic en la entrada que representa el grupo de recursos recién creado.
 
 6. Haga clic en la hoja **Control de acceso (IAM)** y luego cambie a la pestaña **Roles**. Desplácese por la gran cantidad de definiciones de rol disponibles. Use los iconos informativos para tener una idea de los permisos de cada rol. También hay información sobre el número de usuarios y grupos asignados a cada rol.
-7. 
+ 
 ![imagen](https://user-images.githubusercontent.com/89808319/144266949-f19d91ab-31d6-4c8b-af36-c00035925cf0.png)
 
 7. Cambie a la pestaña **Asignaciones de roles** en la hoja **miRGRBAC - Control de acceso (IAM)**, haga clic en **+ Agregar** y, luego, haga clic en **Agregar asignación de roles**. Busque el rol Colaborador de la máquina virtual y selecciónelo. Cambie a la pestaña "Miembros" y asigne acceso a los usuarios siguientes: usuario, grupo o entidad de servicio. Luego, haga clic en + Seleccionar miembros, escriba su nombre en la función de búsqueda emergente y seleccione "Seleccionar". Luego, seleccione "Revisar y asignar".
