@@ -1,11 +1,11 @@
 ---
 wts:
-    title: '16 - Implementar el etiquetado de recursos (5 min)'
-    module: 'Módulo 5: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
+    title: '16: Implementar el etiquetado de recursos (5 min)'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
 # 16: Implementar el etiquetado de recursos (5 min)
 
-En este tutorial, crearemos una asignación de directivas que requiera etiquetado, crearemos una cuenta de almacenamiento y probaremos el etiquetado, veremos recursos con una etiqueta específica y quitaremos la directiva de etiquetado.
+En este tutorial, crearemos una asignación de directiva que requiera etiquetado, crearemos una cuenta de almacenamiento y probaremos el etiquetado; veremos recursos con una etiqueta específica, y quitaremos la directiva de etiquetado.
 
 # Tarea 1: Crear una asignación de directiva 
 
@@ -23,33 +23,33 @@ En esta tarea, configuraremos la directiva **Requerir una etiqueta en los recurs
 
    ![Captura de pantalla del panel Definiciones disponibles con la opción Requerir una etiqueta en los recursos seleccionada.](../images/1701.png)
    
-6.  En la pestaña **Parámetros**, escriba **Compañía** para el nombre de la etiqueta. Haga clic en **Revisar y crear** y, luego, en **Crear**.
+6.  En la pestaña **Parámetros**, escriba **Empresa: Contoso** en la etiqueta de nombre del par clave-valor. Haga clic en **Revisar y crear** y, luego, en **Crear**.
 
     ![Captura de pantalla del panel Asignar directiva con el nombre de etiqueta completado.](../images/1702.png)
 
-7. La asignación de la directiva **Requerir una etiqueta en los recursos** ahora está implementada. Cuando se crea un recurso, debe incluir una etiqueta con la clave de compañía.
+7. La asignación de la directiva **Requerir una etiqueta en los recursos** ahora está implementada. Cuando se crea un recurso, debe incluir una etiqueta con la clave Empresa: Contoso.
    **Nota: Debe esperar un máximo de 30 minutos hasta que se aplique la directiva.** 
 
-   ![Captura de pantalla de la directiva: panel de asignaciones con la asignación de ubicaciones permitidas resaltada.](../images/1703.png)
+   ![Captura de pantalla del panel Directiva: Asignaciones con la asignación de ubicaciones permitidas resaltada.](../images/1703.png)
 
 # Tarea 2: Crear una cuenta de almacenamiento para probar el etiquetado requerido
 
 En esta tarea crearemos cuentas de almacenamiento para probar el etiquetado requerido. 
 
-1. Desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y, después, seleccione **+Agregar, +Nuevo y +Crear**.
+1. En Azure Portal, desde la hoja **Todos los servicios**, busque y seleccione **Cuentas de almacenamiento** y luego haga clic en **+ Agregar, + Crear, o + Nuevo**.
 
-2. En la pestaña **Datos básicos** de la hoja **Crear cuenta de almacenamiento**, complete la siguiente información (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea globalmente único). Deje los valores predeterminados para todo lo demás.
+2. En la pestaña **Datos básicos** de la hoja **Crear cuenta de almacenamiento**, complete la siguiente información (reemplace **xxxx** en el nombre de la cuenta de almacenamiento con letras y dígitos de modo que el nombre sea único a nivel global). Deje los valores predeterminados para todo lo demás.
 
     | Configuración | Valor | 
     | --- | --- |
-    | Suscripción | **Utilice la suscripción predeterminada suministrada** |
-    | Grupo de recursos | **Crear un nuevo grupo de recursos** |
-    | Nombre de la cuenta de almacenamiento | **storageaccountxxxx** |
-    | Ubicación | **(EE. UU.) Este de EE. UU.** |
+    | Suscripción | **Usar los valores predeterminados** |
+    | Grupo de recursos | **Crear nuevo grupo de recursos** |
+    | Nombre de la cuenta de almacenamiento | **cuentadealmacenamientoxxxx** |
+    | Ubicación | **Este de EE. UU. (US)** |
 
 3. Haga clic en **Revisar y crear**. 
 
-    **Nota:** Estamos probando para ver qué sucede cuando no se suministra la etiqueta. Tenga en cuenta que las directivas pueden tardar hasta 30 minutos en aplicarse.
+    **Nota:** Estamos probando para ver qué sucede cuando no se suministra la etiqueta. Tenga en cuenta que las directivas pueden tardar hasta 30 minutos en surtir efecto.
 
 4. Recibirá un mensaje de error de validación. Haga clic en el mensaje **Haga clic aquí para ver los detalles**. En la hoja **Errores**, en la pestaña **Resumen**, observe el mensaje de error que indica que la directiva no permite el recurso.
 
@@ -62,11 +62,11 @@ En esta tarea crearemos cuentas de almacenamiento para probar el etiquetado requ
 
     | Configuración | Valor | 
     | --- | --- |
-    | Nombre de etiqueta | **Compañía** (puede no estar en la lista desplegable) |
+    | Nombre de etiqueta | **Empresa: Contoso** (puede no estar en la lista desplegable) |
 
-6. Haga clic en **Revisar y crear** y verifique que la validación haya sido exitosa. Haga clic en **Crear** para implementar la cuenta de almacenamiento. 
+6. Haga clic en **Revisar y crear** y compruebe que la validación haya sido exitosa. Haga clic en **Crear** para implementar la cuenta de almacenamiento. 
 
-# Tarea 3: Vea todos los recursos con una etiqueta específica
+# Tarea 3: Ver todos los recursos con una etiqueta específica
 
 1. En Azure Portal, desde la hoja **Todos los servicios**, busque y seleccione **Etiquetas**.
 
@@ -94,7 +94,7 @@ En esta tarea eliminaremos la directiva **Requerir una etiqueta en los recursos*
 
 5. Si tiene tiempo, cree otro recurso sin una etiqueta para asegurarse de que la directiva ya no está vigente.
 
-¡Enhorabuena! En este tutorial, hemos creado una asignación de directiva que requería etiquetado, hemos creado un recurso (una cuenta de almacenamiento) y hemos probado el etiquetado; hemos visto recursos con una etiqueta específica, y hemos quitado la directiva de etiquetado.
+¡Enhorabuena! En este tutorial creamos una asignación de directiva que requería etiquetado, creamos un recurso (cuenta de almacenamiento) y probamos la directiva para el etiquetado, vimos recursos con una etiqueta específica y eliminamos la directiva de etiquetado.
 
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, opcionalmente, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

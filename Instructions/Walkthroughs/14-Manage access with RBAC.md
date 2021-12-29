@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '14 - Administrar el acceso con RBAC (5 min)'
-    module: 'Módulo 5: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
+    title: '14: Administrar el acceso con RBAC (5 min)'
+    module: 'Módulo 05: Descripción de las características de identidad, gobernanza, privacidad y cumplimiento'
 ---
 # 14: Administrar el acceso con RBAC (5 min)
 
@@ -13,15 +13,15 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos** y, después, seleccione **+Agregar, +Nuevo y +Crear**.
+2. Desde la hoja **Todos los servicios**, busque y seleccione **Grupos de recursos** y luego haga clic en **+ Agregar, + Crear, o + Nuevo**.
 
-3. Crear un grupo de recursos. Haga clic en **Crear** cuando haya acabado. 
+3. Cree un grupo de recursos. Haga clic en **Crear** cuando haya acabado. 
 
     | Configuración | Valor |
     | -- | -- |
-    | Suscripción | **Utilice la suscripción predeterminada suministrada** |
+    | Suscripción | **Usar los valores predeterminados** |
     | Grupo de recursos | **miRGRBAC** |
-    | Región | **(EE. UU.) Este de EE. UU.** |
+    | Región | **Este de EE. UU. (US)** |
    
 
 4. Para crear, use **Revisar y crear** y luego haga clic en **Crear**.
@@ -29,27 +29,25 @@ En esta tarea, asignaremos el rol de colaborador de la máquina virtual.
 5. Use **Actualizar** en la página del grupo de recursos y haga clic en la entrada que representa el grupo de recursos recién creado.
 
 6. Haga clic en la hoja **Control de acceso (IAM)** y luego cambie a la pestaña **Roles**. Desplácese por la gran cantidad de definiciones de rol disponibles. Use los iconos informativos para tener una idea de los permisos de cada rol. También hay información sobre el número de usuarios y grupos asignados a cada rol.
+ 
+![imagen](https://user-images.githubusercontent.com/89808319/144266949-f19d91ab-31d6-4c8b-af36-c00035925cf0.png)
 
-    ![Captura de pantalla de la hoja de roles de IAM. Se muestran los roles de propietario, colaborador y lector.](../images/1501.png)
+7. Cambie a la pestaña **Asignaciones de roles** en la hoja **miRGRBAC - Control de acceso (IAM)**, haga clic en **+ Agregar** y, luego, haga clic en **Agregar asignación de roles**. Busque el rol Colaborador de la máquina virtual y selecciónelo. Cambie a la pestaña "Miembros" y asigne acceso a los usuarios siguientes: usuario, grupo o entidad de servicio. Luego, haga clic en + Seleccionar miembros, escriba su nombre en la función de búsqueda emergente y seleccione "Seleccionar". Luego, seleccione "Revisar y asignar".
 
-7. Cambie a la pestaña **Asignaciones de roles** en la hoja **miRGRBAC - Control de acceso (IAM)**, haga clic en **+ Agregar** y, luego, haga clic en **Agregar asignación de roles**. Asigne el rol de colaborador de la máquina virtual a su cuenta de usuario y, luego, haga clic en **Guardar**. 
+    
+    ![imagen](https://user-images.githubusercontent.com/89808319/144266255-3a0f8574-9358-4c21-8f95-3503747e77c8.png)
 
-    | Configuración | Valor |
-    | -- | -- |
-    | Rol | **Colaborador de la máquina virtual** |
-    | Asignar acceso a | **usuario, grupo o entidad de servicio** |
-    | Seleccionar | **Agregue su cuenta de usuario** |
  
 
     **Nota:** El rol de colaborador de la máquina virtual le permite administrar máquinas virtuales, pero no acceder a su sistema operativo ni administrar la red virtual ni la cuenta de almacenamiento a la que estén conectadas.
 
-    ![Captura de pantalla de la página Agregar asignación de roles completada con la información necesaria.](../images/1502.png)
+  
 
 8. Haga clic en **Actualizar** en la página de asignaciones de roles y asegúrese de que ahora esté incluido como colaborador de la máquina virtual. 
 
     **Nota**: Esta asignación en realidad no le concede ningún privilegio adicional, ya que su cuenta ya tiene el rol Propietario, que incluye todos los privilegios asociados al rol Colaborador.
 
-# Tarea 2: Supervisar asignaciones de roles y quitar un rol
+# Tarea 2: Supervisar asignaciones de roles y quitar un rol
 
 En esta tarea, veremos el registro de actividad para comprobar la asignación de roles y luego quitaremos el rol. 
 
@@ -65,5 +63,5 @@ En esta tarea, veremos el registro de actividad para comprobar la asignación de
 
 ¡Enhorabuena! Ha creado un grupo de recursos, le ha asignado un rol de acceso y ha visualizado los registros de actividad. 
 
-**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, luego, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, opcionalmente, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
 
