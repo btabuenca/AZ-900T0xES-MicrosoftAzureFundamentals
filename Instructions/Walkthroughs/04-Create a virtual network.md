@@ -1,4 +1,4 @@
-﻿---
+---
 wts:
     title: '4: Crear una red virtual (20 minutos)'
     module: 'Módulo 2: Servicios principales de Azure (Cargas de trabajo)'
