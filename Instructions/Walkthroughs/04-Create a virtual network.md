@@ -86,7 +86,7 @@ En esta tarea, probaremos si las máquinas virtuales pueden comunicarse (hacer p
 
 6. Es posible que reciba una advertencia de certificado durante el proceso de inicio de sesión. Haga clic en **Sí** para crear la conexión y conéctese a la VM que ha implementado. Debería conectarse correctamente. Cierre las ventanas de Windows Server y las ventanas del panel de información que aparecen. Debería ver un fondo azul de Windows. Ahora se encuentra en la máquina virtual.
 
-7. En la máquina virtual recién creada, deshabilite el firewall público y privado. Para ello, seleccione el menú Inicio > Configuración > Red e Internet y busque Firewall de Windows
+7. En **ambas** máquinas virtuales recién creadas, conéctese a través de RDP y deshabilite el firewall público y privado. Para ello, seleccione el menú Inicio > Configuración > Red e Internet y busque Firewall de Windows
 
 8. Abra PowerShell en la máquina virtual. Para ello, haga clic en el botón **Inicio** y, en Búsqueda, escriba **PowerShell**, haga clic con el botón derecho en **Windows PowerShell** y luego seleccione **Ejecutar como administrador**.
 
