@@ -24,7 +24,7 @@ En esta tarea, crearemos un aplicación de funciones.
     | Nombre de la aplicación de funciones | **función-xxxx** |
     | Publicar | **Código** |
     | Pila de tiempo de ejecución | **NET** |
-    | Versión | **3,1** |
+    | Versión | **3,1 [or 4.X]** |
     | Región | **East US** |
 
     **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre de la aplicación de funciones** único
