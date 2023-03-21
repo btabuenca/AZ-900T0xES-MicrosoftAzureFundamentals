@@ -1,10 +1,10 @@
 ---
 wts:
-    title: 'Create a SQL database (5 minutes)'
+    title: 'Create a SQL database'
     module: 'CC4IoT'
 ---
 
-#Create a SQL database (5 min)
+#Create a SQL database
 
 In this tutorial, we'll create a SQL database in Azure and then query the data in that database.
 
@@ -31,7 +31,7 @@ In this task, we will create an SQL database based on the AdventureWorksLT sampl
      | Password | **Pa$$w0rd1234** |
      | Click | **Accept** |
 
-    ![Screenshot of the Server panel and the New Server panel with the fields filled in according to the table and the Review + Create and OK buttons highlighted.](../images/0501.png)
+    ![Screenshot of the Server panel and the New Server panel with the fields filled in according to the table and the Review + Create and OK buttons highlighted.](../images/sql3.png)
 
 4. On the **Networks** tab, configure the following options (leave the rest as default).
 
@@ -41,7 +41,7 @@ In this task, we will create an SQL database based on the AdventureWorksLT sampl
      | Allow Azure services and resources to access this server | **Yes** |
      | Add the current IP address of the client | **No** |
     
-    ![Screenshot of the Networking tab of the Create SQL Database sheet with the settings selected based on the table and the Review + Create button highlighted.](../images/0501b.png)
+    ![Screenshot of the Networking tab of the Create SQL Database sheet with the settings selected based on the table and the Review + Create button highlighted.](../images/sql4.png)
 
 5. Click the **Security** tab.
 
@@ -55,10 +55,12 @@ In this task, we will create an SQL database based on the AdventureWorksLT sampl
      | --- | --- |
      | Use existing data | **Sample** |
 
-     ![Screenshot of the Additional Settings tab of the Create SQL Database sheet with the settings selected based on the table and the Review + Create button highlighted.](../images/0501c.png)
+     ![Screenshot of the Additional Settings tab of the Create SQL Database sheet with the settings selected based on the table and the Review + Create button highlighted.](../images/sql6.png)
 
 7. Click **Review + Create** and then **Create** to deploy and provision the resource group, server, and database. Deployment can take 2-5 minutes.
 
+ ![Cost summary.](../images/sqlSum.png)
+ 
 
 # Task 2: Test the database.
 
