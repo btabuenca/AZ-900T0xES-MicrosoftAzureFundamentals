@@ -103,6 +103,6 @@ In this task, we will configure the SQL server and run a SQL query.
 
      ![Screenshot of the Database Query Editor panel with the SQL code executed successfully and the output visible in the result panel.](../images/0508.png)
 
-!! Congratulations!! You have created a SQL database in Azure and have successfully queried the data in that database.
+Congratulations!! You have created a SQL database in Azure and have successfully queried the data in that database.
 
 **Note**: To avoid additional costs, you can remove this resource group. Browse for resource groups, click your resource group, and then click **Delete Resource Group**. Verify the name of the resource group, and then click **Delete**. Monitor **Notifications** to see how the removal is taking place.
