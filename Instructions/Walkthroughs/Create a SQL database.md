@@ -4,7 +4,7 @@ wts:
     module: 'CC4IoT'
 ---
 
-#06: Create a SQL database (5 min)
+#Create a SQL database (5 min)
 
 In this tutorial, we'll create a SQL database in Azure and then query the data in that database.
 
